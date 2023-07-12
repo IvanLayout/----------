@@ -1,0 +1,598 @@
+@media (max-width: 479px)
+{
+    /*---------------
+		Page head
+	---------------*/
+    .main-desc br
+    {
+        display: none;
+    }
+
+
+    /*------------------
+		Form elements
+	------------------*/
+    .form__line_small
+    {
+        max-width: none;
+    }
+
+
+
+    /*----------------
+		Typography
+	----------------*/
+
+
+
+    /*------------
+		Header
+	------------*/
+    .header__info-info
+    {
+        margin-left: 8px;
+    }
+
+    .header__list + .header__list
+    {
+        margin-left: 6px;
+    }
+
+    .header__info-box
+    {
+        margin-left: auto;
+    }
+
+    .header__btn-burger
+    {
+        width: 46px;
+    }
+
+    .header__btn
+    {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+
+    /*-----------------
+		Main section
+	-----------------*/
+    .btn-orange.pad
+    {
+        padding: 0;
+    }
+
+    .about-differ__item
+    {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .about-differ__icon
+    {
+        margin-right: 10px;
+    }
+
+    .about-differ__name
+    {
+        font-size: 16px;
+    }
+
+    .about-differ__desc
+    {
+        font-size: 12px;
+    }
+
+
+    .why-we__video
+    {
+        padding-bottom: 81.73%;
+    }
+
+
+    .scheme__item
+    {
+        padding: 54px 0 0;
+    }
+
+    .scheme__item-number
+    {
+        left: 50%;
+
+        transform: translateX(-50%);
+    }
+
+    .scheme__item1 .scheme__item-flex::after
+    {
+        left: 50%;
+
+        margin-left: -8px;
+    }
+
+    .scheme__item2 .scheme__item-flex::after
+    {
+        left: 50%;
+
+        margin-left: -8px;
+    }
+
+    .scheme__col .scheme__item-flex::after
+    {
+        left: 50%;
+
+        margin-left: -8px;
+    }
+
+    .scheme__cols::after
+    {
+        left: 50%;
+
+        margin-left: -8px;
+    }
+
+    .scheme__item-flex::after
+    {
+        left: 50%;
+
+        margin-left: -8px;
+    }
+
+    .scheme__item-text
+    {
+        max-width: none;
+    }
+
+    .scheme__cols
+    {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .scheme__cols-btn
+    {
+        font-size: 14px;
+
+        min-height: 40px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .scheme__thanks
+    {
+        padding-left: 0;
+
+        text-align: center;
+    }
+
+    .scheme__thumb
+    {
+        display: none;
+    }
+
+
+    .form-callback__flex
+    {
+        flex-wrap: wrap;
+    }
+
+    .form-callback__filed
+    {
+        width: 100%;
+    }
+
+    .form-callback__submit
+    {
+        width: 100%;
+        margin: 10px 0 0;
+    }
+
+
+    .reviews__top-bg
+    {
+        padding: 20px;
+    }
+
+    .green-audio-player .controls
+    {
+        margin-right: 2px;
+    }
+
+    .green-audio-player
+    {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+
+    .service-sele__items
+    {
+        margin-left: 0;
+    }
+
+    .service-sele__item
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .service-sele__phone
+    {
+        width: 192px;
+        height: 410px;
+    }
+
+    .service-sele__phone-img
+    {
+        border-radius: 28px;
+    }
+
+    .qr-code
+    {
+        top: 15%;
+
+        padding: 0 20px;
+    }
+
+    .qr-code__title
+    {
+        margin-bottom: 29px;
+    }
+
+    .qr-code__title br
+    {
+        display: none;
+    }
+
+    .qr-code__code
+    {
+        width: 140px;
+    }
+
+    .qr-code__img
+    {
+        top: 74%;
+
+        width: 220px;
+    }
+
+
+
+    .prices-service__item
+    {
+        flex-wrap: wrap;
+
+        padding: 20px 15px;
+    }
+
+    .prices-service__thumb
+    {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+    }
+
+    .prices-service__img
+    {
+        height: 140px;
+        padding-bottom: 0;
+    }
+
+    .prices-service__box
+    {
+        margin-top: 15px;
+    }
+
+    .prices-service__btns
+    {
+        margin-left: -25px;
+        padding-top: 20px;
+    }
+
+    .prices-service__btn
+    {
+        margin-left: 25px;
+    }
+
+    .prices-service__wrap-btn .btn-bord
+    {
+        width: 100%;
+        min-width: 1px;
+    }
+
+
+    .prices-today__table
+    {
+        width: calc(100% + 30px);
+        max-width: none;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .prices-today__more
+    {
+        width: 100%;
+        min-width: 1px;
+    }
+
+
+    .section-advice__cols
+    {
+        flex-wrap: wrap;
+    }
+
+    .section-advice__coll
+    {
+        width: 93px;
+        margin: 0 auto;
+    }
+
+    .section-advice__colr
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    .get-consultation__img
+    {
+        min-height: 150px;
+    }
+
+    .get-consultation__coll
+    {
+        margin-top: 34px;
+    }
+
+    .problems-delivery__coll
+    {
+        width: 290px;
+        padding: 0 42px 0 20px;
+    }
+
+    .problems-delivery__img::before
+    {
+        right: -42px;
+
+        width: calc(100vw - 70px);
+    }
+
+    .problems-delivery__img img
+    {
+        transform: rotate(25deg);
+    }
+
+
+    .who-rents__sheme
+    {
+        min-height: 1px;
+    }
+
+    .who-rents__chart
+    {
+        padding: 30px 14px 20px;
+    }
+
+    .who-rents__sheme-title
+    {
+        padding-right: 14px;
+        padding-left: 14px;
+    }
+
+
+    .conclude-contracts
+    {
+        border: 1px solid #FF8B02;
+    }
+
+    .conclude-contracts .cont
+    {
+        padding-right: 34px;
+        padding-left: 34px;
+    }
+
+    .conclude-contracts__img
+    {
+        min-height: 148px;
+    }
+
+
+    .info-treatment__phone-phone
+    {
+        border-radius: 21px;
+    }
+
+    .info-treatment__massage
+    {
+        left: 4.4%;
+
+        width: 91.2%;
+
+        border-radius: 0 0 15px 15px;
+    }
+
+    .info-treatment__info
+    {
+        padding: 15px 8px 15px 20px;
+    }
+
+
+    .info-treatment__desc
+    {
+        font-size: 10px;
+    }
+
+    .info-treatment__contact-title
+    {
+        font-size: 10px;
+    }
+
+    .info-treatment__contact-phone
+    {
+        font-size: 10px;
+    }
+
+    .info-treatment__contact
+    {
+        margin-top: 10px;
+    }
+
+    .info-treatment__contact-item + .info-treatment__contact-item
+    {
+        margin-top: 5px;
+    }
+
+
+
+    .battery-img
+    {
+        width: 248px;
+    }
+
+    .battery-img::before
+    {
+        top: -37px;
+        right: -28px;
+
+        width: 242px;
+        height: 242px;
+    }
+
+
+    .conditions-reception__img.no::after
+    {
+        background-size: 180px auto;
+    }
+
+
+    .info-battery__icon
+    {
+        width: 60px;
+        margin-right: 20px;
+    }
+
+
+    .tabs__button_btn
+    {
+        font-size: 10px;
+
+        height: 34px;
+    }
+
+
+
+    .what-car__item .btn-orange
+    {
+        padding: 0;
+    }
+
+
+
+    .information__coll_pad
+    {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        padding: 33px 25px 16px 25px;
+    }
+
+    .chart-info__title
+    {
+        margin-bottom: 50px;
+    }
+
+    .chart-info__flex
+    {
+        flex-wrap: wrap;
+    }
+
+    .chart-info__img
+    {
+        width: 100%;
+    }
+
+    .chart-info__img img
+    {
+        width: 205px;
+    }
+
+    .chart-info__list
+    {
+        width: 100%;
+        margin: 16px 0 0;
+    }
+
+
+
+    /*------------
+		Footer
+	------------*/
+    .footer__menu
+    {
+        width: 200px;
+        margin-top: -17px;
+    }
+
+    .footer__menu-col
+    {
+        width: 100%;
+        margin-top: 17px;
+    }
+
+    .footer__menu-list
+    {
+        display: none;
+    }
+
+    .footer__menu-list._show
+    {
+        display: block;
+    }
+
+    .footer__title a
+    {
+        position: relative;
+
+        display: block;
+
+        padding-right: 26px;
+    }
+
+    .footer__title a::before
+    {
+        content: "";
+
+        position: absolute;
+        top: 50%;
+        right: 0;
+
+        width: 16px;
+        height: 16px;
+        margin-top: -8px;
+
+        background: url(../images/arrow1.svg) 50%/contain no-repeat;
+
+        transform: rotate(90deg);
+    }
+
+    .footer__title a.active::before
+    {
+        transform: rotate(-90deg);
+    }
+
+
+    .fancybox__slide
+    {
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+
+
+    .dz-preview
+    {
+        width: calc(100%/2 - 10px);
+    }
+}
