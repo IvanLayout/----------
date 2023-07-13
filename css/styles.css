@@ -9124,7 +9124,293 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
 }
 
 
+/* scrap-acceptance */
 
+.scrap-acceptance
+{
+	margin-top: 40px;
+}
+
+.scrap-acceptance__cols
+{
+	justify-content: space-between;
+	max-width: 1116px;
+}
+
+.scrap-acceptance__coll
+{
+	width: calc(47.14% - 20px);
+}
+
+.scrap-acceptance__img
+{
+	padding-bottom: 89%;
+	position: relative;
+}
+
+.scrap-acceptance__img img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	display: block;
+
+	width: 100%;
+	height: 100%;
+
+	object-fit: cover;
+}
+
+.scrap-acceptance__colr
+{
+	width: calc(52.86% - 20px);
+}
+
+
+.accordion__data
+{
+	display: none;
+}
+
+.scrap-acceptance__accordion
+{
+	margin-top: 22px;
+}
+
+.scrap-acceptance__title
+{
+	cursor: pointer;
+	padding: 13px 70px 13px 20px;
+	position: relative;
+	border-bottom: 1px solid #FF8B02;
+}
+
+.scrap-acceptance__title::after
+{
+	position: absolute;
+	content: '';
+	top: 12px;
+	right: 32px;
+
+	display: block;
+
+	width: 18px;
+	height: 18px;
+
+	border-left: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	transform: rotate(-45deg);
+}
+
+.scrap-acceptance__item.active .scrap-acceptance__title::after
+{
+	transform: rotate(135deg);
+	top: 22px;
+}
+
+.scrap-acceptance__data
+{
+	padding: 15px 70px 15px 20px;
+	font-size: 16px;
+	line-height: 1.4;
+}
+
+.scrap-acceptance__wrap-btn
+{
+	margin-top: 30px;
+}
+
+.btn-orange.pad2
+{
+	padding: 0 30px;
+}
+
+
+.active-promotions
+{
+	margin-top: 40px;
+}
+
+.active-promotions__title
+{
+	font-size: 24px;
+	font-weight: 600;
+	color: #FF8B02;
+}
+
+.active-promotions__items
+{
+	margin: 2 0 0 calc(var(--active_promotions_marg)*-1);
+
+    --active_promotions_marg: 15px;
+    --active_promotions_number: 3;
+
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.active-promotions__item
+{
+	width: calc(100%/var(--active_promotions_number) - var(--active_promotions_marg));
+    margin: var(--active_promotions_marg) 0 0 var(--active_promotions_marg);
+	padding: 12px 10px;
+	border: 1px solid #FF8B02;
+
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+	flex-wrap: nowrap;
+	min-height: 70px;
+	transition: box-shadow .2s linear;
+}
+
+@media (any-hover: hover)
+{
+	.active-promotions__item:hover
+	{
+		box-shadow: 0px 4px 25px 0px rgba(255, 139, 2, 0.25);
+	}
+}
+
+.active-promotions__icon-fire
+{
+	width: 15px;
+	height: 20px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+
+	flex-shrink: 0;
+	margin-right: 10px;
+	margin-left: 4px;
+}
+
+.active-promotions__icon-fire svg
+{
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.active-promotions__icon
+{
+	width: 32px;
+	height: 32px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+
+	flex-shrink: 0;
+	margin-right: 10px;
+}
+
+.active-promotions__icon svg
+{
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.active-promotions__desc
+{
+	font-size: 16px;
+	line-height: 1.4;
+}
+
+
+/* we-suggest__cols */
+
+.we-suggest__wrapp
+{
+	max-width: 950px;
+}
+
+.we-suggest__cols
+{
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+	margin-top: 60px;
+}
+
+.we-suggest__col
+{
+	width: calc(100%/2 - 15px);
+}
+
+.we-suggest__top
+{
+	align-items: center;
+	align-content: center;
+	flex-wrap: nowrap;
+
+	background: #1E2021;
+	padding: 14px 20px;
+
+	min-height: 60px;
+}
+
+.we-suggest__icon
+{
+	height: 24px;
+	width: 24px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+
+	flex-shrink: 0;
+	margin-right: 35px;
+}
+
+.we-suggest__name
+{
+	color: #FF8B02;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.we-suggest__list
+{
+	margin-top: 30px;
+}
+
+.we-suggest__list li
+{
+	list-style: none;
+	padding-left: 25px;
+	position: relative;
+}
+
+.we-suggest__list li::after
+{
+	position: absolute;
+	content: '';
+	top: 10px;
+	left: 12px;
+
+	display: block;
+
+	width: 2px;
+	height: 2px;
+
+	background-color: currentColor;
+}
+
+.we-suggest__text
+{
+	margin-top: 25px;
+}
 /*------------
     Modal
 ------------*/
