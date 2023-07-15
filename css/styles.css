@@ -2487,7 +2487,7 @@ input[type=checkbox]:checked + .checkbox__text::after
 
 .radios .radio + .radio
 {
-    margin-top: 12px;
+    margin-top: 7px;
 }
 
 .radio input[type=radio]
@@ -2506,14 +2506,14 @@ input[type=checkbox]:checked + .checkbox__text::after
 {
     position: relative;
 
-    color: #4C4E5B;
-    font-size: 19px;
+    color: #FBFBFB;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 1.4;
+    line-height: 1.3;
 
     display: inline-block;
 
-    padding-left: 37px;
+    padding-left: 34px;
 
     cursor: pointer;
     vertical-align: top;
@@ -2526,15 +2526,15 @@ input[type=checkbox]:checked + .checkbox__text::after
     content: "";
 
     position: absolute;
-    top: 5px;
-    left: 5px;
+    top: -1px;
+    left: 0;
 
-    width: 16px;
-    height: 16px;
+    width: 24px;
+    height: 24px;
 
     cursor: pointer;
 
-    border: 1px solid #000;
+    border: 1px solid #A4A4A4;
     border-radius: 50%;
 
     transition: .2s linear;
@@ -2543,8 +2543,9 @@ input[type=checkbox]:checked + .checkbox__text::after
 input[type=radio]:checked + .radio__text::before,
 input[type=checkbox]:checked + .radio__text::before
 {
-    background: #383A47;
-    box-shadow: inset 0 0 0 2px #FFF;
+	border-color: #FF8B02;
+    background: #FF8B02;
+    box-shadow: inset 0 0 0 5px #101213;
 }
 
 .radio__text_color::before
@@ -8807,6 +8808,7 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
 
 
 
+<<<<<<< Updated upstream
 .export-metal
 {
     margin-top: 80px;
@@ -8915,7 +8917,167 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
     margin-top: 6px;
 }
 
+=======
+.prices-service__table
+{
+    width: 100%;
+    margin-top: 20px;
+>>>>>>> Stashed changes
 
+    border-collapse: collapse;
+}
+
+.prices-service__table tr th
+{
+    color: #FBFBFB;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+
+    padding: 8px 9px;
+
+    text-align: right;
+    vertical-align: top;
+
+    border: 1px solid #FF8B02;
+}
+
+.prices-service__table tr td
+{
+    color: #FF8B02;
+    font-size: 18px;
+    font-weight: 500;
+
+    padding: 12px 9px;
+
+    text-align: right;
+    vertical-align: top;
+
+    border: 1px solid #FF8B02;
+}
+
+.prices-service__btns
+{
+    align-content: center;
+    align-items: center;
+
+    width: calc(100% + 20px);
+    margin: auto 0 0 -20px;
+}
+
+.prices-service__btn
+{
+    margin: 20px 0 0 20px;
+}
+
+.prices-service__btns .btn-orange
+{
+    min-width: 165px;
+    padding: 0 24px;
+}
+
+.prices-service__wrap-btn
+{
+    display: none;
+}
+
+
+
+.scrap-prices__wrapp
+{
+	max-width: 900px;
+}
+
+.scrap-prices__text-block
+{
+	margin-top: 60px;
+}
+
+.scrap-prices__text-block * + h3
+{
+	margin-top: 40px;
+}
+
+.scrap-prices__text-block * + h4
+{
+	margin-top: 30px;
+}
+
+.scrap-prices .text-block h4
+{
+    text-transform: none;
+}
+
+.scrap-prices__text-block ul
+{
+	font-size: 16px;
+	line-height: 1.4;
+}
+
+.scrap-prices__text-block ul li::before
+{
+	top: -2px;
+}
+
+.scrap-prices__table
+{
+    width: 100%;
+    max-width: 100%;
+
+    border-collapse: collapse;
+}
+
+.scrap-prices__table tr th
+{
+    color: #FF8B02;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.3;
+
+    width: 240px;
+    height: 80px;
+    padding: 9px;
+	text-align: left;
+
+    border: 1px solid #FF8B02;
+    background: #101213;
+}
+
+.scrap-prices__table tr th:first-child
+{
+	width: auto;
+}
+
+.scrap-prices__table tr th:last-child
+{
+    text-align: right;
+}
+
+.scrap-prices__table tr td
+{
+    color: #FBFBFB;
+    font-size: 18px;
+    line-height: 1.3;
+
+    width: 240px;
+    height: 60px;
+    padding: 9px;
+
+    text-align: left;
+
+    border: 1px solid #FF8B02;
+}
+
+.scrap-prices__table tr td:first-child
+{
+	width: auto;
+}
+
+.scrap-prices__table tr td:last-child
+{
+    text-align: right;
+    white-space: nowrap;
+}
 
 /*------------
     Footer
@@ -9355,13 +9517,6 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
 	margin-top: 40px;
 }
 
-.active-promotions__title
-{
-	font-size: 24px;
-	font-weight: 600;
-	color: #FF8B02;
-}
-
 .active-promotions__items
 {
 	margin: 2 0 0 calc(var(--active_promotions_marg)*-1);
@@ -9413,7 +9568,7 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
 	margin-left: 4px;
 }
 
-.active-promotions__icon-fire svg
+.active-promotions__icon-fire img
 {
 	display: block;
 	max-width: 100%;
@@ -9435,7 +9590,7 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
 	margin-right: 10px;
 }
 
-.active-promotions__icon svg
+.active-promotions__icon img
 {
 	display: block;
 	max-width: 100%;
@@ -9479,6 +9634,7 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
 	padding: 14px 20px;
 
 	min-height: 60px;
+	margin-bottom: 30px;
 }
 
 .we-suggest__icon
@@ -9503,36 +9659,491 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
 	font-weight: 600;
 }
 
-.we-suggest__list
+.we-suggest__col .text-block ul li
 {
-	margin-top: 30px;
+    min-height: 1px;
+    padding-left: 27px;
 }
 
-.we-suggest__list li
+.we-suggest__col .text-block ul li + li
 {
-	list-style: none;
-	padding-left: 25px;
+    margin-top: 0;
+}
+
+.we-suggest__col .text-block ul li::before
+{
+    display: none;
+}
+
+.we-suggest__col .text-block ul li::after
+{
+    content: "";
+
+    position: absolute;
+    top: 10px;
+    left: 12px;
+
+    width: 2px;
+    height: 2px;
+
+    border-radius: 50%;
+    background: currentColor;
+}
+
+.we-suggest__text-block
+{
+	margin-top: 25px;
+}
+
+
+/* admission-prices */
+
+.admission-prices__title
+{
+	margin-top: 35px;
+}
+
+.admission-prices__cols
+{
+	margin-top: 35px;
+	max-width: 650px;
+	justify-content: space-between;
+}
+
+.admission-prices__col
+{
+	width: calc(100/2 - 25px);
+}
+
+.admission-prices__item
+{
+	align-items: center;
+	align-content: center;
+	flex-wrap: nowrap;
+}
+
+.admission-prices__item + .admission-prices__item
+{
+	margin-top: 15px;
+}
+
+.admission-prices__icon
+{
+	width: 32px;
+	height: 32px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+
+	flex-shrink: 0;
+	margin-right: 20px;
+}
+
+.admission-prices__icon img
+{
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+/* quick-calc */
+
+.quick-calc__wrapp
+{
+	padding: 40px 50px;
 	position: relative;
+	margin-top: 130px;
 }
 
-.we-suggest__list li::after
+.quick-calc__wrapp::before
 {
 	position: absolute;
 	content: '';
-	top: 10px;
-	left: 12px;
+	top: -20px;
+	left: -20px;
 
 	display: block;
 
-	width: 2px;
-	height: 2px;
+	width: calc(100% + 40px);
+	height: calc(100% + 40px);
 
-	background-color: currentColor;
+	border: 20px solid #D4D4D4;
 }
 
-.we-suggest__text
+.quick-calc__flex
+{
+	flex-wrap: nowrap;
+}
+
+.quick-calc__flex > div + div
+{
+	margin-left: 40px;
+}
+
+.quick-calc__form
+{
+	position: relative;
+	z-index: 2;
+}
+
+.quick-calc__form .form__label
+{
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.quick-calc__form .form__input
+{
+	background-color: #101213;
+}
+
+
+/* pass-scrap */
+
+.pass-scrap__cols
+{
+	justify-content: space-between;
+}
+
+.pass-scrap__coll
+{
+	width: calc(35.5% - 15px);
+}
+
+.pass-scrap__img
+{
+	position: relative;
+	padding-bottom: 110.71%;
+}
+
+.pass-scrap__img img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	display: block;
+
+	width: 100%;
+	height: 100%;
+
+	object-fit: cover;
+}
+
+
+.pass-scrap__colr
+{
+	width: calc(64.5% - 15px);
+}
+
+.pass-scrap__consider
+{
+	margin-top: 40px;
+}
+
+.pass-scrap__items
 {
 	margin-top: 25px;
+}
+
+.pass-scrap__item
+{
+	flex-wrap: nowrap;
+}
+
+.pass-scrap__item + .pass-scrap__item
+{
+	margin-top: 10px;
+}
+
+.pass-scrap__icon
+{
+	width: 32px;
+	height: 32px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+
+	margin-right: 10px;
+}
+
+.pass-scrap__icon img
+{
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.pass-scrap__name
+{
+	min-height: 32px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+
+/* prom-accept */
+
+.prom-accept__cols
+{
+	margin-top: 60px;
+	flex-wrap: nowrap;
+	max-width: 1100px;
+}
+
+.prom-accept__coll
+{
+	width: 100%;
+}
+
+.prom-accept__colr
+{
+    flex-shrink: 0;
+    width: 23%;
+    max-width: 269px;
+    margin-left: 30px;
+}
+
+.prom-accept__img
+{
+    position: relative;
+    padding-bottom: 101.5%;
+}
+
+.prom-accept__img img 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: 0 0;
+}
+
+.prom-accept__item
+{
+	flex-wrap: nowrap;
+}
+
+.prom-accept__item + .prom-accept__item
+{
+	margin-top: 25px;
+}
+
+.prom-accept__icon
+{
+	width: 32px;
+	height: 32px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+
+	flex-shrink: 0;
+	margin-right: 20px;
+}
+
+.prom-accept__icon img
+{
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.prom-accept__info
+{
+	width: 100%;
+}
+
+.prom-accept__title
+{
+	color: #FF8B02;
+	font-size: 24px;
+}
+
+.prom-accept__desc
+{
+	font-size: 16px;
+	line-height: 1.4;
+	margin-top: 15px;
+}
+
+.prom-accept__btn
+{
+	margin-top: 40px;
+	min-width: 350px;
+}
+
+
+/* requir-prohib */
+
+.requir-prohib__wrapp
+{
+	max-width: 1006px;
+}
+
+.requir-prohib__item
+{
+	margin-top: 60px;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.requir-prohib__item_attention
+{
+	border: 5px solid #FF8B02;
+}
+
+.requir-prohib__item + .requir-prohib__item
+{
+	margin-top: 35px;
+}
+
+.requir-prohib__text-block
+{
+	width: calc(50% - 12px);
+	min-height: 400px;
+}
+
+.requir-prohib__item_attention .requir-prohib__text-block
+{
+	padding: 40px 0 10px;
+}
+
+
+.requir-prohib__text * + *
+{
+	margin-top: 15px;
+}
+
+.requir-prohib__title
+{
+	color: #FF8B02;
+}
+
+.requir-prohib__item .text-block ul li
+{
+    min-height: 1px;
+    padding-left: 27px;
+}
+
+.requir-prohib__item .text-block ul li + li
+{
+    margin-top: 0;
+}
+
+.requir-prohib__item .text-block ul li::before
+{
+    display: none;
+}
+
+.requir-prohib__item .text-block ul li::after
+{
+    content: "";
+
+    position: absolute;
+    top: 10px;
+    left: 12px;
+
+    width: 2px;
+    height: 2px;
+
+    border-radius: 50%;
+    background: currentColor;
+}
+
+.text-block h5
+{
+    color: #FBFBFB;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3;
+
+    margin-bottom: 18px;
+}
+
+.text-block h5 span
+{
+    color: #FF8B02;
+}
+
+.requir-prohib__box
+{
+	width: calc(50% - 13px);
+}
+
+.requir-prohib__img
+{
+	position: relative;
+	height: 100%;
+}
+
+.requir-prohib__img::before
+{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+
+	display: block;
+
+	width: 100%;
+	height: 100%;
+
+	border: 1px solid #FF8B02;
+	z-index: 1;
+}
+
+.requir-prohib__item_attention .requir-prohib__img::before
+{
+	border: 10px solid #FF8B02;
+}
+
+.requir-prohib__item_attention .requir-prohib__img::after
+{
+	position: absolute;
+	content: '';
+	top: 50%;
+	left: 50%;
+
+	display: block;
+
+	width: 297px;
+	height: 215px;
+
+	transform: translate(-50%, -50%);
+
+	background: url(../images/ic_cross.svg) 50%/contain no-repeat;
+	z-index: 2;
+}
+
+.requir-prohib__img img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	display: block;
+
+	width: 100%;
+	height: 100%;
+
+	object-fit: cover;
 }
 /*------------
     Modal
