@@ -2988,6 +2988,21 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
 /*---------------
 	Page head
 ---------------*/
+.big-title
+{
+    color: #FBFBFB;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.2;
+
+    text-transform: uppercase;
+}
+
+.big-title span
+{
+    color: #FF8B02;
+}
+
 .main-title
 {
     color: #FBFBFB;
@@ -8791,6 +8806,114 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
 }
 
 
+
+.export-metal
+{
+    margin-top: 80px;
+    padding-bottom: 129px;
+
+    border-bottom: 1px solid #FF8B02;
+}
+
+.export-metal__cols
+{
+    justify-content: space-between;
+
+    background: #1E2021;
+}
+
+.export-metal__coll
+{
+    width: calc(50% - 6px);
+    padding: 15px 23px 20px 34px;
+}
+
+.export-metal__colr
+{
+    position: relative;
+
+    width: calc(50% + 6px);
+    min-height: 530px;
+}
+
+.export-metal__img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    overflow: hidden;
+
+    width: 100%;
+    height: 100%;
+}
+
+.export-metal__img::before
+{
+    content: "";
+
+    position: absolute;
+    z-index: 2;
+    top: -1px;
+    left: 0;
+
+    width: 17.33%;
+    height: calc(100% + 2px);
+
+    background: #1E2021;
+
+    clip-path: polygon(0 0, 100% 0%, 0% 100%, 0 100%);
+}
+
+.export-metal__img::after
+{
+    content: "";
+
+    position: absolute;
+    z-index: 1;
+    top: -1px;
+    left: 0;
+
+    width: calc(17.33% + 10px);
+    height: calc(100% + 2px);
+
+    background: #FF8B02;
+
+    clip-path: polygon(0 0, 100% 0%, 8% 100%, 0 100%);
+}
+
+.export-metal__img img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.export-metal__info
+{
+    position: relative;
+    z-index: 2;
+
+    padding: 30px 20px 30px 133px;
+}
+
+.export-metal__desc
+{
+    max-width: 343px;
+    margin-top: 30px;
+}
+
+.export-metal__btn
+{
+    margin-top: 6px;
+}
 
 
 
