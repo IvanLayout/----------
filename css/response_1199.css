@@ -579,4 +579,26 @@
 	{
 		display: none;
 	}
+
+
+	.reception-scheme__items
+	{
+		margin-left: -60px;
+	}
+
+	.reception-scheme__item 
+	{
+		width: calc(100%/4 - 60px);
+		margin: 100px 0 0 60px;
+	}
+
+	.reception-scheme__item::after
+	{
+		width: 52px;
+	}
+
+	.reception-scheme__item_rotate::after
+	{
+		margin-right: 5px;
+	}
 }

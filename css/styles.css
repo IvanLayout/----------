@@ -10718,6 +10718,7 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
 .who-benefits-form .form__submit-btn
 {
 	width: 100%;
+	min-width: 1px;
 }
 
 .who-benefits__tabs
@@ -10824,6 +10825,13 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
 	z-index: 1;
 }
 
+.achievements__logo img
+{
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
 .increase-income__items
 {
 	margin-top: 60px;
@@ -10887,6 +10895,8 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
 {
 	margin: 25px 0;
 	justify-content: space-between;
+	align-items: center;
+	align-content: center;
 }
 
 .increase-income__info
@@ -11002,7 +11012,9 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
 .cables-items__img
 {
 	position: relative;
-	padding-bottom: 52.1%;
+	/* padding-bottom: 52.1%; */
+	min-height: 283px;
+	height: 100%;
 }
 
 .cables-items__img img
@@ -11251,7 +11263,16 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
 
 @media (max-width: 1499px)
 {
+	.cable-reception__filed:first-child, 
+	.cable-reception__submit
+	{
+		width: 180px;
+	}
 
+	.cable-reception__filed:nth-child(2)
+	{
+		margin: 0 10px;
+	}
 }
 
 @media (max-width: 1429px)
@@ -11261,12 +11282,30 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
 
 @media (max-width: 1399px)
 {
+	.cable-reception__filed:first-child, 
+	.cable-reception__submit
+	{
+		width: 190px;
+	}
 
+	.cable-reception__filed:nth-child(2)
+	{
+		margin: 0 20px;
+	}
+
+
+	.cable-reception__img
+	{
+		margin-left: 0;
+	}
 }
 
 @media (max-width: 1279px)
 {
-
+	.reception-scheme__desc
+	{
+		font-size: 16px;
+	}
 }
 /*------------
     Modal
