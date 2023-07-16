@@ -2214,6 +2214,249 @@
     }
 
 
+	.scrap-acceptance
+	{
+		padding: 40px 0 45px;
+	}
+
+	.scrap-acceptance__cols
+	{
+		max-width: 100%;
+	}
+
+	.scrap-acceptance__coll
+	{
+		width: 100%;
+	}
+
+	.scrap-acceptance__img 
+	{
+		padding-bottom: 61.3%;
+	}
+
+	.scrap-acceptance__colr
+	{
+		width: 100%;
+		margin-top: 40px;
+	}
+
+	.scrap-acceptance__title
+	{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.scrap-acceptance__title::after
+	{
+		top: 8px;
+		width: 16px;
+		height: 16px;
+	}
+
+	.scrap-acceptance__item.active .scrap-acceptance__title::after 
+	{
+		top: 17px;
+	}
+
+	
+	.active-promotions
+	{
+		max-width: 390px;
+	}
+
+	.active-promotions__items
+	{
+		--active_promotions_number: 1;
+	}
+
+	.active-promotions__icon
+	{
+		width: 28px;
+		height: 28px;
+	}
+
+	.active-promotions__desc
+	{
+		font-size: 14px;
+	}
+	
+	.we-suggest__top 
+	{
+		padding: 10px;
+	}
+
+	.we-suggest__cols
+	{
+		margin-top: 40px;
+	}
+
+	.we-suggest__col 
+	{
+		width: calc(100%/2 - 7.5px);
+	}
+
+	.we-suggest__icon
+	{
+		margin-right: 30px;
+	}
+
+	.we-suggest__name
+	{
+		font-size: 20px;
+	}
+
+	.we-suggest__col .text-block ul li::after
+	{
+		top: 9px;
+	}
+
+
+	.admission-prices__cols
+	{
+		margin-left: 0;
+		justify-content: space-between;
+	}
+
+	.admission-prices__col
+	{
+		min-width: 1px;
+		margin-left: 0;
+		width: calc(100%/2 - 15px);
+		max-width: none;
+	}
+
+
+	.pass-scrap__coll
+	{
+		width: 100%;
+		max-width: 681px;
+	}
+
+	.pass-scrap__img 
+	{
+		padding-bottom: calc(62% + 1px);
+	}
+
+	.pass-scrap__colr
+	{
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	.pass-scrap__name br
+	{
+		display: none;
+	}
+
+	
+	.prom-accept__cols
+	{
+		max-width: 100%;
+		margin-top: 40px;
+	}
+
+	.prom-accept__coll
+	{
+		order: 2;
+	}
+
+	.prom-accept__colr
+	{
+		order: 1;
+		margin-left: 0;
+		margin-right: 20px;
+		width: 19%;
+		max-width: 112px;
+	}
+	
+	.prom-accept__title
+	{
+		font-size: 20px;
+	}
+
+	.prom-accept__desc
+	{
+		font-size: 14px;
+	}
+
+	.prom-accept__btn
+	{
+		margin-left: 52px;
+		width: 100%;
+		max-width: 350px;
+	}
+
+
+	.text-block h5
+	{
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+
+
+	.requir-prohib__text-block 
+	{
+		width: 100%;
+		min-height: 1px;
+		order: 2;
+		margin-top: 25px;
+	}
+
+	.requir-prohib__box 
+	{
+		width: 100%;
+		order: 1;
+	}
+
+	.requir-prohib__img 
+	{
+		height: auto;
+		padding-bottom: 50%;
+	}
+
+	.requir-prohib__item
+	{
+		margin-top: 40px;
+	}
+
+	.requir-prohib__item_attention .requir-prohib__img
+	{
+		padding-bottom: 78%;
+	}
+
+	.requir-prohib__item_attention .requir-prohib__text-block
+	{
+		padding-top: 0;
+	}
+
+	.text-block ul.text-list
+	{
+		margin-bottom: 15;
+	}
+
+	.text-block ul.text-list li::after
+	{
+		top: 8px;
+	}
+
+
+	.scrap-prices__text-block
+	{
+		margin-top: 40px;
+	}
+
+	.scrap-prices__table tr th
+	{
+		width: 150px;
+	}
+	
+	.scrap-prices__table tr td
+	{
+		font-size: 16px;
+		width: 150px;
+	}
+
+
     .dz-remove
     {
         opacity: 1;

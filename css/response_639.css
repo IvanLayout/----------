@@ -1755,6 +1755,146 @@
     }
 
 
+	.scrap-acceptance
+	{
+		margin-top: 20px;
+	}
+
+
+	.we-suggest__col
+	{
+		width: 100%;
+	}
+
+	.we-suggest__col + .we-suggest__col
+	{
+		margin-top: 15px;
+	}
+
+
+	.admission-prices__col 
+	{
+		width: 100%;
+	}
+
+	.admission-prices__col + .admission-prices__col
+	{
+		margin-top: 15px;
+	}
+
+
+	.prom-accept__cols
+	{
+		flex-wrap: wrap;
+	}
+
+	.prom-accept__coll
+	{
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.prom-accept__colr
+	{
+		width: 29%;
+		margin-right: 0;
+	}
+
+
+	.scrap-prices__table
+    {
+        display: block;
+    }
+
+    .scrap-prices__table thead
+    {
+        display: none;
+    }
+
+    .scrap-prices__table tbody
+    {
+        display: block;
+    }
+
+    .scrap-prices__table tr
+    {
+        display: block;
+
+        padding: 25px 15px 15px;
+
+        border: 1px solid #FF8B02;
+    }
+
+    .scrap-prices__table tr.hide-mob
+    {
+        display: none;
+    }
+
+    .scrap-prices__table tr._show
+    {
+        display: block;
+    }
+
+    .scrap-prices__table tr + tr
+    {
+        margin-top: 8px;
+    }
+
+    .scrap-prices__table tr td
+    {
+        display: flex;
+        justify-content: space-between;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        padding: 0;
+
+        border: 0;
+    }
+
+    .scrap-prices__table tr td::before
+    {
+        content: attr(data-label);
+
+        color: #A4A4A4;
+        font-size: 14px;
+        line-height: 1.4;
+
+        display: block;
+
+        text-align: left;
+        white-space: normal;
+    }
+
+    .scrap-prices__table tr td:first-child
+    {
+        color: #FF8B02;
+        font-weight: 600;
+
+        display: block;
+
+        width: 100%;
+        min-width: 1px;
+        margin-top: 0;
+    }
+
+    .scrap-prices__table tr td:nth-child(-n+2)::before
+    {
+        display: none;
+    }
+
+    .scrap-prices__table tr td span
+    {
+        flex-shrink: 0;
+
+        min-width: 135px;
+        margin-left: 20px;
+    }
+
 
     .modal.small
     {

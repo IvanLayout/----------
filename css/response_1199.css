@@ -523,4 +523,32 @@
     {
         width: 306px;
     }
+	
+
+
+	.scrap-acceptance__coll 
+	{
+		width: calc(47.14% - 15px);
+	}
+
+	.scrap-acceptance__colr 
+	{
+		width: calc(52.86% - 15px);
+	}
+
+	.scrap-acceptance__title::after
+	{
+		top: 10px;
+	}
+
+	.scrap-acceptance__item.active .scrap-acceptance__title::after 
+	{
+		top: 19px;
+	}
+
+	
+	.active-promotions__desc br
+	{
+		display: none;
+	}
 }
