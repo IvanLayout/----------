@@ -11,6 +11,12 @@
     }
 
 
+	.big-title{
+		font-size: 50px;
+	}
+
+
+
     /*---------------
 		Page head
 	---------------*/
@@ -502,6 +508,24 @@
         top: 8px;
     }
 
+
+	.export-metal{
+		margin-top: 40px;
+		padding-bottom: 80px;
+	}
+
+	.export-metal__cols{
+		margin-top: 30px;
+	}
+
+	.export-metal__coll{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.export-metal__info{
+		padding-left: 116px;
+	}
 
 
     .about-export__desc

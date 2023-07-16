@@ -48,6 +48,10 @@
         font-size: 22px;
     }
 
+	.big-title {
+		font-size: 28px;
+	}
+
 
 
     /*------------------
@@ -1675,6 +1679,19 @@
     {
         width: 199px;
     }
+
+	.export-metal__coll {
+		width: calc(100% + 70px);
+		margin-left: -35px;
+		margin-right: -35px;
+		padding: 20px 35px;
+	}
+
+	.export-metal__colr {
+		width: 100%;
+		margin-left: 0;
+		min-height: 420px;
+	}
 
 
     .about-export__items
