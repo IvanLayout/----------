@@ -60,6 +60,11 @@
     }
 
 
+	.big-title{
+		font-size: 32px;
+	}
+
+
     /*------------------
 		Form elements
 	------------------*/
@@ -73,6 +78,11 @@
     {
         margin-top: 40px;
     }
+
+	.text-block h1,
+	.text-block .title{
+		font-size: 32px;
+	}
 
     .text-block h2
     {
@@ -2437,6 +2447,54 @@
 	.text-block ul.text-list li::after
 	{
 		top: 8px;
+	}
+
+
+	.export-metal{
+		padding-bottom: 60px;
+	}
+
+	.export-metal__cols{
+		background: none;
+	}
+
+	.export-metal__coll{
+		width: calc(100% + 40px);
+		margin-left: -20px;
+		margin-right: -20px;
+
+		padding: 20px 20px 55px;
+		background: #1E2021;
+	}
+
+	.export-metal__colr{
+		width: calc(100% + 20px);
+		margin-left: -20px;
+		min-height: 520px;
+	}
+
+	.export-metal__img::before{
+		display: none;
+	}
+
+	.export-metal__img::after{
+		width: 100%;
+		height: 10px;
+		clip-path: none;
+		-webkit-clip-path: none;
+	}
+
+	.export-metal__info{
+		padding: 43px 20px;
+	}
+
+	.export-metal__desc{
+		margin-top: 16px;
+		max-width: 483px;
+	}
+
+	.export-metal__btn{
+		margin-top: 10px;
 	}
 
 

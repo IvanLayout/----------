@@ -48,6 +48,10 @@
         font-size: 22px;
     }
 
+	.big-title {
+		font-size: 28px;
+	}
+
 
 
     /*------------------
@@ -63,6 +67,12 @@
     /*----------------
 		Typography
 	----------------*/
+	.text-block h1,
+	.text-block .title{
+		font-size: 28px;
+		line-height: 1.1;
+	}
+
     .text-block h2
     {
         font-size: 22px;
@@ -1675,6 +1685,19 @@
     {
         width: 199px;
     }
+
+	.export-metal__coll {
+		width: calc(100% + 70px);
+		margin-left: -35px;
+		margin-right: -35px;
+		padding: 20px 35px;
+	}
+
+	.export-metal__colr {
+		width: 100%;
+		margin-left: 0;
+		min-height: 420px;
+	}
 
 
     .about-export__items
