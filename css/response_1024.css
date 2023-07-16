@@ -79,6 +79,11 @@
         margin-top: 40px;
     }
 
+	.text-block h1,
+	.text-block .title{
+		font-size: 32px;
+	}
+
     .text-block h2
     {
         font-size: 28px;

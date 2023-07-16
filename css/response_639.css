@@ -67,6 +67,12 @@
     /*----------------
 		Typography
 	----------------*/
+	.text-block h1,
+	.text-block .title{
+		font-size: 28px;
+		line-height: 1.1;
+	}
+
     .text-block h2
     {
         font-size: 22px;
