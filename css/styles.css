@@ -10698,6 +10698,7 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
 .increase-income__items
 {
 	margin-top: 60px;
+	max-width: 1050px;
 }
 
 .achievements__item + .achievements__item
@@ -10751,6 +10752,348 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
 {
 	margin-top: 5px;
 	width: 100%;
+}
+
+.increase-income__wrapp
+{
+	margin: 25px 0;
+	justify-content: space-between;
+}
+
+.increase-income__info
+{
+	width: calc(100% - 310px);
+	position: relative;
+	padding: 50px 50px 50px 30px;
+	background-color: #1E2021;
+	max-width: 724px;
+}
+
+.increase-income__info::after
+{
+	position: absolute;
+	content: '';
+	bottom: 97px;
+	left: 100%;
+
+	display: block;
+
+	width: 45px;
+    height: 57px;
+
+	clip-path: polygon(0 0, 0% 100%, 100% 0);
+	background-color: #1E2021;
+}
+
+.increase-income__title
+{
+	color: #FF8B02;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.increase-income__text
+{
+	font-size: 16px;
+	line-height: 1.4;
+	margin-top: 15px;
+}
+
+.increase-income__box
+{
+	width: 230px;
+}
+
+.increase-income__photo
+{
+	position: relative;
+	padding-bottom: 100%;
+	overflow: hidden;
+	border: 1px solid #FF8B02;
+	border-radius: 50%;
+}
+
+.increase-income__photo img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	display: block;
+
+	width: 100%;
+	height: 100%;
+
+	object-fit: cover;
+}
+
+.increase-income__name
+{
+	color: #FF8B02;
+	font-weight: 500;
+	margin-top: 20px;
+}
+
+.increase-income__position
+{
+	font-size: 16px;
+	line-height: 1.4;
+	margin-top: 5px;
+}
+
+
+
+/* cables-items */
+
+.cables-items
+{
+	margin-top: 60px;
+}
+
+.cables-items__item + .cables-items__item
+{
+	margin-top: 20px;
+}
+
+.cables-items__item
+{
+	align-items: stretch;
+	align-content: stretch;
+
+	border: 1px solid #FF8B02;
+	background-color: #1E2021;
+	padding: 40px;
+}
+
+.cables-items__box
+{
+	width: 48.66%;
+}
+
+.cables-items__img
+{
+	position: relative;
+	padding-bottom: 52.1%;
+}
+
+.cables-items__img img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	display: block;
+
+	width: 100%;
+	height: 100%;
+
+	object-fit: cover;
+}
+
+.cables-items__block
+{
+	width: 51.34%;
+	padding-left: 20px;
+	max-width: 446px;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.cables-items__info
+{
+	flex: 1 0 auto;
+}
+
+.cables-items__name
+{
+	color: #FF8B02;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.cables-items__desc
+{
+	font-size: 16px;
+	line-height: 1.4;
+	margin-top: 20px;
+}
+
+.cables-items__link
+{
+	margin-top: 30px;
+}
+
+.wires-cables__title
+{
+	color: #FF8B02;
+	font-size: 24px;
+	font-weight: 600;
+	margin-top: 40px;
+}
+
+.wires-items
+{
+	margin-top: 30px;
+	max-width: 793px;
+}
+
+.wires-items__item
+{
+	align-items: center;
+	align-content: center;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+
+.wires-items__item + .wires-items__item
+{
+	margin-top: 10px;
+}
+
+.wires-items__img
+{
+	width: 170px;
+	height: 128px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+
+	flex-shrink: 0;
+}
+
+.wires-items__img img
+{
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.wires-items__name
+{
+	font-weight: 500;
+	margin-left: 70px;
+	width: 100%;
+}
+
+.wires-items__link
+{
+	flex-shrink: 0;
+	margin-left: 50px;
+}
+
+.wires-cables__text-block
+{
+	margin-top: 30px;
+	font-size: 16px;
+	line-height: 1.4;
+}
+
+.wires-cables__link
+{
+	margin-top: 20px;
+}
+
+.wires-cables__link a
+{
+	padding: 0 47px;
+}
+
+
+/* reception-scheme */
+
+/* .reception-scheme__items
+{
+	justify-content: space-between;
+} */
+
+.reception-scheme__item
+{
+	width: calc(100%/4);
+	margin-top: 80px;
+	max-width: 230px;
+	margin-left: auto;
+}
+
+.reception-scheme__item:first-child
+{
+	margin-left: 0;
+}
+
+.reception-scheme__item2
+{
+	max-width: 240px;
+}
+
+.reception-scheme__item3
+{
+	max-width: 250px;
+}
+
+.reception-scheme__item7
+{
+	margin-left: auto;
+	margin-right: 100px;
+}
+
+.reception-scheme__item_marg
+{
+	margin-left: 90px;
+}
+
+.reception-scheme__icon
+{
+	width: 40px;
+	height: 40px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+
+	position: relative;
+}
+
+.reception-scheme__icon img
+{
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.reception-scheme__number
+{
+	position: absolute;
+	top: -17px;
+    right: -25px;
+
+	display: block;
+
+	width: 30px;
+	height: 30px;
+
+	border-radius: 50%;
+	text-align: center;
+
+	font-size: 16px;
+	line-height: 30px;
+	
+	background-color: #101213;
+}
+
+.reception-scheme__desc
+{
+	margin-top: 15px;
+	font-weight: 500;
+}
+
+.reception-scheme__desc span
+{
+	color: #FF8B02;
 }
 
 @media (max-width: 1699px)
