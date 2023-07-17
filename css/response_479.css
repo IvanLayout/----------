@@ -84,6 +84,28 @@
         font-size: 12px;
     }
 
+	.chart-big__head{
+		padding-left: 9px;
+		padding-right: 9px;
+	}
+
+	.chart-big__box{
+		padding: 9px 9px 19px;
+	}
+
+	.chart-big__info{
+		margin-left: 25px;
+	}
+
+	.chart-big__list{
+		margin: 10px 0 0 25px;
+	}
+
+	.chart-big__list-item{
+		margin: 4px 0 0;
+		width: 100%;
+	}
+
 
     .why-we__video
     {
@@ -312,11 +334,31 @@
         margin-left: -15px;
     }
 
+	.prices-today__contact .form-callback__submit{
+		margin-left: 0;
+		margin-top: 15px;
+	}
+
+	.prices-today__contact-phones{
+		margin-top: 10px;
+		padding: 20px 0 20px 63px;
+	}
+
+	.prices-today__contact-phone + .prices-today__contact-phone{
+		margin: 8px 0 0;
+	}
+
     .prices-today__more
     {
         width: 100%;
         min-width: 1px;
     }
+
+
+	.head-shavings__img-info{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
 
 
     .section-advice__cols
@@ -466,6 +508,42 @@
     {
         background-size: 180px auto;
     }
+
+
+	.reviews-reception__review{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.reviews-reception__info{
+		padding-top: 14px;
+	}
+
+	.reviews-reception__name{
+		font-size: 12px;
+	}
+
+	.reviews-reception__company{
+		font-size: 12px;
+	}
+
+
+	.how-pass__col.text-block p{
+		font-size: 14px;
+	}
+
+	.how-pass__video{
+		height: 285px;
+	}
+
+
+	.from-stock__cols{
+		padding-left: 11px;
+		padding-right: 11px;
+
+		margin-left: -15px;
+		margin-right: -15px;
+	}
 
 
     .info-battery__icon

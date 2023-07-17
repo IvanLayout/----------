@@ -526,6 +526,15 @@
         display: none;
     }
 
+	.about-differ__coll{
+		width: 100%;
+	}
+
+	.about-differ__colr{
+		width: 100%;
+		margin-top: 20px;
+	}
+
 
     .why-we
     {
@@ -693,6 +702,10 @@
 
         padding: 34px 70px;
     }
+	
+	.video__watch{
+		font-size: 20px;
+	}
 
 
     .info-price
@@ -1487,6 +1500,10 @@
         margin-top: 40px;
     }
 
+	.prices-today__table_marg{
+		margin-top: 20px;
+	}
+
     .prices-today__table tr th
     {
         width: auto;
@@ -1936,6 +1953,234 @@
 
         min-height: 1px;
     }
+
+
+	.head-reception{
+		padding: 60px 0 84px;
+	}
+
+	.head-reception__cols{
+		flex-wrap: wrap;
+	}
+
+	.head-reception__img{
+		width: 100%;
+		order: 2;
+		margin: 58px 0 0;
+	}
+
+
+	.from-stock__coll{
+		position: absolute;
+		top: 36px;
+		left: 26px;
+		margin: 0;
+	}
+
+	.from-stock__head{
+		padding-left: 160px;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+		flex-wrap: wrap;
+		min-height: 160px;
+	}
+
+	.from-stock__flex{
+		margin: 20px auto 0;
+		max-width: 292px;
+	}
+
+	.from-stock__flex .from-stock__line {
+		margin-left: 0;
+		width: 100%;
+		max-width: none;
+	}
+
+	.from-stock__flex .from-stock__line_small{
+		max-width: none;
+	}
+
+	.from-stock__submit{
+		margin-top: 0;
+	}
+
+	.from-stock__percent{
+		font-size: 28px;
+	}
+
+
+
+	.prices-today .padmenu{
+		padding-left: 0 !important;
+	}
+
+	.prices-today__small-title{
+		margin-top: 30px;
+	}
+
+	.prices-today__cols + .prices-today__small-title{
+		margin-top: 40px;
+	}
+
+	.prices-today__coll{
+		width: 100%;
+	}
+
+	.prices-today__info{
+		width: 100%;
+	}
+
+	.prices-today__about{
+		font-size: 12px;
+	}
+
+	.prices-today__contact{
+		flex-wrap: wrap;
+	}
+
+	.prices-today__contact .form-callback{
+		width: 100%;
+	}
+
+	.prices-today__contact-phones{
+		margin: 15px 0 0;
+		width: 100%;
+		padding: 8px 0 8px 122px;
+		border-top: 1px solid #FF8B02;
+
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		align-content: center;
+		flex-wrap: wrap;
+		min-height: 64px;
+	}
+
+	.prices-today__contact-phones::before{
+		left: 58px;
+	}
+
+	.prices-today__contact-phone + .prices-today__contact-phone{
+		margin: 0 0 0 54px;
+	}
+
+	.prices-today__table tfoot tr td{
+		padding-bottom: 13px;
+	}
+
+
+
+	.head-shavings__big-title{
+		width: 100%;
+		max-width: none;
+	}
+
+	.head-shavings__img{
+		width: 100%;
+		max-width: none;
+		margin-top: 40px;
+	}
+
+	.head-shavings__img img{
+		height: 500px;
+		object-fit: cover;
+	}
+
+	.head-shavings__img-info{
+		font-size: 20px;
+	}
+
+	.head-shavings__img-info span::before {
+		top: 0.5px;
+	}
+
+	.head-shavings__info{
+		width: 100%;
+		max-width: none;
+	}
+
+	.head-shavings__list-ol li{
+		font-size: 14px;
+	}
+
+
+	.how-pass__wrap{
+		margin-top: 40px;
+	}
+
+	.how-pass__item{
+		margin-top: 25px;
+	}
+
+	.how-pass__col{
+		width: 100%;
+		max-width: none;
+	}
+
+	.how-pass__col + .how-pass__col{
+		margin-top: 25px;
+	}
+
+	.how-pass__col.text-block{
+		padding-top: 0;
+	}
+
+	.how-pass__img{
+		padding-bottom: 50%;
+		min-height: 400px;
+	}
+
+	.how-pass__list-item + .how-pass__list-item{
+		margin-top: 15px;
+	}
+
+	.how-pass__cols-col{
+		width: 100%;
+		max-width: none;
+	}
+
+	.how-pass__cols-col + .how-pass__cols-col{
+		margin-top: 25px;
+	}
+
+	.how-pass__video{
+		padding-bottom: 0;
+		height: 360px;
+	}
+
+
+	.peculiarities__cols{
+		margin-top: 40px;
+	}
+
+	.peculiarities__coll{
+		width: 100%;
+	}
+
+	.peculiarities__colr{
+		width: 100%;
+		max-width: none;
+		margin-top: 40px;
+	}
+
+	.peculiarities__video{
+		min-height: 1px;
+
+		padding-bottom: 80%;
+	}
+
+
+	.reviews-reception__slider{
+		margin-top: 40px;
+		overflow: visible;
+	}
+
+	.reviews-reception__review{
+		width: 390px;
+	}
 
 
 

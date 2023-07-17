@@ -201,6 +201,65 @@ $(() => {
 
 
 	//
+	if ($('.reviews-reception__slider').length) {
+		new Swiper('.reviews-reception__slider', {
+			loop: false,
+			watchSlidesProgress: true,
+			watchOverflow: true,
+			spaceBetween: 15,
+			slidesPerView: 'auto',
+			preloadImages: false,
+			lazy: {
+				loadPrevNext: true,
+				elementClass: 'lazyload',
+				enabled: true,
+				loadedClass: 'loaded',
+				checkInView: true,
+				loadOnTransitionStart: true
+			},
+			navigation: {
+				nextEl: '.slider-button-next',
+				prevEl: '.slider-button-prev'
+			},
+			pagination: {
+				el: ".slider-progressbar",
+				type: "progressbar",
+			},
+			breakpoints: {
+				'320': {
+					slidesPerView: 'auto',
+				},
+				'480': {
+					slidesPerView: 'auto',
+				},
+				'640': {
+					slidesPerView: 'auto',
+				},
+				'1025': {
+					slidesPerView: 3,
+				}
+			},
+			on: {
+				init: function (swiper) {
+					if (swiper.visibleSlides.length < swiper.slides.length) {
+						$(swiper.$el).addClass('_pad')
+					} else {
+						$(swiper.$el).removeClass('_pad')
+					}
+				},
+				resize: function (swiper) {
+					if (swiper.visibleSlides.length < swiper.slides.length) {
+						$(swiper.$el).addClass('_pad')
+					} else {
+						$(swiper.$el).removeClass('_pad')
+					}
+				}
+			}
+		})
+	}
+
+
+	//
 	if ($('.about-battery__slider').length) {
 		new Swiper('.about-battery__slider', {
 			loop: false,

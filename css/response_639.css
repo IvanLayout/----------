@@ -1335,7 +1335,7 @@
         display: none;
     }
 
-    .prices-today__table tr td span
+    .prices-today__table tr td[data-label] span
     {
         flex-shrink: 0;
 
@@ -1356,6 +1356,40 @@
     {
         min-width: 395px;
     }
+
+	.prices-today__table tfoot{
+		margin-top: 40px;
+		display: block;
+	}
+
+	.prices-today__table tfoot tr{
+		padding-top: 12px;
+		padding-bottom: 12px;
+	}
+
+	.prices-today__table tfoot tr td{
+		padding: 0;
+		margin: 0;
+	}
+
+	.prices-today__table tfoot tr td:first-child{
+		padding: 0;
+		margin: 0;
+		color: #FBFBFB;
+		font-weight: 400;
+	}
+
+	.prices-today__contact-phones{
+		padding-left: 63px;
+	}
+
+	.prices-today__contact-phones::before{
+		left: 0;
+	}
+
+	.prices-today__contact-phone + .prices-today__contact-phone {
+		margin: 0 0 0 20px;
+	}
 
 
 
@@ -1608,6 +1642,109 @@
     {
         font-size: 12px;
     }
+
+
+	.reviews-reception__review{
+		width: 290px;
+	}
+
+
+	.how-pass__img {
+		padding-bottom: 83%;
+		min-height: 1px;
+	}
+
+
+	.prices-today__info{
+		font-size: 14px;
+	}
+
+
+	.head-reception{
+		padding-bottom: 59px;
+	}
+
+	.head-reception__img{
+		margin-top: 40px;
+	}
+
+
+	.list-ol{
+		font-size: 14px;
+	}
+
+
+	.head-shavings__img img{
+		height: auto;
+		min-height: 300px;
+	}
+
+
+	.page-links{
+		padding: 29px 0;
+	}
+
+	.page-links__flex{
+		flex-wrap: nowrap;
+		overflow: hidden;
+		overflow-x: auto;
+		width: calc(100% + 70px);
+		margin: 0 -35px;
+		padding: 0 35px 0 20px;
+	
+		scrollbar-color: transparent transparent;
+        scrollbar-width: thin;
+    }
+
+    .page-links__flex::-webkit-scrollbar
+    {
+        width: 0;
+        height: 0;
+
+        background-color: transparent;
+    }
+
+    .page-links__flex::-webkit-scrollbar-track
+    {
+        background-color: transparent;
+    }
+
+    .page-links__flex::-webkit-scrollbar-thumb
+    {
+        background-color: transparent;
+    }
+
+	.page-links__link{
+		flex-shrink: 0;
+		white-space: nowrap;
+		margin-top: 0;
+	}
+
+
+	.from-stock__cols{
+		flex-wrap: wrap;
+	}
+
+	.from-stock__coll{
+		width: 100%;
+		left: 0;
+		top: 0;
+		position: relative;
+	}
+
+	.from-stock__percent{
+		font-size: 22px;
+	}
+
+	.from-stock__colr{
+		margin-top: 66px;
+	}
+
+	.from-stock__head{
+		padding-left: 0;
+		min-height: 1px;
+		text-align: center;
+	}
 
 
     .battery-img

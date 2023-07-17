@@ -491,6 +491,27 @@
     }
 
 
+	.reviews-reception__text{
+		font-size: 14px;
+	}
+
+	.reviews-reception__title{
+		font-size: 14px;
+	}
+
+	.reviews-reception__time{
+		font-size: 14px;
+	}
+
+	.reviews-reception__name{
+		font-size: 14px;
+	}
+
+	.reviews-reception__company{
+		font-size: 14px;
+	}
+
+
 
     .battery-img
     {
