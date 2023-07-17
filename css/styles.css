@@ -11175,8 +11175,7 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
 	background: url(../images/reception_scheme_line_arrow.svg) 50%/contain no-repeat;
 }
 
-/* .reception-scheme__item:nth-child(4n)::after */
-.reception-scheme__item_bot::after
+.reception-scheme__item:nth-child(4)::after
 {
 	top: 100%;
 	left: 0;
@@ -11184,6 +11183,11 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
     margin-top: 45px;
 
 	transform: rotate(90deg);
+}
+
+.reception-scheme__item_empty
+{
+	padding-top: 40px;
 }
 
 .reception-scheme__item_empty::after
@@ -11244,6 +11248,11 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
 {
 	margin-top: 15px;
 	font-weight: 500;
+}
+
+.reception-scheme__item_empty .reception-scheme__desc
+{
+	margin-top: 0;
 }
 
 .reception-scheme__desc span

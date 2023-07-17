@@ -2605,10 +2605,15 @@
 	}
 
 
+	.achievements__cols
+	{
+		display: block;
+	}
+
 	.achievements__col 
 	{
-		width: 100%;
-		max-width: 100%;
+		width: calc(100% + 30px);
+		max-width: none;
 		
 		display: flex;
 		justify-content: flex-start;
@@ -2617,6 +2622,7 @@
 		flex-wrap: wrap;
 
 		margin-left: -30px;
+		margin-top: -20px;
 	}
 
 	.achievements__colс
@@ -2643,11 +2649,12 @@
 	{
 		width: calc(100%/3 - 30px);
 		margin-left: 30px;
+		margin-top: 20px;
 	}
 
 	.achievements__item + .achievements__item
 	{
-		margin-top: 0;
+		margin-top: 20px;
 	}
 
 	.achievements__name
@@ -2807,20 +2814,29 @@
 
 	.reception-scheme__items
 	{
-		padding-left: 20px;
-		padding-right: 20px;
+		padding-left: 30px;
+		padding-right: 30px;
+		justify-content: space-between;
+		max-width: 600px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.reception-scheme__item 
 	{
-		width: calc(100%/2 - 60px);
-		margin: 90px 0 0 60px;
+		width: calc(100%/2 - 45px);
+		margin-left: 0;
+		order: 1;
 	}
 
 	.reception-scheme__item::after
 	{
-		width: 60px;
-		margin-left: -22px;
+		width: 62px;
+	}
+
+	.reception-scheme__item:nth-child(2)
+	{
+		order: 2;
 	}
 
 	.reception-scheme__item:nth-child(2)::after 
@@ -2828,8 +2844,75 @@
 		top: 100%;
 		transform: rotate(90deg);
 		left: 50%;
-		margin-left: -30px;
-		margin-top: 35px;
+		margin-left: -44px;
+		margin-top: 40px;
+	}
+
+	.reception-scheme__item:nth-child(4)
+	{
+		order: 3;
+	}
+
+	.reception-scheme__item:nth-child(4)::after 
+	{
+		left: 50%;
+		margin-left: -39px;
+		margin-top: 38px;
+	}
+	
+	.reception-scheme__item:nth-child(3)
+	{
+		order: 4;
+	}
+
+	.reception-scheme__item:nth-child(3)::after
+	{
+		transform: rotate(180deg);
+		top: 61px;
+		margin-top: 0;
+		left: auto;
+		right: 100%;
+		margin-right: 21px;
+	}
+
+	.reception-scheme__item:nth-child(5)
+	{
+		order: 7;
+		margin-left: auto;
+		margin-top: 50px;
+	}
+
+	.reception-scheme__item_empty
+	{
+		padding-top: 0;
+	}
+
+	.reception-scheme__item:nth-child(6)
+	{
+		order: 6;
+	}
+
+	.reception-scheme__item:nth-child(6)::after
+	{
+		top: 100%;
+		transform: rotate(90deg);
+		left: 50%;
+		margin-left: -44px;
+		margin-top: 40px;
+	}
+
+	.reception-scheme__item:nth-child(7)
+	{
+		order: 5;
+	}
+
+	.reception-scheme__item_rotate::after 
+	{
+		margin-right: 0;
+		transform: none;
+		left: 100%;
+		right: auto;
+		margin-left: 7px;
 	}
 
 
