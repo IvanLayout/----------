@@ -2076,6 +2076,42 @@
 	}
 
 
+	.calculator-price__form{
+		border: none;
+		box-shadow: 0 0 0 20px #D4D4D4;
+	}
+
+	.form__flex_three .form__line_three{
+		width: calc(100% - 10px);
+	}
+
+
+	.head-price{
+		margin-top: 20px;
+	}
+
+
+	.wrap-btn._flex{
+		margin-left: 0;
+	}
+
+	.wrap-btn._flex > *{
+		margin-left: 0;
+	}
+
+	.wrap-btn._flex .btn-bord{
+		width: 100%;
+		padding: 0;
+		min-width: 1px;
+	}
+
+	.wrap-btn._flex .btn-orange{
+		width: 100%;
+		padding: 0;
+		min-width: 1px;
+	}
+
+
 	.who-benefits__cols
 	{
 		width: calc(100% + 70px);
@@ -2189,6 +2225,20 @@
 	}
 
 
+	.reception-scheme__bot{
+		flex-wrap: wrap;
+	}
+
+	.reception-scheme__small-title{
+		width: 100%;
+		text-align: center;
+	}
+
+	.reception-scheme__bot-btn{
+		width: 100%;
+		margin: 20px 0 0;
+	}
+
 	.reception-scheme__items
 	{
 		padding-left: 0;
@@ -2227,6 +2277,14 @@
 	.reception-scheme__item:nth-child(5)
 	{
 		margin-top: 100px;
+	}
+
+	.reception-scheme__item_empty{
+		padding-top: 0;
+	}
+
+	.reception-scheme__desc_center{
+		text-align: center;
 	}
 
 
