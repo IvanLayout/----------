@@ -11792,6 +11792,134 @@ input[type=checkbox]:checked + .radio__text_color::after
 	color: #FF8B02;
 }
 
+
+/* scrap-cost */
+
+.scrap-cost__desc
+{
+	margin-top: 60px;
+}
+
+.scrap-cost__desc p + p
+{
+	margin-top: 15px;
+}
+
+.scrap-cost-table
+{
+    width: 100%;
+    margin-top: 40px;
+    border-collapse: collapse;
+}
+
+.scrap-cost-table__bts
+{
+	display: none;
+}
+
+.scrap-cost-table tr th
+{
+    color: #FF8B02;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.3;
+
+    width: 170px;
+    height: 80px;
+    padding: 9px;
+
+    text-align: right;
+
+    border: 1px solid #FF8B02;
+    background: #101213;
+}
+
+.scrap-cost-table tr th:first-child
+{
+    width: 90px;
+
+    text-align: left;
+}
+
+.scrap-cost-table tr th:nth-child(2)
+{
+    width: auto;
+
+    text-align: left;
+}
+
+.scrap-cost-table tr th:nth-child(3)
+{
+    width: 250px;
+
+	text-align: left;
+}
+
+.scrap-cost-table tr td
+{
+    color: #FBFBFB;
+    font-size: 18px;
+    line-height: 1.3;
+
+    width: 170px;
+    height: 126px;
+    padding: 9px;
+
+    text-align: right;
+    white-space: nowrap;
+
+    border: 1px solid #FF8B02;
+}
+
+.scrap-cost-table tr td:nth-child(2)
+{
+    width: 90px;
+
+    text-align: left;
+}
+
+.scrap-cost-table tr td:nth-child(3)
+{
+    width: auto;
+
+    text-align: left;
+    white-space: normal;
+}
+
+.scrap-cost-table tr td:nth-child(4)
+{
+    width: 250px;
+
+	text-align: left;
+}
+
+.scrap-cost-table tr td.scrap-cost-table__title
+{
+	text-align: center;
+	font-size: 24px;
+	font-weight: 600;
+	color: #FF8B02;
+	height: 80px;
+}
+
+.scrap-cost-table__title-mob
+{
+	display: none;
+}
+
+.scrap-cost-table tr td div + div
+{
+	margin-top: 15px;
+}
+
+.scrap-cost__note
+{
+	margin-top: 20px;
+	font-size: 12px;
+	line-height: 1.4;
+}
+
+
 @media (max-width: 1699px)
 {
 
@@ -11846,6 +11974,12 @@ input[type=checkbox]:checked + .radio__text_color::after
 	.reception-scheme__desc
 	{
 		font-size: 16px;
+	}
+
+	.scrap-cost-table tr th:first-child,
+	.scrap-cost-table tr td:nth-child(2)
+	{
+		width: 70px;
 	}
 }
 /*------------

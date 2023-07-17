@@ -631,4 +631,42 @@
 	{
 		margin-right: 5px;
 	}
+
+
+	.scrap-cost-table tr th
+	{
+		width: 145px;
+	}
+
+	.scrap-cost-table tr th:nth-child(3)
+	{
+		width: 200px;
+	}
+
+	.scrap-cost-table tr td
+	{
+		font-size: 16px;
+		width: 145px;
+	}
+
+	.scrap-cost-table tr td.scrap-cost-table__title
+	{
+		font-size: 20px;
+	}
+
+	.scrap-cost-table tr th:first-child, 
+	.scrap-cost-table tr td:nth-child(2) 
+	{
+		width: 55px;
+	}
+
+	.scrap-cost-table tr td div + div 
+	{
+		margin-top: 5;
+	}
+
+	.scrap-cost-table tr td:nth-child(4)
+	{
+		width: 200px;
+	}
 }

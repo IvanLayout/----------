@@ -2288,6 +2288,167 @@
 	}
 
 
+
+	.scrap-cost-table
+    {
+        display: block;
+    }
+
+    .scrap-cost-table thead
+    {
+        display: none;
+    }
+
+    .scrap-cost-table tbody
+    {
+        display: block;
+    }
+
+    .scrap-cost-table tr
+    {
+        display: block;
+
+        padding: 20px 15px 15px;
+
+        border: 1px solid #FF8B02;
+    }
+
+	.scrap-cost-table tr.scrap-cost-table__mob-none
+	{
+		display: none;
+	}
+
+    .scrap-cost-table tr + tr
+    {
+        margin-top: 20px;
+    }
+
+    .scrap-cost-table tr td
+    {
+        display: flex;
+        justify-content: flex-start;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        padding: 0;
+
+        border: 0;
+		font-size: 16px;
+    }
+
+	.scrap-cost-table tr td:first-child
+    {
+        color: #FF8B02;
+        font-weight: 600;
+		font-size: 16px;
+
+        display: block;
+
+        width: 100%;
+        min-width: 1px;
+        margin-top: 0;
+		text-align: left;
+    }
+
+	.scrap-cost-table tr td:nth-child(2)
+	{
+		width: 100%;
+		color: #FF8B02;
+		font-weight: 600;
+	}
+
+	.scrap-cost-table tr td:nth-child(3),
+	.scrap-cost-table tr td:nth-child(4)
+	{
+		width: 100%;
+		flex-wrap: wrap;
+	}
+
+	.scrap-cost-table tr td:last-child
+	{
+		width: 100%;
+	}
+
+    .scrap-cost-table tr td::before
+    {
+        content: attr(data-label);
+
+        color: #A4A4A4;
+		font-weight: 400;
+
+        display: block;
+
+        text-align: left;
+        white-space: normal;
+    }
+
+	.scrap-cost-table tr td:first-child::before
+    {
+        display: none;
+    }
+
+	.scrap-cost-table tr td:nth-child(2)::before
+	{
+		color: #FF8B02;
+	}
+
+	.scrap-cost-table tr td:nth-child(3)::before
+	{
+		width: 100%;
+		margin-bottom: 5px;
+	}
+
+	.scrap-cost-table tr td:nth-child(4)::before
+	{
+		width: 100%;
+		margin-bottom: 5px;
+	}
+
+	.scrap-cost-table tr td:nth-child(4) div
+	{
+		width: 100%;
+	}
+
+	.scrap-cost-table tr td div + div 
+	{
+		margin-top: 0;
+	}
+
+	.scrap-cost-table tr td:first-child span
+	{
+		text-transform: uppercase;
+		margin-left: 0;
+		min-width: 1px;
+	}
+
+    .scrap-cost-table tr td span
+    {
+        margin-left: auto;
+		flex-shrink: 0;
+    }
+
+	.scrap-cost-table tr td:nth-child(2) span
+	{
+		margin-left: 5px;
+	}
+
+	.scrap-cost-table tr td:nth-child(2) span br
+	{
+		display: none;
+	}
+
+	.scrap-cost-table tr td:nth-child(3) span,
+	.scrap-cost-table tr td:nth-child(4) span
+	{
+		margin-left: 0;
+		width: 100%;
+	}
+
+
     .modal.small
     {
         width: 325px;

@@ -3255,6 +3255,54 @@
 	}
 
 
+	.scrap-cost__desc
+	{
+		margin-top: 40px;
+	}
+
+	.scrap-cost__desc p + p 
+	{
+		margin-top: 0;
+	}
+
+	.scrap-cost-table
+	{
+		margin-top: 28px;
+	}
+
+	.scrap-cost-table tr th,
+	.scrap-cost-table tr td
+	{
+		padding-left: 4px;
+		padding-right: 4px;
+		width: 95px;
+		white-space: normal;
+	}
+
+	.scrap-cost-table tr th:last-child,
+	.scrap-cost-table tr td:last-child
+	{
+		width: 100px;
+	}
+
+	.scrap-cost-table tr th:first-child, 
+	.scrap-cost-table tr td:nth-child(2) 
+	{
+		width: 40px;
+	}
+
+	.scrap-cost-table tr th:nth-child(3),
+	.scrap-cost-table tr td:nth-child(4)
+	{
+		width: 130px;
+	}
+
+	.scrap-cost-table tr td
+	{
+		font-size: 14px;
+	}
+
+
     .dz-remove
     {
         opacity: 1;
