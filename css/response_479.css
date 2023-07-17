@@ -677,6 +677,112 @@
 		border-right: 6px solid #FF8B02;
 	}
 
+	.cable-reception__filed:first-child, 
+	.cable-reception__submit
+	{
+		width: 100%;
+	}
+
+	.cable-reception__filed:nth-child(2)
+	{
+		width: 100%;
+		margin-top: 15px;
+	}
+
+	.cable-reception__coll
+	{
+		margin-top: 30px;
+	}
+
+	.cable-reception__img
+	{
+		height: 234px;
+	}
+
+	.who-benefits__top,
+	.who-benefits__text-block
+	{
+		padding-left: 0;
+	}
+
+	.who-benefits-form .form__flex .form__line 
+	{
+		width: 100%;
+		order: 1;
+	}
+
+	.who-benefits-form .form__flex .form__line:nth-child(3)
+	{
+		order: 2;
+	}
+
+	.who-benefits-form .form__flex .form__line:nth-child(2)
+	{
+		order: 3;
+	}
+
+	.who-benefits-form .form__flex .form__line:nth-child(4),
+	.who-benefits-form .form__flex .form__line:nth-child(5)
+	{
+		order: 4;
+	}
+
+	.who-benefits-form__bot
+	{
+		width: 100%;
+	}
+
+	.who-benefits__tabs .tabs__button
+	{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.achievements__colс
+	{
+		width: 100%;
+		padding-top: 8px;
+		padding-right: 6px;
+	}
+
+	.achievements__box 
+	{
+		box-shadow: 6px -8px 0px 0px #FF8B02;
+	}
+
+	
+	.cables-items
+	{
+		width: calc(100% + 32px);
+		margin-left: -16px;
+	}
+
+	.cables-items__img 
+	{
+		padding-bottom: 55.2%;
+	}
+
+	.wires-cables__link a 
+	{
+		padding: 0 15px;
+	}
+
+
+	.reception-scheme__items
+	{
+		margin-top: 9px;
+	}
+
+	.reception-scheme__item
+	{
+		margin-top: 50px;
+	}
+
+	.reception-scheme__number
+	{
+		right: -33px;
+	}
+
 
     .fancybox__slide
     {
