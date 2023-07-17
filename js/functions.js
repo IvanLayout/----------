@@ -664,7 +664,7 @@ $(window).on('load', () => {
 
 		if ($(window).width() > 1399) {
 			$('.fixed-menu__block:not(._nopc)').removeClass('_pc')
-			if (!$('.fixed-menu__block').hasClass('._nopc')){
+			if (!$('.fixed-menu__block').hasClass('_show')){
 				$('.header__btn_menu').removeClass('active')
 			}
 		}
@@ -675,7 +675,7 @@ $(window).on('load', () => {
 
 		if ($(window).width() > 1399) {
 			$('.fixed-menu__block:not(._nopc)').addClass('_pc')
-			if (!$('.fixed-menu__block').hasClass('._nopc')){
+			if (!$('.fixed-menu__block').hasClass('_show')){
 				$('.header__btn_menu').addClass('active')
 			}
 		}
@@ -704,7 +704,7 @@ $(window).on('load', () => {
 
 			if ($(window).width() > 1399) {
 				$('.fixed-menu__block:not(._nopc)').removeClass('_pc')
-				if (!$('.fixed-menu__block').hasClass('._nopc')){
+				if (!$('.fixed-menu__block').hasClass('_show')){
 					$('.header__btn_menu').removeClass('active')
 				}
 			}
@@ -715,7 +715,7 @@ $(window).on('load', () => {
 
 			if ($(window).width() > 1399) {
 				$('.fixed-menu__block:not(._nopc)').addClass('_pc')
-				if (!$('.fixed-menu__block').hasClass('._nopc')){
+				if (!$('.fixed-menu__block').hasClass('_show')){
 					$('.header__btn_menu').addClass('active')
 				}
 			}
@@ -783,43 +783,51 @@ const is_touch_device = () => !!('ontouchstart' in window)
 
 
 function menuTransform() {
+	if ($('.fixed-menu__block:not(._nopc)')) {
+		// $('.padmenu__block').css('transform', 'translateX(0px)')
+		$('.padmenu__block').css('margin-right', '0')
+		$('.padmenu').css('padding-left', '0')
+		$('.padmenu__block').css('padding-left', '0')
+		$('.padmenu__block').removeClass('_pad')
+	}
+
 	let offsetLeft = $('.padmenu').offset().left,
-		widthFixedMenu = $('.fixed-menu').outerWidth()
 		widthFixedMenuBlock = $('.fixed-menu__block').outerWidth()
 
-	if (offsetLeft < widthFixedMenuBlock && $(window).width() > 1399) {
-		let difference = widthFixedMenuBlock - offsetLeft
+	if(!$('.fixed-menu__fix').hasClass('fixed')){
+		if (offsetLeft < widthFixedMenuBlock && $(window).width() > 1399) {
+			let difference = widthFixedMenuBlock - offsetLeft
 
-		// console.log(difference - offsetLeft - 20)
-
-		if ($('.fixed-menu__block:not(._nopc)').hasClass('_pc')) {
-			if ($(window).width() > 1679) {
-				// $('.padmenu__block').css('transform', `translateX(${difference+15+'px'})`)
-				$('.padmenu__block').css('margin-right', `${(difference+15)*-1+'px'}`)
-				$('.padmenu').css('padding-left', `${difference+15+'px'}`)
-				$('.padmenu__block').css('padding-left', '0')
-				$('.padmenu__block').addClass('_pad')
+			
+			if ($('.fixed-menu__block:not(._nopc)').hasClass('_pc')) {
+				if ($(window).width() > 1679) {
+					// $('.padmenu__block').css('transform', `translateX(${difference+15+'px'})`)
+					$('.padmenu__block').css('margin-right', `${(difference+15)*-1+'px'}`)
+					$('.padmenu').css('padding-left', `${difference+15+'px'}`)
+					$('.padmenu__block').css('padding-left', '0')
+					$('.padmenu__block').addClass('_pad')
+				} else {
+					// $('.padmenu__block').css('transform', `translateX(${offsetLeft-20+'px'})`)
+					$('.padmenu__block').css('margin-right', `${(offsetLeft-20)*-1+'px'}`)
+					$('.padmenu').css('padding-left', `${offsetLeft-20+'px'}`)
+					$('.padmenu__block').css('padding-left', `${difference-offsetLeft+35+'px'}`)
+					$('.padmenu__block').addClass('_pad')
+				}
 			} else {
-				// $('.padmenu__block').css('transform', `translateX(${offsetLeft-20+'px'})`)
-				$('.padmenu__block').css('margin-right', `${(offsetLeft-20)*-1+'px'}`)
-				$('.padmenu').css('padding-left', `${offsetLeft-20+'px'}`)
-				$('.padmenu__block').css('padding-left', `${difference-offsetLeft+35+'px'}`)
-				$('.padmenu__block').addClass('_pad')
+				// $('.padmenu__block').css('transform', `translateX(0px)`)
+				$('.padmenu__block').css('margin-right', '0')
+				$('.padmenu').css('padding-left', '0')
+				$('.padmenu__block').css('padding-left', '0')
+				$('.padmenu__block').removeClass('_pad')
 			}
-		} else {
-			// $('.padmenu__block').css('transform', `translateX(0px)`)
-			$('.padmenu__block').css('margin-right', '0')
-			$('.padmenu').css('padding-left', '0')
-			$('.padmenu__block').css('padding-left', '0')
-			$('.padmenu__block').removeClass('_pad')
-		}
-	} else{
-		if ($('.fixed-menu__block:not(._nopc)').hasClass('_pc')) {
-			// $('.padmenu__block').css('transform', 'translateX(0px)')
-			$('.padmenu__block').css('margin-right', '0')
-			$('.padmenu').css('padding-left', '0')
-			$('.padmenu__block').css('padding-left', '0')
-			$('.padmenu__block').removeClass('_pad')
+		} else{
+			if ($('.fixed-menu__block:not(._nopc)').hasClass('_pc')) {
+				// $('.padmenu__block').css('transform', 'translateX(0px)')
+				$('.padmenu__block').css('margin-right', '0')
+				$('.padmenu').css('padding-left', '0')
+				$('.padmenu__block').css('padding-left', '0')
+				$('.padmenu__block').removeClass('_pad')
+			}
 		}
 	}
 }

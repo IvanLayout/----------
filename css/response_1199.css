@@ -12,7 +12,7 @@
 
 
 	.big-title{
-		font-size: 50px;
+		font-size: 46px;
 	}
 
 
@@ -34,7 +34,7 @@
 	----------------*/
 	.text-block h1,
 	.text-block .title{
-		font-size: 50px;
+		font-size: 46px;
 	}
 
 
@@ -56,6 +56,15 @@
     {
         font-size: 20px;
     }
+
+
+	.wrap-btn._flex .btn-bord{
+		min-width: 210px;
+	}
+
+	.wrap-btn._flex .btn-orange{
+		min-width: 220px;
+	}
 
 
 

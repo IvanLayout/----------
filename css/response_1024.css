@@ -68,6 +68,55 @@
     /*------------------
 		Form elements
 	------------------*/
+	.form__line_marg{
+		margin-bottom: 20px;
+	}
+
+	.form__flex_three{
+		margin-left: -10px;
+	}
+
+	.form__flex_three .form__line{
+		margin-left: 10px;
+	}
+
+	.form__label_big{
+		font-size: 16px;
+		font-weight: 600;
+	}
+
+	.form .form__textarea_darck{
+		font-size: 16px;
+		padding-left: 11px;
+		padding-right: 11px;
+	}
+
+	.form .form__input_darck{
+		font-size: 16px;
+		padding-left: 11px;
+		padding-right: 11px;
+	}
+
+	.calculator-price__form{
+		max-width: none;
+	}
+
+	.calculator-price .form__submit-btn{
+		width: 100%;
+	}
+
+	.calculator-price .main-title br{
+		display: none;
+	}
+
+	.checkbox__text_big{
+		font-size: 16px;
+	}
+
+	.checkbox__text_big::before,
+	.checkbox__text_big::after{
+		top: 2px;
+	}
 
 
 
@@ -1880,6 +1929,31 @@
 
 
 
+	.head-price__info{
+		width: 100%;
+	}
+
+	.head-price__img{
+		order: 2;
+		margin-top: 40px;
+		width: 100%;
+	}
+
+	.head-price__img img{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.wrap-btn._flex .btn-bord{
+		min-width: 250px;
+	}
+
+	.wrap-btn._flex .btn-orange{
+		min-width: 290px;
+	}
+
+
+
     .about-job
     {
         padding: 46px 0;
@@ -2856,6 +2930,11 @@
 	}
 
 
+	.calculator-price__form{
+		padding: 40px 25px;
+	}
+
+
 	.achievements__cols
 	{
 		display: block;
@@ -3063,6 +3142,15 @@
 	}
 
 
+	.reception-scheme__bot{
+		justify-content: center;
+		margin-top: 40px;
+	}
+
+	.reception-scheme__bot-btn{
+		margin-left: 38px;
+	}
+
 	.reception-scheme__items
 	{
 		padding-left: 30px;
@@ -3083,6 +3171,7 @@
 	.reception-scheme__item::after
 	{
 		width: 62px;
+		left: calc(100% + 10px);
 	}
 
 	.reception-scheme__item:nth-child(2)
@@ -3126,15 +3215,14 @@
 		margin-right: 21px;
 	}
 
-	.reception-scheme__item:nth-child(5)
-	{
-		order: 7;
-		margin-left: auto;
-		margin-top: 50px;
+	.reception-scheme__item.reception-scheme__item_empty{
+		order: 10;
 	}
 
-	.reception-scheme__item_empty
+	.odd .reception-scheme__item.reception-scheme__item_empty
 	{
+		margin-left: auto;
+		margin-top: 50px;
 		padding-top: 0;
 	}
 
@@ -3143,7 +3231,7 @@
 		order: 6;
 	}
 
-	.reception-scheme__item:nth-child(6)::after
+	.odd .reception-scheme__item:nth-child(6)::after
 	{
 		top: 100%;
 		transform: rotate(90deg);

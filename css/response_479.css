@@ -17,6 +17,15 @@
         max-width: none;
     }
 
+	.form__columns {
+		column-gap: 0;
+		columns: 1;
+	}
+
+	.form__flex_three{
+		display: block;
+	}
+
 
 
     /*----------------
@@ -358,6 +367,11 @@
 	.head-shavings__img-info{
 		padding-left: 15px;
 		padding-right: 15px;
+	}
+
+
+	.calculator-price__form{
+		padding: 30px 15px;
 	}
 
 
