@@ -2056,6 +2056,180 @@
     }
 
 
+	.cable-reception__price
+	{
+		margin-top: 30px;
+	}
+
+
+	.cable-reception__filed:first-child, 
+	.cable-reception__submit 
+	{
+		width: calc(50% - 7.5px);
+	}
+
+	.cable-reception__filed:nth-child(2) 
+	{
+		width: calc(50% - 7.5px);
+		margin-right: 0;
+		margin-left: auto;
+	}
+
+
+	.who-benefits__cols
+	{
+		width: calc(100% + 70px);
+		margin-left: -35px;
+	}
+
+	.who-benefits__coll,
+	.who-benefits__colr
+	{
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+
+
+	.achievements__col
+	{
+		width: 100%;
+		margin-top: 0;
+		margin-left: 0;
+	}
+
+	.achievements__item 
+	{
+		width: 100%;
+		margin-left: 0;
+		margin-top: 0;
+	}
+
+	.increase-income__info
+	{
+		width: 100%;
+	}
+
+	.increase-income__box
+	{
+		margin: 50px auto 0;
+	}
+
+	.increase-income__info::after 
+	{
+		bottom: auto;
+		top: 100%;
+		width: 86px;
+		height: 30px;
+		left: 50%;
+		margin-top: -1px;
+		margin-left: -10px;
+	}
+
+
+	.cables-items__item
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 65px;
+	}
+
+	.cables-items__box
+	{
+		width: 100%;
+	}
+
+	.cables-items__block
+	{
+		width: 100%;
+		padding-left: 0;
+		margin-top: 15px;
+		max-width: 100%;
+	}
+
+	.cables-items__img 
+	{
+		padding-bottom: 50%;
+		min-height: 1px;
+		height: auto;
+	}
+
+	.cables-items__link
+	{
+		margin-top: 20px;
+	}
+
+
+	.wires-items__item
+	{
+		display: block;
+	}
+
+	.wires-items__item + .wires-items__item 
+	{
+		margin-top: 15px;
+	}
+
+	.wires-items__img
+	{
+		height: 70px;
+		width: 100%;
+	}
+
+	.wires-items__name
+	{
+		margin-left: 0;
+		margin-top: 10px;
+		text-align: center;
+	}
+
+	.wires-items__link
+	{
+		margin-left: 0;
+		margin-top: 10px;
+	}
+
+
+	.reception-scheme__items
+	{
+		padding-left: 0;
+		padding-right: 0;
+		max-width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.reception-scheme__item
+	{
+		width: 100%;
+	}
+
+	.reception-scheme__item::after
+	{
+		top: 100%;
+		left: 50%;
+
+		transform: rotate(90deg);
+		margin-top: 40px;
+		margin-left: -44px;
+	}
+
+	.reception-scheme__item:nth-child(3)::after 
+	{
+		transform: rotate(90deg);
+		top: 100%;
+		margin-top: 40px;
+		left: 50%;
+		right: 100%;
+		margin-right: 0;
+		margin-left: -44px;
+	}
+
+	.reception-scheme__item:nth-child(5)
+	{
+		margin-top: 100px;
+	}
+
+
     .modal.small
     {
         width: 325px;
