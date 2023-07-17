@@ -11852,19 +11852,23 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
 	margin-top: 15px;
 }
 
-.scrap-cost-table
+.scrap-cost__wrapp
+{
+	margin-top: 40px;
+}
+
+.scrap-cost__table
 {
     width: 100%;
-    margin-top: 40px;
     border-collapse: collapse;
 }
 
-.scrap-cost-table__bts
+.scrap-cost__btns
 {
 	display: none;
 }
 
-.scrap-cost-table tr th
+.scrap-cost__table tr th
 {
     color: #FF8B02;
     font-size: 16px;
@@ -11872,6 +11876,7 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
     line-height: 1.3;
 
     width: 170px;
+	table-layout: fixed;
     height: 80px;
     padding: 9px;
 
@@ -11881,28 +11886,31 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
     background: #101213;
 }
 
-.scrap-cost-table tr th:first-child
+.scrap-cost__table tr th:first-child
 {
     width: 90px;
+	table-layout: fixed;
 
     text-align: left;
 }
 
-.scrap-cost-table tr th:nth-child(2)
+.scrap-cost__table tr th:nth-child(2)
 {
     width: auto;
+	table-layout: fixed;
 
     text-align: left;
 }
 
-.scrap-cost-table tr th:nth-child(3)
+.scrap-cost__table tr th:nth-child(3)
 {
     width: 250px;
+	table-layout: fixed;
 
 	text-align: left;
 }
 
-.scrap-cost-table tr td
+.scrap-cost__table tr td
 {
     color: #FBFBFB;
     font-size: 18px;
@@ -11911,6 +11919,7 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
     width: 170px;
     height: 126px;
     padding: 9px;
+	table-layout: fixed;
 
     text-align: right;
     white-space: nowrap;
@@ -11918,14 +11927,16 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
     border: 1px solid #FF8B02;
 }
 
-.scrap-cost-table tr td:nth-child(2)
+.scrap-cost__table tr td:first-child
 {
     width: 90px;
+	table-layout: fixed;
 
     text-align: left;
+	white-space: normal;
 }
 
-.scrap-cost-table tr td:nth-child(3)
+.scrap-cost__table tr td:nth-child(2)
 {
     width: auto;
 
@@ -11933,28 +11944,31 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
     white-space: normal;
 }
 
-.scrap-cost-table tr td:nth-child(4)
+.scrap-cost__table tr td:nth-child(3)
 {
     width: 250px;
+	table-layout: fixed;
 
 	text-align: left;
+	white-space: normal;
 }
 
-.scrap-cost-table tr td.scrap-cost-table__title
+.scrap-cost__table tr td.scrap-cost__table-title
 {
 	text-align: center;
 	font-size: 24px;
 	font-weight: 600;
 	color: #FF8B02;
 	height: 80px;
+	width: auto;
 }
 
-.scrap-cost-table__title-mob
+.scrap-cost__table-title-mob
 {
 	display: none;
 }
 
-.scrap-cost-table tr td div + div
+.scrap-cost__table tr td div + div
 {
 	margin-top: 15px;
 }
@@ -12023,8 +12037,8 @@ input[type=checkbox]:checked + .checkbox-dark__text::after
 		font-size: 16px;
 	}
 
-	.scrap-cost-table tr th:first-child,
-	.scrap-cost-table tr td:nth-child(2)
+	.scrap-cost__table tr th:first-child,
+	.scrap-cost__table tr td:first-child
 	{
 		width: 70px;
 	}

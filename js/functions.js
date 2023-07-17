@@ -594,6 +594,22 @@ $(() => {
 	})
 
 
+	$('body').on('click', '.scrap-cost__btn', function(e) {
+		e.preventDefault()
+
+		if( !$(this).hasClass('active') ) {
+			let parent = $(this).closest('.scrap-cost__wrapp')
+			let activeTab = $(this).data('content')
+
+			parent.find('.scrap-cost__btn').removeClass('active')
+			parent.find('.scrap-cost__group-first, .scrap-cost__group-second').removeClass('active')
+
+			$(this).addClass('active')
+			$(activeTab).addClass('active')
+		}
+	})
+
+
 	// Табы
 	var locationHash = window.location.hash
 

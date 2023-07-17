@@ -861,6 +861,11 @@
 		right: -33px;
 	}
 
+	.scrap-cost__table tr td::before
+	{
+		font-size: 14px;
+	}
+
 
     .fancybox__slide
     {

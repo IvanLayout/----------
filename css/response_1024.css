@@ -2552,7 +2552,7 @@
 
 	.we-suggest__icon
 	{
-		margin-right: 30px;
+		margin-right: 20px;
 	}
 
 	.we-suggest__name
@@ -3177,13 +3177,13 @@
 		margin-top: 0;
 	}
 
-	.scrap-cost-table
+	.scrap-cost__wrapp
 	{
 		margin-top: 28px;
 	}
 
-	.scrap-cost-table tr th,
-	.scrap-cost-table tr td
+	.scrap-cost__table tr th,
+	.scrap-cost__table tr td
 	{
 		padding-left: 4px;
 		padding-right: 4px;
@@ -3191,27 +3191,32 @@
 		white-space: normal;
 	}
 
-	.scrap-cost-table tr th:last-child,
-	.scrap-cost-table tr td:last-child
+	.scrap-cost__table tr th:last-child,
+	.scrap-cost__table tr td:last-child
 	{
 		width: 100px;
 	}
 
-	.scrap-cost-table tr th:first-child, 
-	.scrap-cost-table tr td:nth-child(2) 
+	.scrap-cost__table tr th:first-child, 
+	.scrap-cost__table tr td:first-child 
 	{
 		width: 40px;
 	}
 
-	.scrap-cost-table tr th:nth-child(3),
-	.scrap-cost-table tr td:nth-child(4)
+	.scrap-cost__table tr th:nth-child(3),
+	.scrap-cost__table tr td:nth-child(3)
 	{
 		width: 130px;
 	}
 
-	.scrap-cost-table tr td
+	.scrap-cost__table tr td
 	{
 		font-size: 14px;
+	}
+
+	.scrap-cost__rub
+	{
+		display: block;
 	}
 
 

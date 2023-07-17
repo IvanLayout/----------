@@ -624,40 +624,36 @@
 	}
 
 
-	.scrap-cost-table tr th
+	.scrap-cost__table tr th
 	{
 		width: 145px;
 	}
 
-	.scrap-cost-table tr th:nth-child(3)
+	.scrap-cost__table tr th:nth-child(3),
+	.scrap-cost__table tr td:nth-child(3)
 	{
 		width: 200px;
 	}
 
-	.scrap-cost-table tr td
+	.scrap-cost__table tr td
 	{
 		font-size: 16px;
 		width: 145px;
 	}
 
-	.scrap-cost-table tr td.scrap-cost-table__title
+	.scrap-cost__table tr td.scrap-cost__table-title
 	{
 		font-size: 20px;
 	}
 
-	.scrap-cost-table tr th:first-child, 
-	.scrap-cost-table tr td:nth-child(2) 
+	.scrap-cost__table tr th:first-child, 
+	.scrap-cost__table tr td:first-child 
 	{
 		width: 55px;
 	}
 
-	.scrap-cost-table tr td div + div 
+	.scrap-cost__table tr td div + div 
 	{
 		margin-top: 5;
-	}
-
-	.scrap-cost-table tr td:nth-child(4)
-	{
-		width: 200px;
 	}
 }

@@ -2230,23 +2230,29 @@
 	}
 
 
+	.scrap-cost__wrapp
+	{
+		margin-top: 15px;
+	}
 
-	.scrap-cost-table
+	.scrap-cost__table
     {
         display: block;
+		width: calc(100% + 30px);
+		margin-left: -15px;
     }
 
-    .scrap-cost-table thead
+    .scrap-cost__table thead
     {
         display: none;
     }
 
-    .scrap-cost-table tbody
+    .scrap-cost__table tbody
     {
         display: block;
     }
 
-    .scrap-cost-table tr
+    .scrap-cost__table tr
     {
         display: block;
 
@@ -2255,20 +2261,20 @@
         border: 1px solid #FF8B02;
     }
 
-	.scrap-cost-table tr.scrap-cost-table__mob-none
+	.scrap-cost__table tr.scrap-cost__table-mob-none
 	{
 		display: none;
 	}
 
-    .scrap-cost-table tr + tr
+    .scrap-cost__table tr + tr
     {
         margin-top: 20px;
     }
 
-    .scrap-cost-table tr td
+    .scrap-cost__table tr td
     {
         display: flex;
-        justify-content: flex-start;
+        justify-content: space-between;
         align-content: flex-start;
         align-items: flex-start;
         flex-wrap: nowrap;
@@ -2282,40 +2288,32 @@
 		font-size: 16px;
     }
 
-	.scrap-cost-table tr td:first-child
+	.scrap-cost__table tr td:first-child
     {
         color: #FF8B02;
         font-weight: 600;
 		font-size: 16px;
 
-        display: block;
-
         width: 100%;
-        min-width: 1px;
-        margin-top: 0;
 		text-align: left;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+		margin-top: 0;
     }
 
-	.scrap-cost-table tr td:nth-child(2)
-	{
-		width: 100%;
-		color: #FF8B02;
-		font-weight: 600;
-	}
-
-	.scrap-cost-table tr td:nth-child(3),
-	.scrap-cost-table tr td:nth-child(4)
+	.scrap-cost__table tr td:nth-child(2),
+	.scrap-cost__table tr td:nth-child(3)
 	{
 		width: 100%;
 		flex-wrap: wrap;
 	}
 
-	.scrap-cost-table tr td:last-child
+	.scrap-cost__table tr td:last-child
 	{
 		width: 100%;
 	}
 
-    .scrap-cost-table tr td::before
+    .scrap-cost__table tr td::before
     {
         content: attr(data-label);
 
@@ -2328,66 +2326,111 @@
         white-space: normal;
     }
 
-	.scrap-cost-table tr td:first-child::before
-    {
-        display: none;
-    }
-
-	.scrap-cost-table tr td:nth-child(2)::before
+	.scrap-cost__table tr td:first-child::before
 	{
 		color: #FF8B02;
+		order: 2;
 	}
 
-	.scrap-cost-table tr td:nth-child(3)::before
+	.scrap-cost__table tr td:nth-child(2)::before,
+	.scrap-cost__table tr td:nth-child(3)::before
 	{
 		width: 100%;
 		margin-bottom: 5px;
 	}
 
-	.scrap-cost-table tr td:nth-child(4)::before
-	{
-		width: 100%;
-		margin-bottom: 5px;
-	}
-
-	.scrap-cost-table tr td:nth-child(4) div
+	.scrap-cost__table tr td:nth-child(3) div
 	{
 		width: 100%;
 	}
 
-	.scrap-cost-table tr td div + div 
+	.scrap-cost__table tr td div + div 
 	{
 		margin-top: 0;
 	}
 
-	.scrap-cost-table tr td:first-child span
-	{
-		text-transform: uppercase;
-		margin-left: 0;
-		min-width: 1px;
-	}
-
-    .scrap-cost-table tr td span
+	.scrap-cost__table tr td span
     {
-        margin-left: auto;
+        margin-left: 10px;
 		flex-shrink: 0;
     }
 
-	.scrap-cost-table tr td:nth-child(2) span
+	.scrap-cost__table tr td:first-child span
 	{
+		text-transform: uppercase;
 		margin-left: 5px;
+		flex-shrink: 1;
+		order: 3;
 	}
 
-	.scrap-cost-table tr td:nth-child(2) span br
+	.scrap-cost__table tr td:nth-child(2) span
+	{
+		flex-shrink: 1;
+		margin-left: 0;
+	}
+
+	.scrap-cost__table tr td:nth-child(3) span
+	{
+		margin-left: 0;
+		width: 100%;
+	}
+
+	.scrap-cost__table tr td:first-child span br,
+	.scrap-cost__table tr td:nth-child(3) span br
 	{
 		display: none;
 	}
 
-	.scrap-cost-table tr td:nth-child(3) span,
-	.scrap-cost-table tr td:nth-child(4) span
+	.scrap-cost__table-title-mob
 	{
-		margin-left: 0;
+		display: block;
+		order: 1;
 		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	
+
+	.scrap-cost__btns
+	{
+		display: flex;
+		margin-top: 30px;
+		width: calc(100% + 30px);
+		margin-left: -15px;
+	}
+
+	.scrap-cost__btn
+	{
+		width: 50%;
+		font-size: 12px;
+		padding: 0 10px;
+		border: 1px solid #FF8B02;
+		height: 37px;
+		line-height: 37px;
+		transition: background-color .2s linear;
+	}
+
+	.scrap-cost__btn.active
+	{
+		background-color: #FF8B02;
+	}
+
+	.scrap-cost__table tr.scrap-cost__group-first,
+	.scrap-cost__table tr.scrap-cost__group-second
+	{
+		display: none;
+	}
+
+	.scrap-cost__table tr.scrap-cost__group-first.active,
+	.scrap-cost__table tr.scrap-cost__group-second.active
+	{
+		display: block;
+	}
+
+	.scrap-cost__rub
+	{
+		display: inline-block;
+		margin-left: 0;
 	}
 
 
