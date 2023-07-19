@@ -10934,6 +10934,11 @@ input[type=checkbox]:checked + .radio__text_color::after
 	color: #FF8B02;
 }
 
+.text-block ul.text-list
+{
+	margin-bottom: 20px;
+}
+
 .text-block ul.text-list li
 {
     min-height: 1px;
@@ -12317,6 +12322,201 @@ input[type=checkbox]:checked + .radio__text_color::after
 	{
 		background-color: #FFB761;
 	}
+}
+
+
+/* purchase-appraisal */
+
+.purchase-appraisal__items
+{
+	margin-left: -60px;
+	margin: 30px 0 0 -60px;
+}
+
+.purchase-appraisal__item
+{
+	width: calc(100%/4 - 60px);
+	margin: 30px 0 0 60px;
+	flex-grow: 1;
+	max-width: 270px;
+	position: relative;
+}
+
+.purchase-appraisal__item::after 
+{
+    position: absolute;
+    content: '';
+    top: 64px;
+    left: 100%;
+    display: block;
+    width: 42px;
+    height: 16px;
+	margin-left: 8px;
+    background: url(../images/purchase_appraisal_line_arrow.svg) 50%/contain no-repeat;
+}
+
+.purchase-appraisal__item:nth-child(4n):after,
+.purchase-appraisal__item:last-child:after 
+{
+	display: none;
+}
+
+.purchase-appraisal__item_small
+{
+	max-width: 210px;
+}
+
+.purchase-appraisal__icon
+{
+	width: 40px;
+	height: 40px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+.purchase-appraisal__icon img
+{
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.purchase-appraisal__name
+{
+	font-size: 24px;
+	font-weight: 600;
+	color: #FF8B02;
+	margin-top: 15px;
+}
+
+.purchase-appraisal__desc
+{
+	margin-top: 15px;
+}
+
+
+/* conditions-purchase */
+
+.conditions-purchase__cols
+{
+	margin-top: 60px;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+.conditions-purchase__coll
+{
+	width: calc(45.63% - 12.5px);
+}
+
+.conditions-purchase__colr
+{
+	width: calc(54.37% - 12.5px);
+}
+
+.conditions-purchase__video
+{
+	padding-bottom: 75.1%;
+}
+
+.conditions-purchase__video::before
+{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+
+	display: block;
+
+	width: 100%;
+	height: 100%;
+
+	background-color: rgba(0, 0, 0, .3);
+	z-index: 1;
+}
+
+.conditions-purchase__video-info
+{
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+}
+
+
+/* where-look */
+
+.where-look__items
+{
+	margin-top: 60px;
+	max-width: 1030px;
+}
+
+.where-look__item
+{
+	justify-content: space-between;
+}
+
+.where-look__item + .where-look__item
+{
+	margin-top: 20px;
+}
+
+.where-look__info
+{
+	width: calc(50% - 25px);
+	padding-top: 15px;
+}
+
+.where-look__item:nth-child(2n) .where-look__info
+{
+	order: 2;
+}
+
+.where-look__item:nth-child(2n) .where-look__box
+{
+	order: 1;
+}
+
+.where-look__box
+{
+	width: calc(50% - 35px);
+}
+
+.where-look__img
+{
+	position: relative;
+	padding-bottom: 54.2%;
+}
+
+.where-look__img img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	display: block;
+
+	width: 100%;
+	height: 100%;
+
+	object-fit: cover;
+}
+
+.where-look__name
+{
+	color: #FF8B02;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.where-look__desc
+{
+	margin-top: 30px;
 }
 
 @media (max-width: 1699px)
