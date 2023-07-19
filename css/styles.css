@@ -10998,6 +10998,16 @@ input[type=checkbox]:checked + .radio__text_color::after
 }
 
 
+.prices-today_inner
+{
+	margin-top: 40px;
+}
+
+.prices-today_inner .prices-today__table
+{
+	margin-top: 30px;
+}
+
 /* quick-calc */
 
 .quick-calc__wrapp
@@ -12948,6 +12958,28 @@ input[type=checkbox]:checked + .radio__text_color::after
 .where-look__desc
 {
 	margin-top: 30px;
+}
+
+
+.fast-search_marg
+{
+	margin-top: 40px;
+}
+
+.fast-search__title_small
+{
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.fast-search__flex
+{
+	margin: 10px 0 0 -50px;
+}
+
+.fast-search__box
+{
+	margin-left: 50px;
 }
 
 @media (max-width: 1699px)

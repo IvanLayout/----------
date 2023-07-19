@@ -1297,6 +1297,7 @@
 	.prices-today__table thead tr{
 		padding-top: 19px;
 		padding-bottom: 19px;
+		background: #101213;
 	}
 
 	.prices-today__table tr th{
@@ -2797,6 +2798,26 @@
 		margin-top: 30px;
 	}
 
+
+	.prices-today__tables .prices-today__table_marg + .prices-today__table_marg
+	{
+		margin-top: 40px;
+	}
+
+	.fast-search__flex
+	{
+		display: block;
+	}
+
+	.fast-search__box + .fast-search__box
+	{
+		margin-top: -5px;
+	}
+
+	.prices-today_inner .prices-today__table tr
+	{
+		padding-top: 19px;
+	}
 
 
     .modal.small
