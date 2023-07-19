@@ -311,6 +311,13 @@ $(() => {
 		$(this).closest('.prices-today').find('.hide-mob').addClass('_show')
 	})
 
+	$('body').on('click', '.cable-cost__more', function(e) {
+		e.preventDefault()
+
+		$(this).closest('.cable-cost__wrap-btn').hide()
+		$(this).closest('.cable-cost__wrap-btn').prev().find('.hide-mob').addClass('_show')
+	})
+
 
 	$('body').on('click', '.important-info__item-open', function(e) {
 		e.preventDefault()
@@ -632,6 +639,22 @@ $(() => {
 		let	scroll = offset - $(window).width()/2 + width;
 
 		$(this).closest('.aside__menu').scrollLeft(scroll);
+	})
+
+
+	$('body').on('click', '.scrap-cost__btn', function(e) {
+		e.preventDefault()
+
+		if( !$(this).hasClass('active') ) {
+			let parent = $(this).closest('.scrap-cost__wrapp')
+			let activeTab = $(this).data('content')
+
+			parent.find('.scrap-cost__btn').removeClass('active')
+			parent.find('.scrap-cost__group-first, .scrap-cost__group-second').removeClass('active')
+
+			$(this).addClass('active')
+			$(activeTab).addClass('active')
+		}
 	})
 
 

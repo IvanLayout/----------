@@ -898,6 +898,60 @@
 		right: -33px;
 	}
 
+	.scrap-cost__wrapp
+	{
+		width: calc(100% + 30px);
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.scrap-cost__table tr td::before
+	{
+		font-size: 14px;
+	}
+
+	.cable-cost__box
+	{
+		width: calc(100% + 30px);
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.tabs__button_table
+	{
+		font-size: 12px;
+		padding-left: 0;
+		padding-right: 0;
+		font-weight: 400;
+	}
+
+	.cable-cost__table tr td:first-child
+	{
+		min-width: 1px;
+	}
+
+	.cable-cost__table tr td::before
+	{
+		font-size: 14px;
+		max-width: 135px;
+	}
+
+	.cable-cost__table tr + tr {
+		margin-top: 15px;
+	}
+
+	.cable-cost__wrap-btn
+	{
+		margin-top: 15px;
+		padding: 0 15px;
+	}
+
+	.cable-cost__more
+	{
+		width: 100%;
+		min-width: 1px;
+	}
+
 
     .fancybox__slide
     {

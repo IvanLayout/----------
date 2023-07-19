@@ -1667,57 +1667,468 @@
 							<p>* Мы покупаем все виды лома, представленные в данной таблице</p>
 						</div>
 
-						<table class="scrap-cost-table">
-							<div class="scrap-cost-table__bts _flex">
-								<button type="button">Цена на ЛОМ СТАЛИ</button>
-
-								<button type="button">Цена на ЛОМ ЧУГУНА</button>
+						<div class="scrap-cost__wrapp">
+							<div class="scrap-cost__btns _flex">
+								<button type="button" data-content=".scrap-cost__group-first" class="scrap-cost__btn active">Цена на ЛОМ СТАЛИ</button>
+	
+								<button type="button" data-content=".scrap-cost__group-second" class="scrap-cost__btn">Цена на ЛОМ ЧУГУНА</button>
 							</div>
-							<thead>
-								<tr>
-									<th>Вид</th>
-									<th>Описание лома</th>
-									<th>Характеристики по весу <br>и габаритам</th>
-									<th>Цена <br>за 1 кг</th>
-									<th>Цена <br>за 1 тонну</th>
-									<th>ОПТ Цена <br>за 1 тонну</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr class="scrap-cost-table__mob-none">
-									<td colspan="6" class="scrap-cost-table__title">Цена на лом стали</td>
-								</tr>
-								<tr>
-									<td class="scrap-cost-table__title-mob">Цена на <span>лом стали</span></td>
-									<td data-label="Вид лома &mdash;"><span>1А</span></td>
-									<td data-label="Описание лома"><span>кусковой металл, предусматривающий переработку в плавильнях. Подразумевает лом больших габаритов</span></td>
-									<td data-label="Характеристики по весу и габаритам">
-										<div>0,5 - 40 кг;</div>
+	
+							<table class="scrap-cost__table">
+								<thead>
+									<tr>
+										<th>Вид</th>
+										<th>Описание лома</th>
+										<th>Характеристики по весу <br>и габаритам</th>
+										<th>Цена <br>за 1 кг</th>
+										<th>Цена <br>за 1 тонну</th>
+										<th>ОПТ Цена <br>за 1 тонну</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr class="scrap-cost__table-mob-none">
+										<td colspan="6" class="scrap-cost__table-title">Цена на лом стали</td>
+									</tr>
+									<tr class="scrap-cost__group-first active">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом стали</span></div>
+											<span>1А</span>
+										</td>
+										<td data-label="Описание лома"><span>кусковой металл, предусматривающий переработку в плавильнях. Подразумевает лом больших габаритов</span></td>
+										<td data-label="Характеристики по весу и габаритам">
+											<div>0,5 - 40 кг;</div>
+	
+											<div>толщина ≥ 6 мм</div>
+										</td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-first active">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом стали</span></div>
+											<span>2A</span>
+										</td>
+										<td data-label="Описание лома"><span>металлолом в кусках, шихтовые слитки, подлежащие плавлению</span></td>
+										<td data-label="Характеристики по весу и габаритам">
+											<div>От 2 кг;</div>
+	
+											<div>65х25х25 см</div>
+										</td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-first active">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом стали</span></div>
 
-										<div>толщина ≥ 6 мм</div>
-									</td>
-									<td data-label="Цена за 1 кг"><span>22,0 руб/кг</span></td>
-									<td data-label="Цена за 1 тонну"><span>23 500 руб/т</span></td>
-									<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 руб/т</span></td>
-								</tr>
-								<tr class="scrap-cost-table__mob-none">
-									<td colspan="6" class="scrap-cost-table__title">Цена на лом чугуна</td>
-								</tr>
-								<tr>
-									<td class="scrap-cost-table__title-mob">Цена на <span>лом чугуна</span></td>
-									<td data-label="Вид лома &mdash;"><span>16А, <br>16Б</span></td>
-									<td data-label="Описание лома">
-										<div>стружка вьюнообразная,</div>
+											<span>2Б</span>
+										</td>
+										<td data-label="Описание лома"><span>лом легированных сталей небольшими кусками</span></td>
+										<td data-label="Характеристики по весу и габаритам">
+											<div>От 2 кг;</div>
+	
+											<div>65х25х25 см</div>
+										</td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-first active">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом стали</span></div>
+											<span>3А</span>
+										</td>
+										<td data-label="Описание лома"><span>металлические отходы в кусках и лом, идущий на переплавку в агрегатах</span></td>
+										<td data-label="Характеристики по весу и габаритам">
+											<div>от 1 до 600 кг;</div>
+	
+											<div>1,6х0,5х0,6 м</div>
+										</td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-first active">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом стали</span></div>
+											<span>3АБ</span>
+										</td>
+										<td data-label="Описание лома"><span>стальной и легированный лом</span></td>
+										<td data-label="Характеристики по весу и габаритам">
+											<div>от 1 до 600 кг;</div>
+	
+											<div>1,6х0,5х0,6 м</div>
+										</td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-first active">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом стали</span></div>
+											<span>3АР</span>
+										</td>
+										<td data-label="Описание лома"><span>рельсовый кусковой металл</span></td>
+										<td data-label="Характеристики по весу и габаритам">
+											<div>не более 60 кг;</div>
+	
+											<div>Не более 2 м</div>
+										</td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-first active">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом стали</span></div>
+											<span>4А</span>
+										</td>
+										<td data-label="Описание лома"><span>производственные отходы и легированной стали</span></td>
+										<td data-label="Характеристики по весу и габаритам">
+											<div>0,025 — 20 кг;</div>
+	
+											<div>Не более 200х150х100</div>
 
-										<div>предназначенная для переработки</div>
-									</td>
-									<td data-label="Характеристики по весу и габаритам"><span>Нет ограничения по весу</span></td>
-									<td data-label="Цена за 1 кг"><span>22,0 руб/кг</span></td>
-									<td data-label="Цена за 1 тонну"><span>23 500 руб/т</span></td>
-									<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 руб/т</span></td>
-								</tr>
-							</tbody>
-						</table>
+											<div>толщина ≥ 6 мм</div>
+										</td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-first active">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом стали</span></div>
+											<span>5А, 5Б</span>
+										</td>
+										<td data-label="Описание лома"><span>негабаритный стальной и легированный лом</span></td>
+										<td data-label="Характеристики по весу и габаритам">
+											<div>не более 5 кг;</div>
+	
+											<div>толщина ≥6 мм</div>
+										</td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-first active">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом стали</span></div>
+											<span>6А</span>
+										</td>
+										<td data-label="Описание лома"><span>стальная стружка в брикетах</span></td>
+										<td data-label="Характеристики по весу и габаритам">
+											до 1 тонны
+										</td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-first active">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом стали</span></div>
+											<span>6Б</span>
+										</td>
+										<td data-label="Описание лома"><span>стружка легированной стали в брикетах</span></td>
+										<td data-label="Характеристики по весу и габаритам">
+											до 1 тонны
+										</td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-first active">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом стали</span></div>
+											<span>7А, 7Б</span>
+										</td>
+										<td data-label="Описание лома"><span>стальная и легированная стружка сливного типа в брикетах</span></td>
+										<td data-label="Характеристики по весу и габаритам">
+											не более 1 тонны
+										</td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-first active">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом стали</span></div>
+											<span>8А</span>
+										</td>
+										<td data-label="Описание лома"><span>производственные отходы небольшого размера</span></td>
+										<td data-label="Характеристики по весу и габаритам">
+											<div>до 10 кг;</div>
+
+											<div>Не более 50х50х50 см</div>
+										</td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-first active">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом стали</span></div>
+											<span>9А</span>
+										</td>
+										<td data-label="Описание лома"><span>легковесные пакеты из отходов</span></td>
+										<td data-label="Характеристики по весу и габаритам">
+											<div>до 10 кг;</div>
+
+											<div>5*5*5 м</div>
+										</td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-first active">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом стали</span></div>
+											<span>10А</span>
+										</td>
+										<td data-label="Описание лома"><span>стальные отходы любого вида</span></td>
+										<td data-label="Характеристики по весу и габаритам">
+											<div>не менее 40 кг;</div>
+
+											<div>Не более 2000х1050х750 см</div>
+										</td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-first active">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом стали</span></div>
+											<span>11А</span>
+										</td>
+										<td data-label="Описание лома"><span>лом высококачественных металлов с минимальными примесями</span></td>
+										<td data-label="Характеристики по весу и габаритам">
+											Не более <br>3500х2500х1000 см
+										</td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-first active">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом стали</span></div>
+											<span>12А, 12Б</span>
+										</td>
+										<td data-label="Описание лома"><span>промышленный и бытовой лом, сортовые, стальные, листовые и полосовые отходы, трубы, кровля, проволока и изделия из нее</span></td>
+										<td data-label="Характеристики по весу и габаритам">
+											не более 40 кг
+										</td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-first active">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом стали</span></div>
+											<span>13А, 13Б</span>
+										</td>
+										<td data-label="Описание лома"><span>стальные канаты и проволока, скатанные в мотки</span></td>
+										<td data-label="Характеристики по весу и габаритам">
+											<div>не более 15 кг;</div>
+
+											<div>не более 150 см</div>
+										</td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-first active">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом стали</span></div>
+											<span>14А, <br>14Б</span>
+										</td>
+										<td data-label="Описание лома"><span>стальная и легированная стружка без присутствия кускового металла</span></td>
+										<td data-label="Характеристики по весу и габаритам">
+											<div>Масса витка стружки и куска высечки не более 0,025 кг;</div>
+
+											<div>Витки стружки и куски высечки длиной не более 50мм</div>
+										</td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-first active">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом стали</span></div>
+											<span>15А, 15Б</span>
+										</td>
+										<td data-label="Описание лома"><span>стальная и легированная стружка без присутствия кускового металла</span></td>
+										<td data-label="Характеристики по весу и габаритам">
+											категория стальной и легированной стружки сливного типа
+										</td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__table-mob-none">
+										<td colspan="6" class="scrap-cost__table-title">Цена на лом чугуна</td>
+									</tr>
+									<tr class="scrap-cost__group-second">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом чугуна</span></div>
+											<span>16А, <br>16Б</span>
+										</td>
+										<td data-label="Описание лома">
+											<div>стружка вьюнообразная,</div>
+	
+											<div>предназначенная для переработки</div>
+										</td>
+										<td data-label="Характеристики по весу и габаритам"><span>Нет ограничения по весу</span></td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-second">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом чугуна</span></div>
+											<span>17А, 17Б</span>
+										</td>
+										<td data-label="Описание лома">отходы от производства чугуна и лома</td>
+										<td data-label="Характеристики по весу и габаритам"><span>—</span></td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-second">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом чугуна</span></div>
+											<span>18А</span>
+										</td>
+										<td data-label="Описание лома">Куски чугунных изложниц и поддонов</td>
+										<td data-label="Характеристики по весу и габаритам"><span>—</span></td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-second">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом чугуна</span></div>
+											<span>19А</span>
+										</td>
+										<td data-label="Описание лома">производственные отходы с высоким содержанием фтора</td>
+										<td data-label="Характеристики по весу и габаритам"><span>—</span></td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-second">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом чугуна</span></div>
+											<span>20А</span>
+										</td>
+										<td data-label="Описание лома">отходы негабаритных размеров и чугуна</td>
+										<td data-label="Характеристики по весу и габаритам"><span>—</span></td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-second">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом чугуна</span></div>
+											<span>21А</span>
+										</td>
+										<td data-label="Описание лома">чугун категории №2 и негабарит в виде изложниц и чугунных поддонов</td>
+										<td data-label="Характеристики по весу и габаритам"><span>—</span></td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-second">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом чугуна</span></div>
+											<span>22А</span>
+										</td>
+										<td data-label="Описание лома">чугунный лом №3 и отходы нестандартных размеров с высоким содержанием фосфора, отливки</td>
+										<td data-label="Характеристики по весу и габаритам"><span>—</span></td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-second">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом чугуна</span></div>
+											<span>23А</span>
+										</td>
+										<td data-label="Описание лома">стружка в брикетах</td>
+										<td data-label="Характеристики по весу и габаритам"><span>—</span></td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-second">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом чугуна</span></div>
+											<span>24А</span>
+										</td>
+										<td data-label="Описание лома">чистая чугунная стружка без включений лома и кусков</td>
+										<td data-label="Характеристики по весу и габаритам"><span>—</span></td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-second">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом чугуна</span></div>
+											<span>25а, <br>25Б</span>
+										</td>
+										<td data-label="Описание лома">кусковой лом, включающий оцинкованный и эмалированный металл</td>
+										<td data-label="Характеристики по весу и габаритам"><span>—</span></td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-second">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом чугуна</span></div>
+											<span>26А, <br>26Б</span>
+										</td>
+										<td data-label="Описание лома">проржавленные, подвергшиеся длительному температурному или кислотному воздействию. Эмалированные и оцинкованные кусковые лом и отходы, зашлакованный скрап</td>
+										<td data-label="Характеристики по весу и габаритам"><span>—</span></td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-second">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом чугуна</span></div>
+											<span>27А</span>
+										</td>
+										<td data-label="Описание лома">чугунная и стальная окалина</td>
+										<td data-label="Характеристики по весу и габаритам"><span>—</span></td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-second">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом чугуна</span></div>
+											<span>28А</span>
+										</td>
+										<td data-label="Описание лома">шлак плавильных печей</td>
+										<td data-label="Характеристики по весу и габаритам"><span>—</span></td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+									<tr class="scrap-cost__group-second">
+										<td data-label="Вид лома &mdash;">
+											<div class="scrap-cost__table-title-mob">Цена на <span>лом чугуна</span></div>
+											<span>5Б22</span>
+										</td>
+										<td data-label="Описание лома">отходы марганцовистых сталей, предназначенные для переплавки, лом любого вида</td>
+										<td data-label="Характеристики по весу и габаритам"><span>—</span></td>
+										<td data-label="Цена за 1 кг"><span>22,0 <span class="scrap-cost__rub">руб/кг</span></span></td>
+										<td data-label="Цена за 1 тонну"><span>23 500 <span class="scrap-cost__rub">руб/т</span></span></td>
+										<td data-label="ОПТ Цена за 1 тонну"><span>до 26 000 <span class="scrap-cost__rub">руб/т</span></span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
 
 						<div class="scrap-cost__note">
 							Цены на черный лом за килограмм (тонну) сегодня указаны в качестве ориентировочных. <br>Точный расчет может быть осуществлен только после предоставления клиентом информации для оценки стоимости чермета.
