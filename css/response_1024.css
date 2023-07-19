@@ -1541,6 +1541,129 @@
     }
 
 
+	.fast-search{
+		max-width: none;
+	}
+
+	.fast-search__head{
+		flex-wrap: wrap;
+	}
+
+	.fast-search__head-info{
+		margin-right: 0;
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+
+	.fast-search__head-info span{
+		min-width: 200px;
+		text-align: center;
+	}
+
+	.fast-search__cols{
+		margin-top: 40px;
+	}
+
+	.fast-search__form{
+		width: calc(50% - 9px);
+		max-width: none;
+	}
+
+	.fast-search__colr{
+		width: calc(50% - 31px);
+		max-width: none;
+	}
+
+	.fast-search__pdf{
+		margin-top: 20px;
+	}
+
+	.fast-search__pdf-title{
+		font-size: 20px;
+		width: calc(50% - 9px);
+		margin-right: 40px;
+	}
+
+
+	.content-flex__content{
+		width: 100%;
+		order: 2;
+	}
+
+	.aside-right{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	.aside-right__bg{
+		background: none;
+		padding: 0;
+		border: none;
+	}
+
+	.aside-right__title{
+		font-size: 20px;
+		font-weight: 600;
+	}
+
+	.aside-right__video-title{
+		font-size: 14px;
+	}
+
+	.aside-right__video-link{
+		height: 350px;
+		padding-bottom: 0;
+	}
+
+	.aside-right__video-link .video__watch{
+		display: block;
+	}
+
+	.list-price__wrap{
+		margin-top: 15px;
+		position: relative;
+	}
+
+	.list-price__open{
+		display: inline-block;
+	}
+
+	.list-price__items{
+		position: absolute;
+		left: 0;
+		top: calc(100% + 10px);
+		z-index: 70;
+		width: 100%;
+
+		border: 1px solid #FF8B02;
+		background: #1E2021;
+		max-height: 250px;
+		
+		opacity: 0;
+		visibility: hidden;
+		pointer-events: none;
+		padding: 15px;
+	}
+
+	.list-price__items._show{
+		opacity: 1;
+		visibility: visible;
+		pointer-events: auto;
+	}
+
+	.list-price__link.active{
+		color: #FF8B02;
+	}
+
+
+	.prices-today__table_prices{
+		display: none;
+	}
+
+	.prices-today__table_prices._show{
+		display: table;
+	}
+
 
     .prices-today__table
     {
@@ -1555,20 +1678,31 @@
 
     .prices-today__table tr th
     {
-        width: auto;
+        width: 150px;
     }
 
     .prices-today__table tr td
     {
         font-size: 16px;
 
-        width: auto;
+        width: 150px;
     }
 
-    .prices-today__table tr td:first-child
-    {
-        min-width: 300px;
-    }
+	.content-flex__content .prices-today__table tr th{
+		width: 150px;
+	}
+
+	.content-flex__content .prices-today__table tr th:first-child{
+		width: auto;
+	}
+
+	.content-flex__content .prices-today__table tr td{
+		width: 150px;
+	}
+
+	.content-flex__content .prices-today__table tr td:first-child{
+		width: auto;
+	}
 
 
 

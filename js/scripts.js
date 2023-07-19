@@ -595,6 +595,15 @@ $(() => {
 	}
 
 
+	if( $(window).width() > 1024 ){
+		// Прилипающий блок
+		$("#stick-box").stick_in_parent({
+			parent: '.stick-stop',
+			offset_top: 64
+		})
+	}
+
+
 	if ($('.product-info__slider').length) {
 		var thumbs = new Swiper(".product-info__thumb", {
 			loop: false,

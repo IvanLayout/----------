@@ -335,6 +335,29 @@
     }
 
 
+	.fast-search__pdf{
+		flex-wrap: wrap;
+	}
+
+	.fast-search__pdf-title{
+		width: 100%;
+		margin: 0 0 20px 0;
+	}
+
+	.aside-right__title{
+		font-size: 16px;
+	}
+
+	.aside-right__video-link{
+		height: auto;
+		padding-bottom: 62%;
+	}
+
+	.aside-right__video-link .video__watch{
+		display: none;
+	}
+
+
     .prices-today__table
     {
         width: calc(100% + 30px);
