@@ -335,6 +335,17 @@
     }
 
 
+	.quick-calc__wrapp{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.quick-calc__img {
+		top: -76px;
+		right: 35px;
+	}
+
+
 	.fast-search__pdf{
 		flex-wrap: wrap;
 	}

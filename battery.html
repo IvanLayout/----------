@@ -1670,7 +1670,148 @@
 				</section>
 
 
-				<section class="prices-today _pads">
+				<section class="quick-calc _marg">
+					<div class="cont">
+						<div class="main-title"><span>Калькулятор</span> быстрого расчета стоимости аккумуляторов</div>
+
+						<div class="quick-calc__wrapp">
+							<form action="" class="form form-ajax quick-calc__form">
+								<img data-src="images/calculator.svg" src="images/img_plug.png" alt="" class="lazyload quick-calc__img">
+
+								<div class="quick-calc__flex _flex">
+									<div class="quick-calc__coll _flex">
+										<div class="form__line quick-calc__cats">
+											<div class="form__label form__label_big">Выберите категорию аккумулятора</div>
+
+											<div class="form__add _flex">
+												<div class="form__field">
+													<div class="select-wrap select-wrap_darck">
+														<select>
+															<option value="1">Трансформаторы</option>
+															<option value="2">Электротехнический алюминий</option>
+															<option value="3">Профиль с термовставкой</option>
+															<option value="4">Офсетные листы</option>
+															<option value="5">Пищевой алюминий</option>
+															<option value="6">Опалубка</option>
+														</select>
+													</div>
+												</div>
+
+												<button class="form__add-plus">
+													<svg>
+														<use xlink:href="#ic_plus"></use>
+													</svg>
+												</button>
+											</div>
+
+											<div class="form__field form__field_new">
+												<div class="select-wrap select-wrap_darck">
+													<select>
+														<option value="1">Трансформаторы</option>
+														<option value="2">Электротехнический алюминий</option>
+														<option value="3">Профиль с термовставкой</option>
+														<option value="4">Офсетные листы</option>
+														<option value="5">Пищевой алюминий</option>
+														<option value="6">Опалубка</option>
+													</select>
+												</div>
+											</div>
+										</div>
+
+										<div class="form__line quick-calc__weight">
+											<div class="form__label form__label_big">Укажите вес, кг</div>
+
+											<div class="form__field">
+												<input type="text" name="" value="500" class="form__input form__input_center form__input_darck">
+											</div>
+
+											<div class="form__field_new">
+												<input type="text" name="" value="500" class="form__input form__input_center form__input_darck error">
+
+												<div class="error-text">Error</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="form__line quick-calc__pay">
+										<div class="form__label form__label_big">Способ оплаты</div>
+
+										<div class="radios">
+											<div class="radio">
+												<label class="radio__label">
+													<input type="radio" name="group1" checked>
+											
+													<span class="radio__text">Наличные</span>
+												</label>
+											</div>
+	
+											<div class="radio">
+												<label class="radio__label">
+													<input type="radio" name="group1">
+											
+													<span class="radio__text">Безнал</span>
+												</label>
+											</div>
+										</div>
+									</div>
+
+									<div class="form__line quick-calc__del">
+										<div class="form__label form__label_big">Вывоз нужен?</div>
+										
+										<div class="radios">
+											<div class="radio">
+												<label class="radio__label">
+													<input type="radio" name="group2" checked>
+											
+													<span class="radio__text">Да</span>
+												</label>
+											</div>
+	
+											<div class="radio">
+												<label class="radio__label">
+													<input type="radio" name="group2">
+											
+													<span class="radio__text">Нет</span>
+												</label>
+											</div>
+										</div>
+									</div>
+
+									<div class="form__line quick-calc__adres">
+										<div class="form__label form__label_big">Откуда вывозить?</div>
+				
+										<div class="form__field">
+											<input type="text" name="" value="Москва, Никулинская, 18" class="form__input form__input_darck">
+										</div>
+									</div>
+								</div>
+
+								<div class="form__submit quick-calc__form-submit">
+									<button type="submit" class="btn-orange form__submit-btn">Посчитать</button>
+								</div>
+							</form>
+
+							<div class="form-success">
+								<div class="form-success__head _flex">
+									<div class="smal-title form-success__smal-title">Стоимость лома аллюминия составит</div>
+
+									<div class="form-success__price">
+										<span>122 350 руб</span>
+									</div>
+								</div>
+
+								<div class="form-success__desc">Хотите мы свяжемся с Вами и предложим цену, от которой Вы не сможете отказаться?</div>
+
+								<div class="wrap-btn form-success__wrap-btn">
+									<button type="button" data-content="#modal-callback" class="btn-orange modal-btn">Заказать звонок</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="prices-today _pads _marg">
 					<img data-src="images/tmp/bg_table_price.jpg" src="images/img_plug.png" alt="" class="lazyload prices-today__bg">
 
 					<div class="cont">
@@ -2919,6 +3060,9 @@
 				</symbol>
 				<symbol id="close" viewBox="0 0 22 22">
 					<path fill-rule="evenodd" clip-rule="evenodd" d="M11 22C4.92487 22 0 17.0751 0 11C0 4.92487 4.92487 0 11 0C17.0751 0 22 4.92487 22 11C22 17.0751 17.0751 22 11 22ZM11.0001 20C15.9706 20 20.0001 15.9706 20.0001 11C20.0001 6.02944 15.9706 2 11.0001 2C6.02952 2 2.00008 6.02944 2.00008 11C2.00008 15.9706 6.02952 20 11.0001 20ZM7.70702 15.7071L10.9999 12.4142L14.2928 15.7071L15.707 14.2928L12.4141 11L15.707 7.70706L14.2928 6.29285L10.9999 9.58574L7.70702 6.29285L6.2928 7.70706L9.5857 11L6.2928 14.2928L7.70702 15.7071Z"/>
+				</symbol>
+				<symbol id="ic_plus" viewBox="0 0 34 34">
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M24.8072 24.7782C20.5114 29.0739 13.5466 29.0739 9.25083 24.7782C4.95506 20.4824 4.95506 13.5176 9.25083 9.22183C13.5466 4.92606 20.5114 4.92606 24.8072 9.22183C29.1029 13.5176 29.1029 20.4824 24.8072 24.7782ZM23.393 23.364C26.9077 19.8492 26.9077 14.1508 23.393 10.636C19.8782 7.12132 14.1798 7.12132 10.665 10.636C7.15033 14.1508 7.15033 19.8492 10.665 23.364C14.1798 26.8787 19.8782 26.8787 23.393 23.364ZM18.029 22.6569L18.029 18H22.6859V16H18.029L18.029 11.3431L16.029 11.3431V16L11.3722 16V18L16.029 18V22.6569L18.029 22.6569Z"/>
 				</symbol>
 				<symbol id="ic_add" viewBox="0 0 24 25">
 					<path d="M21 15.5V19.5C21 20.0304 20.7893 20.5391 20.4142 20.9142C20.0391 21.2893 19.5304 21.5 19 21.5H5C4.46957 21.5 3.96086 21.2893 3.58579 20.9142C3.21071 20.5391 3 20.0304 3 19.5V15.5" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>

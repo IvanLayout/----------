@@ -186,6 +186,34 @@
         padding-bottom: 54px;
     }
 
+	.quick-calc__coll{
+		width: 490px;
+	}
+
+	.quick-calc__cats {
+		width: calc(100% - 186px);
+	}
+
+	.quick-calc__weight {
+		width: 146px;
+	}
+
+	.quick-calc__pay{
+		flex-grow: 1;
+	}
+
+	.quick-calc__del{
+		flex-grow: 1;
+	}
+
+	.quick-calc__adres{
+		margin-left: 0;
+	}
+
+	.quick-calc__form-submit{
+		text-align: left;
+	}
+
 
     .about-differ__item
     {

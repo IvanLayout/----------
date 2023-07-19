@@ -97,6 +97,17 @@
 		padding-right: 11px;
 	}
 
+	.select-wrap_darck .nice-select .current{
+		font-size: 16px;
+		padding-left: 11px;
+		padding-right: 11px;
+	}
+
+	.select-wrap_darck .nice-select .list .list_item{
+		padding-left: 11px;
+		padding-right: 11px;
+	}
+
 	.calculator-price__form{
 		max-width: none;
 	}
@@ -2217,6 +2228,89 @@
 
 	.from-stock__percent{
 		font-size: 28px;
+	}
+
+
+	.quick-calc__wrapp::before{
+		display: none;
+	}
+
+	.quick-calc__img {
+		top: -67px;
+		right: 12px;
+	}
+
+	.quick-calc__wrapp{
+		border: 20px solid #D4D4D4;
+		padding-left: 40px;
+		padding-right: 40px;
+		margin-top: 80px;
+	}
+
+	.quick-calc__flex{
+		margin-left: -20px;
+	}
+
+	.quick-calc__coll{
+		width: calc(100% - 20px);
+		margin-left: 20px;
+		justify-content: flex-start;
+	}
+
+	.quick-calc__cats{
+		width: 310px;
+	}
+
+	.quick-calc__weight{
+		width: calc(100% - 350px);
+		max-width: 125px;
+		margin-left: 40px;
+	}
+
+	.quick-calc__pay{
+		flex-grow: 0;
+		margin-left: 20px;
+	}
+
+	.quick-calc__del{
+		flex-grow: 0;
+		margin-left: 20px;
+	}
+
+	.quick-calc .form__line{
+		margin-bottom: 20px;
+	}
+
+	.radio__text{
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.radio__text::before{
+		top: 0;
+	}
+
+	.quick-calc__adres{
+		padding-left: 20px;
+		width: 280px;
+	}
+
+	.quick-calc__form-submit{
+		margin-top: 20px;
+	}
+
+	.form-success__price{
+		font-size: 20px;
+		line-height: 68px;
+	}
+
+	.form-success__desc{
+		font-size: 20px;
+		margin-top: 52px;
+	}
+
+	.form-success__wrap-btn{
+		margin-top: 37px;
 	}
 
 

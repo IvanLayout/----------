@@ -1473,6 +1473,35 @@
 	}
 
 
+	.quick-calc__wrapp{
+		margin-left: -35px;
+		margin-right: -35px;
+	}
+
+	.quick-calc__coll{
+		display: block;
+	}
+
+	.quick-calc__weight{
+		width: 125px;
+		margin-left: 0;
+	}
+
+
+	.form-success__desc{
+		margin-top: 40px;
+	}
+
+	.form-success__wrap-btn{
+		margin-top: 30px;
+	}
+
+	.form-success .btn-orange{
+		width: auto;
+		min-width: 250px;
+		padding: 0 25px;
+	}
+
 
     .problems-delivery._gray
     {

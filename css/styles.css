@@ -2390,7 +2390,12 @@ button
     border: 1px solid #676767;
     background: #FBFBFB;
 
-    transition: border .2s linear;
+    transition: border .2s linear, box-shadow .2s linear;
+}
+
+.form .form__input:not(.error):hover,
+.form .form__input:not(.error):focus{
+	border-color: #FF8B02;
 }
 
 .form .form__input_darck
@@ -2400,6 +2405,11 @@ button
 	padding: 0 15px;
 	font-size: 18px;
 	color: #FBFBFB;
+}
+
+.form .form__input_darck:not(.error):hover,
+.form .form__input_darck:not(.error):focus{
+	box-shadow: inset 0 0 0 1px #FF8B02;
 }
 
 .form .form__input_center{
@@ -2422,7 +2432,12 @@ button
     border: 1px solid #676767;
     background: #FBFBFB;
 
-    transition: border .2s linear;
+    transition: border .2s linear, box-shadow .2s linear;
+}
+
+.form .form__textarea:not(.error):hover,
+.form .form__textarea:not(.error):focus{
+	border-color: #FF8B02;
 }
 
 .form .form__textarea_darck
@@ -2434,12 +2449,17 @@ button
 	color: #FBFBFB;
 }
 
+.form .form__textarea_darck:not(.error):hover,
+.form .form__textarea_darck:not(.error):focus{
+	box-shadow: inset 0 0 0 1px #FF8B02;
+}
+
 .form .error,
 .form .error + .nice-select .current
 {
-    color: red;
+    color: #F03546;
 
-    border-color: red;
+    border-color: #F03546;
 }
 
 
@@ -2455,10 +2475,23 @@ button
 
 .form .error-text
 {
-    color: red;
-    font-size: 12px;
+    color: #F03546;
+	font-size: 12px;
+	line-height: 1.4;
+	margin-top: 3px;
+	position: relative;
+	padding-left: 22px;
+}
 
-    margin-top: 8px;
+.form .error-text::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 16px;
+	height: 16px;
+	margin-top: -8.5px;
+	background: url(../images/ic_error.svg) 50% no-repeat;
 }
 
 
@@ -2714,7 +2747,7 @@ input[type=checkbox]:checked + .radio__text::before
 {
 	border-color: #FF8B02;
     background: #FF8B02;
-    box-shadow: inset 0 0 0 5px #101213;
+    box-shadow: inset 0 0 0 6px #101213;
 }
 
 .radio__text_color::before
@@ -2800,29 +2833,58 @@ input[type=checkbox]:checked + .radio__text_color::after
     position: relative;
     z-index: 4;
 
-    color: #383A47;
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 46px;
+	color: #101213;
+    font-size: 16px;
+    line-height: 54px;
 
     display: block;
     overflow: hidden;
 
-    height: 48px;
-    padding: 0 39px 0 24px;
+    height: 56px;
+    padding: 0 11px;
 
     cursor: pointer;
     white-space: nowrap;
     text-overflow: ellipsis;
 
-    border-bottom: 1px solid transparent;
-    border-radius: 10px;
-    background: #FFF;
+    border: 1px solid #676767;
+    background: #FBFBFB;
 
-    transition: border .2s linear;
+    transition: border .2s linear, box-shadow .2s linear;
 }
 
-.select-wrap .nice-select .current:after
+.select-wrap_darck .nice-select .current{
+	border: 1px solid #FF8B02;
+	background: #101213;
+	color: #FBFBFB;
+	font-size: 18px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+@media (any-hover: hover)
+{
+	.select-wrap .nice-select .current:hover{
+		border-color: #FF8B02;
+	}
+}
+
+.select-wrap .nice-select.open .current{
+	border-color: #FF8B02;
+}
+
+@media (any-hover: hover)
+{
+	.select-wrap_darck .nice-select .current:hover{
+		box-shadow: inset 0 0 0 1px #FF8B02;
+	}
+}
+
+.select-wrap_darck .nice-select.open .current{
+	box-shadow: inset 0 0 0 1px #FF8B02;
+}
+
+/* .select-wrap .nice-select .current:after
 {
     content: "";
 
@@ -2840,13 +2902,13 @@ input[type=checkbox]:checked + .radio__text_color::after
 .select-wrap .nice-select.open .current:after
 {
     transform: rotate(180deg);
-}
+} */
 
 .select-wrap .nice-select .list
 {
     position: absolute;
     z-index: 9;
-    top: calc(100% + 5px);
+    top: calc(100% - 1px);
     left: 0;
 
     visibility: hidden;
@@ -2857,11 +2919,15 @@ input[type=checkbox]:checked + .radio__text_color::after
     pointer-events: none;
 
     opacity: 0;
-    border-radius: 10px;
-    background: #FDFDFE;
-    box-shadow: 0px 8px 27px #C1BEB9;
+	border: 1px solid #676767;
+    background: #FBFBFB;
 
     transition: .2s linear;
+}
+
+.select-wrap_darck .nice-select .list{
+	border: 1px solid #FF8B02;
+	background: #1E2021;
 }
 
 .select-wrap .nice-select.open .list
@@ -2885,15 +2951,21 @@ input[type=checkbox]:checked + .radio__text_color::after
 {
     position: relative;
 
-    color: #383A47;
-    font-size: 17px;
-    font-weight: 500;
+    color: #101213;
+    font-size: 16px;
+    line-height: 22px;
 
-    padding: 10px 24px;
+    padding: 12px 11px;
 
     cursor: pointer;
 
-    transition: color .2s linear;
+    transition: color .2s linear, background .2s linear;
+}
+
+.select-wrap_darck .nice-select .list .list_item{
+	color: #FBFBFB;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .select-wrap .nice-select .list .list_item:empty
@@ -2901,10 +2973,17 @@ input[type=checkbox]:checked + .radio__text_color::after
     display: none;
 }
 
-.select-wrap .nice-select .list .list_item:hover,
+@media (any-hover: hover)
+{
+	.select-wrap .nice-select .list .list_item:not(.selected):hover{
+		background: #D9D9D9;
+		color: #1E2021;
+	}
+}
+
 .select-wrap .nice-select .list .list_item.selected
 {
-    color: #EC9150;
+    color: #FF8B02;
 }
 
 
@@ -5080,9 +5159,8 @@ input[type=checkbox]:checked + .radio__text_color::after
     flex-wrap: nowrap;
 }
 
-.prices-today__table .form-callback__filed
-{
-    max-width: 400px;
+.form-callback__filed{
+	max-width: 400px;
 	width: 100%;
 }
 
@@ -10932,13 +11010,14 @@ input[type=checkbox]:checked + .radio__text_color::after
 .quick-calc__img
 {
 	position: absolute;
-	top: -71px;
-	right: 0;
+	top: -70px;
+	right: -6px;
 
 	display: block;
 
 	width: 95px;
 	height: 112px;
+	pointer-events: none;
 }
 
 .quick-calc__wrapp::before
@@ -10947,6 +11026,7 @@ input[type=checkbox]:checked + .radio__text_color::after
 	content: '';
 	top: -20px;
 	left: -20px;
+	pointer-events: none;
 
 	display: block;
 
@@ -10956,54 +11036,131 @@ input[type=checkbox]:checked + .radio__text_color::after
 	border: 20px solid #D4D4D4;
 }
 
-.quick-calc__flex
-{
-	flex-wrap: nowrap;
+.quick-calc__flex{
+	margin-left: -40px;
 }
 
-.quick-calc__flex > div + div
-{
+.quick-calc__coll{
+	width: 470px;
+	justify-content: space-between;
 	margin-left: 40px;
 }
 
-.quick-calc__form
-{
-	position: relative;
-	z-index: 2;
+.quick-calc__cats{
+	width: calc(100% - 165px);
 }
 
-.quick-calc__form .form__line
-{
+.quick-calc__cats .form__field{
+	width: calc(100% - 44px);
+}
+
+.quick-calc__weight{
 	width: 125px;
+}
+
+.quick-calc__pay{
+	margin-left: 40px;
+	width: 125px;
+}
+
+.quick-calc__del{
+	margin-left: 40px;
+	width: 125px;
+}
+
+.quick-calc__adres{
+	padding-left: 40px;
+	width: 300px;
+	margin-left: auto;
+}
+
+.quick-calc .form__field_new{
+	margin-top: 15px;
+}
+
+.form__add{
+	flex-wrap: nowrap;
+	align-items: center;
+	align-content: center;
+}
+
+.form__add-plus{
 	flex-shrink: 0;
+	margin-left: 10px;
+	width: 34px;
+	height: 34px;
+	display: block;
+	color: #FF8B02;
+	transition: color .2s linear;
 }
 
-.quick-calc__form .form__line:nth-child(2) .form__input
+@media (any-hover: hover)
 {
-	text-align: center;
+	.form__add-plus:hover {
+		color: #FFB761;
+	}
 }
 
-.quick-calc__form .form__line:first-child
-{
+.form__add-plus svg{
+	display: block;
 	width: 100%;
-	flex-shrink: 1;
-}
-
-.quick-calc__form .form__line:last-child
-{
-	width: 100%;
-	flex-shrink: 1;
-	max-width: 260px;
+	height: 100%;
+	fill: currentColor;
 }
 
 .quick-calc__form-submit
 {
-	margin-top: 30px;
+	margin-top: 15px;
+	text-align: right;
 }
 
 .quick-calc__form .form__submit-btn
 {
-	width: 100%;
+	width: 260px;
+}
+
+.form-success{
+	display: none;
+}
+
+.form-success__head{
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	margin: -15px 0 0 -15px;
+}
+
+.form-success__smal-title{
+	margin: 15px 0 0 15px;
+}
+
+.form-success__price{
+	display: inline-block;
+	vertical-align: top;
+	padding: 0 23px;
+	border: 1px solid #FF8B02;
+	background: #1E2021;
+
+	color: #FF8B02;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 15px 0 0 15px;
+	line-height: 73px;
+}
+
+.form-success__desc{
+	color: #FF8B02;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 600;
+	max-width: 720px;
+	margin: 20px auto 0;
+}
+
+.form-success__wrap-btn{
+	text-align: center;
+	margin-top: 15px;
 }
 
 
@@ -13434,6 +13591,13 @@ input[type=checkbox]:checked + .radio__text_color::after
     {
         font-size: 50px;
     }
+
+	
+	.quick-calc__wrapp{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
 
     .battery-img
     {
