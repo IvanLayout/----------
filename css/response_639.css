@@ -2137,19 +2137,19 @@
     }
 
 
-	.cable-reception__price
+	.head-reception__price
 	{
 		margin-top: 30px;
 	}
 
 
-	.cable-reception__filed:first-child, 
-	.cable-reception__submit 
+	.head-reception__filed:first-child, 
+	.head-reception__submit 
 	{
 		width: calc(50% - 7.5px);
 	}
 
-	.cable-reception__filed:nth-child(2) 
+	.head-reception__filed:nth-child(2) 
 	{
 		width: calc(50% - 7.5px);
 		margin-right: 0;

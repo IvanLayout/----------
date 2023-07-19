@@ -2967,53 +2967,10 @@
 		width: 150px;
 	}
 
-	
-	.cable-reception__colr
-	{
-		width: 100%;
-		order: 1;
-	}
 
-	.cable-reception__coll
-	{
-		order: 2;
-		margin-top: 50px;
-		width: 100%;
-	}
-
-	.cable-reception__img
-	{
-		width: 100%;
-		margin: 0;
-		height: 379px;
-	}
-
-	.cable-reception__img img
-	{
-		max-height: 100%;
-		margin: 0 auto;
-	}	
-
-	.cable-reception__price
+	.head-reception__price
 	{
 		font-size: 20px;
-	}
-
-	.form-callback__flex
-	{
-		flex-wrap: wrap;
-		margin-top: -20px;
-	}
-
-	.form-callback__flex > div
-	{
-		margin-top: 20px;
-	}
-
-	.cable-reception__filed:nth-child(2)
-	{
-		width: 303px;
-		margin: 0 15px 0 15px;
 	}
 
 
