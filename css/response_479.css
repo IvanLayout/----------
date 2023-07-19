@@ -803,27 +803,18 @@
 		border-right: 6px solid #FF8B02;
 	}
 
-	.cable-reception__filed:first-child, 
-	.cable-reception__submit
+	.head-reception__filed:first-child, 
+	.head-reception__submit
 	{
 		width: 100%;
 	}
 
-	.cable-reception__filed:nth-child(2)
+	.head-reception__filed:nth-child(2)
 	{
 		width: 100%;
 		margin-top: 15px;
 	}
-
-	.cable-reception__coll
-	{
-		margin-top: 30px;
-	}
-
-	.cable-reception__img
-	{
-		height: 234px;
-	}
+	
 
 	.who-benefits__top,
 	.who-benefits__text-block
@@ -963,6 +954,39 @@
 		min-width: 1px;
 	}
 
+
+	.number-items__number
+	{
+		margin-right: 15px;
+	}
+
+	.number-items__desc
+	{
+		padding-top: 3px;
+	}
+
+
+	.conditions-purchase__video 
+	{
+		padding-bottom: 79.4%;
+	}
+
+
+	.where-look__desc
+	{
+		margin-top: 15px;
+	}
+
+	.where-look__box
+	{
+		margin-top: 20px;
+	}
+
+	.where-look__img 
+	{
+		padding-bottom: 55.2%;
+	}
+	
 
     .fancybox__slide
     {

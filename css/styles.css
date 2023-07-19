@@ -11399,6 +11399,11 @@ input[type=checkbox]:checked + .radio__text_color::after
 	color: #FF8B02;
 }
 
+.text-block ul.text-list
+{
+	margin-bottom: 20px;
+}
+
 .text-block ul.text-list li
 {
     min-height: 1px;
@@ -11510,67 +11515,32 @@ input[type=checkbox]:checked + .radio__text_color::after
 }
 
 
-/* cable-reception */
+/* head-reception */
 
-.cable-reception
+.head-reception__img_big
 {
-	margin-top: 40px;
-}
-
-.cable-reception__cols
-{
-	justify-content: space-between;
-	align-items: stretch;
-	align-content: stretch;
-}
-
-.cable-reception__coll
-{
-	width: calc(39% - 18px);
-
-	display: flex;
-	justify-content: flex-start;
-	align-items: flex-end;
-	align-content: flex-end;
-	flex-wrap: wrap;
-}
-
-.cable-reception__img
-{
-	position: relative;
-    width: 500px;
+	width: 500px;
 	margin-left: -49px;
-	margin-top: auto;
+
+	margin-top: 44px;
+	margin-right: 27px;
 }
 
-.cable-reception__img img
-{
-	display: block;
-	max-width: 100%;
-}
-
-.cable-reception__colr
-{
-	width: calc(61% - 12px);
-	position: relative;
-	z-index: 1;
-}
-
-.cable-reception__price
+.head-reception__price
 {
 	font-size: 24px;
 	font-weight: 600;
 	margin-top: 40px;
 }
 
-.cable-reception__sub-title
+.head-reception__sub-title
 {
 	color: #FF8B02;
 	font-weight: 500;
 	margin-top: 20px;
 }
 
-.cable-reception__items-marg
+.head-reception__items-marg
 {
 	margin-top: 15px;
 }
@@ -11605,31 +11575,31 @@ input[type=checkbox]:checked + .radio__text_color::after
 	padding-top: 3px;
 }
 
-.cable-reception__info
+.head-reception__desc
 {
 	font-weight: 500;
 	margin-top: 20px;
 }
 
-.cable-reception__form
+.head-reception__form
 {
 	margin-top: 20px;
 }
 
-.cable-reception__filed:first-child,
-.cable-reception__submit
+.head-reception__filed:first-child,
+.head-reception__submit
 {
 	width: 190px;
 	flex-shrink: 0;
 }
 
-.cable-reception__filed:nth-child(2)
+.head-reception__filed:nth-child(2)
 {
 	width: 100%;
 	margin: 0 20px;
 }
 
-.cable-reception__form .checkbox__text
+.head-reception__form .checkbox__text
 {
 	line-height: 1.5;
 }
@@ -12749,6 +12719,7 @@ input[type=checkbox]:checked + .radio__text_color::after
 	font-size: 16px;
 	line-height: 56px;
 	height: 56px;
+	text-align: center;
 }
 
 .just-convenient__btn span 
@@ -12784,6 +12755,201 @@ input[type=checkbox]:checked + .radio__text_color::after
 	}
 }
 
+
+/* purchase-appraisal */
+
+.purchase-appraisal__items
+{
+	margin-left: -60px;
+	margin: 30px 0 0 -60px;
+}
+
+.purchase-appraisal__item
+{
+	width: calc(100%/4 - 60px);
+	margin: 30px 0 0 60px;
+	flex-grow: 1;
+	max-width: 270px;
+	position: relative;
+}
+
+.purchase-appraisal__item::after 
+{
+    position: absolute;
+    content: '';
+    top: 64px;
+    left: 100%;
+    display: block;
+    width: 42px;
+    height: 16px;
+	margin-left: 8px;
+    background: url(../images/purchase_appraisal_line_arrow.svg) 50%/contain no-repeat;
+}
+
+.purchase-appraisal__item:nth-child(4n):after,
+.purchase-appraisal__item:last-child:after 
+{
+	display: none;
+}
+
+.purchase-appraisal__item_small
+{
+	max-width: 210px;
+}
+
+.purchase-appraisal__icon
+{
+	width: 40px;
+	height: 40px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+.purchase-appraisal__icon img
+{
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.purchase-appraisal__name
+{
+	font-size: 24px;
+	font-weight: 600;
+	color: #FF8B02;
+	margin-top: 15px;
+}
+
+.purchase-appraisal__desc
+{
+	margin-top: 15px;
+}
+
+
+/* conditions-purchase */
+
+.conditions-purchase__cols
+{
+	margin-top: 60px;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+.conditions-purchase__coll
+{
+	width: calc(45.63% - 12.5px);
+}
+
+.conditions-purchase__colr
+{
+	width: calc(54.37% - 12.5px);
+}
+
+.conditions-purchase__video
+{
+	padding-bottom: 75.1%;
+}
+
+.conditions-purchase__video::before
+{
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+
+	display: block;
+
+	width: 100%;
+	height: 100%;
+
+	background-color: rgba(0, 0, 0, .3);
+	z-index: 1;
+}
+
+.conditions-purchase__video-info
+{
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+}
+
+
+/* where-look */
+
+.where-look__items
+{
+	margin-top: 60px;
+	max-width: 1030px;
+}
+
+.where-look__item
+{
+	justify-content: space-between;
+}
+
+.where-look__item + .where-look__item
+{
+	margin-top: 20px;
+}
+
+.where-look__info
+{
+	width: calc(50% - 25px);
+	padding-top: 15px;
+}
+
+.where-look__item:nth-child(2n) .where-look__info
+{
+	order: 2;
+}
+
+.where-look__item:nth-child(2n) .where-look__box
+{
+	order: 1;
+}
+
+.where-look__box
+{
+	width: calc(50% - 35px);
+}
+
+.where-look__img
+{
+	position: relative;
+	padding-bottom: 54.2%;
+}
+
+.where-look__img img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	display: block;
+
+	width: 100%;
+	height: 100%;
+
+	object-fit: cover;
+}
+
+.where-look__name
+{
+	color: #FF8B02;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.where-look__desc
+{
+	margin-top: 30px;
+}
+
 @media (max-width: 1699px)
 {
 
@@ -12791,18 +12957,48 @@ input[type=checkbox]:checked + .radio__text_color::after
 
 @media (max-width: 1599px)
 {
+	.padmenu__block._pad .form-callback__flex
+	{
+		flex-wrap: wrap;
+	}
 
+	.padmenu__block._pad .head-reception__filed
+	{
+		width: calc(50% - 10px);
+	}
+
+	.head-reception__filed:nth-child(2)
+	{
+		margin-right: 0;
+	}
+
+	.padmenu__block._pad .head-reception__submit
+	{
+		width: calc(50% - 10px);
+		margin-top: 20px;
+	}
+
+	.padmenu__block._pad .head-reception__submit .form-callback__submit-btn
+	{
+		min-width: 1px;
+		width: 100%;
+	}
+
+	.head-reception__img_big
+	{
+		width: 400px;
+	}
 }
 
 @media (max-width: 1499px)
 {
-	.cable-reception__filed:first-child, 
-	.cable-reception__submit
+	.head-reception__filed:first-child, 
+	.head-reception__submit
 	{
 		width: 180px;
 	}
 
-	.cable-reception__filed:nth-child(2)
+	.head-reception__filed:nth-child(2)
 	{
 		margin: 0 10px;
 	}
@@ -12815,19 +13011,19 @@ input[type=checkbox]:checked + .radio__text_color::after
 
 @media (max-width: 1399px)
 {
-	.cable-reception__filed:first-child, 
-	.cable-reception__submit
+	.head-reception__filed:first-child, 
+	.head-reception__submit
 	{
 		width: 190px;
 	}
 
-	.cable-reception__filed:nth-child(2)
+	.head-reception__filed:nth-child(2)
 	{
 		margin: 0 20px;
 	}
 
 
-	.cable-reception__img
+	.head-reception__img
 	{
 		margin-left: 0;
 	}
@@ -12844,6 +13040,12 @@ input[type=checkbox]:checked + .radio__text_color::after
 	.scrap-cost__table tr td:first-child
 	{
 		width: 70px;
+	}
+
+
+	.purchase-appraisal__name
+	{
+		font-size: 20px;
 	}
 }
 /*------------

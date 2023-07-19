@@ -721,4 +721,51 @@
 	{
 		padding-top: 5px;
 	}
+
+
+	.form-callback__flex
+	{
+		flex-wrap: wrap;
+		margin-top: -20px;
+	}
+
+	.form-callback__flex > div
+	{
+		margin-top: 20px;
+	}
+
+	.head-reception__filed:nth-child(2)
+	{
+		width: 303px;
+		margin: 0 15px 0 15px;
+	}
+
+
+	.purchase-appraisal__items
+	{
+		margin-left: -45px;
+	}
+
+	.purchase-appraisal__item 
+	{
+		width: calc(100%/4 - 45px);
+		margin-left: 45px;
+	}
+
+	.purchase-appraisal__item::after 
+	{
+		top: 59px;
+		width: 36px;
+		margin-left: 3px;
+	}
+
+	.purchase-appraisal__name
+	{
+		font-size: 18px;
+	}
+
+	.purchase-appraisal__desc
+	{
+		margin-top: 10px;
+	}
 }

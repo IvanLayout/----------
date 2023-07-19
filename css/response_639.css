@@ -2166,19 +2166,19 @@
     }
 
 
-	.cable-reception__price
+	.head-reception__price
 	{
 		margin-top: 30px;
 	}
 
 
-	.cable-reception__filed:first-child, 
-	.cable-reception__submit 
+	.head-reception__filed:first-child, 
+	.head-reception__submit 
 	{
 		width: calc(50% - 7.5px);
 	}
 
-	.cable-reception__filed:nth-child(2) 
+	.head-reception__filed:nth-child(2) 
 	{
 		width: calc(50% - 7.5px);
 		margin-right: 0;
@@ -2726,6 +2726,76 @@
     {
         display: block;
     }
+
+
+	.sell-get__wrapp-btn
+	{
+		width: 100%;
+		order: 2;
+		text-align: center;
+	}
+
+	.sell-get__icon
+	{
+		margin: 0 auto;
+		order: 1;
+	}
+
+
+	.just-convenient__btns
+	{
+		flex-wrap: wrap;
+		max-width: 100%;
+	}
+
+	.just-convenient__box-btn
+	{
+		width: 100%;
+	}
+
+	.just-convenient__box-btn + .just-convenient__box-btn
+	{
+		margin-left: 0;
+		margin-top: 25px;
+	}
+
+
+	.purchase-appraisal__items
+	{
+		max-width: 290px;
+	}
+
+	.purchase-appraisal__item::after 
+	{
+		left: 50%;
+		margin-left: -20px;
+	}
+
+	.purchase-appraisal__icon
+	{
+		width: 100%;
+		justify-content: center;
+	}
+
+
+	.conditions-purchase__video-info
+	{
+		width: 100%;
+		font-size: 16px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.conditions-purchase__video .video__play
+	{
+		margin-top: -8px;
+	}
+
+
+	.where-look__item + .where-look__item
+	{
+		margin-top: 30px;
+	}
 
 
 
