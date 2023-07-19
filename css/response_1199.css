@@ -215,6 +215,31 @@
 	}
 
 
+	.weight-calc__flex-line{
+		margin-left: -20px;
+	}
+
+	.weight-calc__brand {
+		width: calc(36% - 20px);
+		margin-left: 20px;
+	}
+
+	.weight-calc__size {
+		width: calc(35% - 20px);
+		margin-left: 20px;
+	}
+
+	.weight-calc__weight{
+		width: calc(29% - 20px);
+    	margin-left: 20px;
+	}
+
+	.weight-calc__form-submit{
+		width: 200px;
+		margin-left: 20px;
+	}
+
+
     .about-differ__item
     {
         padding-left: 15px;

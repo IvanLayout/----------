@@ -2173,7 +2173,275 @@
 				</section>
 
 
-				<section class="achievements _gray">
+				<section class="weight-calc _marg">
+					<div class="cont">
+						<div class="main-title"><span>Калькулятор</span> для расчета веса кабеля и проводов</div>
+
+						<div class="small-title weight-calc__small-title">
+							<span>Количество и вес барабанов будут просчитаны автоматически</span>
+						</div>
+
+						<div class="weight-calc__wrapp">
+							<form action="" class="form form-ajax weight-calc__form">
+								<img data-src="images/weight_calc.png" src="images/img_plug.png" alt="" class="lazyload weight-calc__img">
+
+								<div class="weight-calc__flex _flex">
+									<div class="weight-calc__coll">
+										<div class="weight-calc__flex-line _flex">
+											<div class="form__line weight-calc__brand">
+												<div class="form__label form__label_big">Выберите марку кабеля</div>
+	
+												<div class="form__add _flex">
+													<div class="form__field">
+														<div class="select-wrap select-wrap_darck">
+															<select>
+																<option value="1">ВВГ</option>
+																<option value="2">ВВГнг</option>
+																<option value="3">ВВГнг-FRLS</option>
+																<option value="4">АВБбШв</option>
+																<option value="5">КГ</option>
+																<option value="6">АС</option>
+																<option value="7">АВВГ</option>
+																<option value="8">СИП</option>
+																<option value="9">АСБ</option>
+																<option value="10">АСБл</option>
+																<option value="11">ВБбШв</option>
+																<option value="12">ВБбШвнг</option>
+																<option value="13">ААБл</option>
+																<option value="14">ААШв</option>
+																<option value="15">АПвБбШп</option>
+																<option value="16">АПвПуг</option>
+																<option value="17">АПвПу2г</option>
+																<option value="18">КВВГ</option>
+																<option value="19">ПВС</option>
+																<option value="20">ПуГВ</option>
+																<option value="21">АПвВнг</option>
+																<option value="22">КВВГЭнг</option>
+																<option value="23">ТППэп</option>
+															</select>
+														</div>
+													</div>
+	
+													<button class="form__add-plus">
+														<svg>
+															<use xlink:href="#ic_plus"></use>
+														</svg>
+													</button>
+												</div>
+											</div>
+											<div class="form__line weight-calc__size">
+												<div class="form__label form__label_big">Выберите маркоразмер</div>
+	
+												<div class="form__field">
+													<div class="select-wrap select-wrap_darck">
+														<select>
+															<option value="1">4×95</option>
+															<option value="2">4×120</option>
+															<option value="3">3×120</option>
+															<option value="4">4×240</option>
+															<option value="5">4×25</option>
+															<option value="6">4×70</option>
+															<option value="7">4×150</option>
+															<option value="8">4×185</option>
+															<option value="9">3×95</option>
+															<option value="10">4×50</option>
+															<option value="11">4×35</option>
+															<option value="12">5×25</option>
+															<option value="13">4×16</option>
+															<option value="14">5×10</option>
+															<option value="15">3×70</option>
+															<option value="16">1×95</option>
+															<option value="17">3×240</option>
+															<option value="18">5×6</option>
+															<option value="19">5×35</option>
+															<option value="20">4×1</option>
+															<option value="21">1×240</option>
+															<option value="22">1×70</option>
+															<option value="23">5×16</option>
+															<option value="24">4×10</option>
+															<option value="25">5×4</option>
+															<option value="26">5×50</option>
+															<option value="27">3×50</option>
+															<option value="28">1×120</option>
+															<option value="29">5×70</option>
+															<option value="30">5×95</option>
+															<option value="31">5×120</option>
+														</select>
+													</div>
+												</div>
+											</div>
+											<div class="form__line weight-calc__weight">
+												<div class="form__label form__label_big">Укажите количество, м</div>
+	
+												<div class="form__field">
+													<input type="text" name="" value="500" class="form__input form__input_darck">
+												</div>
+											</div>
+										</div>
+										<div class="weight-calc__flex-line _flex">
+											<div class="form__line weight-calc__brand">
+												<div class="form__label form__label_big">Выберите марку кабеля</div>
+	
+												<div class="form__add _flex">
+													<div class="form__field">
+														<div class="select-wrap select-wrap_darck">
+															<select>
+																<option value="1">ВВГ</option>
+																<option value="2">ВВГнг</option>
+																<option value="3">ВВГнг-FRLS</option>
+																<option value="4">АВБбШв</option>
+																<option value="5">КГ</option>
+																<option value="6">АС</option>
+																<option value="7">АВВГ</option>
+																<option value="8">СИП</option>
+																<option value="9">АСБ</option>
+																<option value="10">АСБл</option>
+																<option value="11">ВБбШв</option>
+																<option value="12">ВБбШвнг</option>
+																<option value="13">ААБл</option>
+																<option value="14">ААШв</option>
+																<option value="15">АПвБбШп</option>
+																<option value="16">АПвПуг</option>
+																<option value="17">АПвПу2г</option>
+																<option value="18">КВВГ</option>
+																<option value="19">ПВС</option>
+																<option value="20">ПуГВ</option>
+																<option value="21">АПвВнг</option>
+																<option value="22">КВВГЭнг</option>
+																<option value="23">ТППэп</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="form__line weight-calc__size">
+												<div class="form__label form__label_big">Выберите маркоразмер</div>
+	
+												<div class="form__field">
+													<div class="select-wrap select-wrap_darck">
+														<select>
+															<option value="1">4×95</option>
+															<option value="2">4×120</option>
+															<option value="3">3×120</option>
+															<option value="4">4×240</option>
+															<option value="5">4×25</option>
+															<option value="6">4×70</option>
+															<option value="7">4×150</option>
+															<option value="8">4×185</option>
+															<option value="9">3×95</option>
+															<option value="10">4×50</option>
+															<option value="11">4×35</option>
+															<option value="12">5×25</option>
+															<option value="13">4×16</option>
+															<option value="14">5×10</option>
+															<option value="15">3×70</option>
+															<option value="16">1×95</option>
+															<option value="17">3×240</option>
+															<option value="18">5×6</option>
+															<option value="19">5×35</option>
+															<option value="20">4×1</option>
+															<option value="21">1×240</option>
+															<option value="22">1×70</option>
+															<option value="23">5×16</option>
+															<option value="24">4×10</option>
+															<option value="25">5×4</option>
+															<option value="26">5×50</option>
+															<option value="27">3×50</option>
+															<option value="28">1×120</option>
+															<option value="29">5×70</option>
+															<option value="30">5×95</option>
+															<option value="31">5×120</option>
+														</select>
+													</div>
+												</div>
+											</div>
+											<div class="form__line weight-calc__weight">
+												<div class="form__label form__label_big">Укажите количество, м</div>
+	
+												<div class="form__field">
+													<input type="text" name="" value="500" class="form__input form__input_darck">
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="form__submit weight-calc__form-submit">
+										<button type="submit" class="btn-orange form__submit-btn">Посчитать</button>
+									</div>
+								</div>
+							</form>
+
+							<div class="form-success">
+								<div class="form-success__head _flex">
+									<div class="smal-title form-success__smal-title">Стоимость лома аллюминия составит</div>
+
+									<div class="form-success__price">
+										<span>122 350 руб</span>
+									</div>
+								</div>
+
+								<div class="form-success__desc">Хотите мы свяжемся с Вами и предложим цену, от которой Вы не сможете отказаться?</div>
+
+								<div class="wrap-btn form-success__wrap-btn">
+									<button type="button" data-content="#modal-callback" class="btn-orange modal-btn">Заказать звонок</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="weight-calc__info">
+							<div class="text-block">
+								<p>
+									Данный калькулятор высчитывает вес проводов на барабанах (вес барабана включается автоматически). Расчет осуществляется на основе усреднённых данных.
+								</p>
+
+								<p>
+									<span>Марки в базе:</span> ВВГ, ВВГнг, ВВГнг-FRLS, АВБбШв, КГ, АС, АВВГ, СИП, АСБ, АСБл, ВБбШв, ВБбШвнг, ААБл, ААШв, АПвБбШп, АПвПуг, АПвПу2г, КВВГ, ПВС, ПуГВ, АПвВнг, КВВГЭнг, ТППэп и другие.
+								</p>
+
+								<p>
+									<span>Маркоразмеры в базе:</span> 4×95, 4×120, 3×120, 4×240, 4×25, 4×70, 4×150, 4×185, 3×95, 4×50, 4×35, 5×25, 4×16, 5×10, 3×70, 1×95, 3×240, 5×6, 5×35, 4×1, 1×240, 1×70, 5×16, 4×10, 5×4, 5×50, 3×50, 1×120, 5×70, 5×95, 5×120 и другие.
+								</p>
+							</div>
+
+							<form action="" class="form weight-calc__info-form">
+								<div class="form__title">Нужна помощь с определением веса кабельной продукции?</div>
+
+								<div class="form__lines _flex">
+									<div class="form__line form__lines-line form__lines-line_small">
+										<div class="form__label">Имя</div>
+
+										<div class="form__filed">
+											<input type="text" name="" value="" placeholder="Иванов Иван" class="form__input">
+										</div>
+									</div>
+
+									<div class="form__line form__lines-line">
+										<div class="form-callback__label">Номер мобильного телефона</div>
+
+										<div class="form__filed">
+											<input type="tel" name="phone" value="" placeholder="+7(812)" data-mask="+7(812) 999-99-99" class="form__input">
+										</div>
+									</div>
+
+									<div class="form__submit form__lines-submit">
+										<button type="button" class="btn-orange form__submit-btn">Отправить</button>
+									</div>
+								</div>
+
+								<div class="form__agree checkbox weight-calc__info-agree">
+									<label class="checkbox__label">
+										<input type="checkbox" name="agree" checked>
+			
+										<span class="checkbox__text">Нажимая на кнопку, вы соглашаетесь с условиями обработки <a href="/" target="_blank">персональных данных</a></span>
+									</label>
+								</div>
+							</form>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="achievements _gray _marg">
 					<div class="cont">
 						<div class="achievements__cols _flex">
 							<div class="achievements__col">

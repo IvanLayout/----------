@@ -68,6 +68,10 @@
     /*------------------
 		Form elements
 	------------------*/
+	.form__title{
+		font-weight: 600;
+	}
+
 	.form__line_marg{
 		margin-bottom: 20px;
 	}
@@ -2311,6 +2315,103 @@
 
 	.form-success__wrap-btn{
 		margin-top: 37px;
+	}
+
+
+	.weight-calc__small-title{
+		margin-top: 20px;
+		padding-right: 0;
+	}
+
+	.weight-calc__wrapp{
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-top: 70px;
+		border: 20px solid #D4D4D4;
+	}
+
+	.weight-calc__wrapp::before{
+		display: none;
+	}
+
+	.weight-calc__img {
+		top: -90px;
+		right: -8px;
+		width: 142px;
+	}
+
+	.weight-calc__flex{
+		flex-wrap: wrap;
+	}
+
+	.weight-calc__flex-line{
+		width: calc(100% + 20px);
+		justify-content: space-between;
+		position: relative;
+	}
+
+	.weight-calc__flex-line + .weight-calc__flex-line{
+		padding-top: 14px;
+	}
+	
+	.weight-calc__flex-line + .weight-calc__flex-line::before{
+		content: '';
+		position: absolute;
+		right: 0;
+		width: calc(100% - 20px);
+		height: 1px;
+		top: 0;
+		background: #FF8B02;
+	}
+	
+	.weight-calc__coll .form__line{
+		margin-bottom: 20px;
+	}
+
+	.weight-calc__brand{
+		width: calc(62.1% - 20px);
+	}
+
+	.weight-calc__size{
+		width: calc(62.1% - 20px);
+		order: 3;
+	}
+	
+	.weight-calc__weight{
+		width: calc(37.9% - 20px);
+		min-width: 175px;
+	}
+
+	.weight-calc__size .form__field{
+		width: calc(100% - 40px);
+	}
+
+	.weight-calc__form-submit{
+		width: 260px;
+		margin: 20px 0 0;
+		padding-bottom: 0;
+	}
+
+	.weight-calc__info{
+		margin-top: 20px;
+	}
+
+	.form__lines{
+		flex-wrap: wrap;
+	}
+
+	.form__lines-line{
+		width: calc(100% - 230px);
+		max-width: 303px;
+		margin-bottom: 20px;
+	}
+
+	.form__lines-line_small{
+		width: 190px;
+	}
+
+	.form__lines-submit{
+		width: 190px;
 	}
 
 
