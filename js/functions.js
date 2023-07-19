@@ -245,6 +245,13 @@ $(() => {
 
 			if (is_touch_device()) $('body').css('cursor', 'default')
 		}
+
+		if ( !e.target.closest('.list-price__wrap') ) {
+			$('.list-price__open').removeClass('active')
+			$('.list-price__items').removeClass('_show')
+
+			if (is_touch_device()) $('body').css('cursor', 'default')
+		}
 	})
 
 	// Поиск
@@ -255,6 +262,22 @@ $(() => {
 			}, 50)
 		}
     })
+
+	$('body').on('click', '.list-price__open', function(e) {
+		e.preventDefault()
+
+		if ($(this).hasClass('active')){
+			$(this).removeClass('active')
+			$(this).next().removeClass('_show')
+
+			if (is_touch_device()) $('body').css('cursor', 'default')
+		} else {
+			$(this).addClass('active')
+			$(this).next().addClass('_show')
+
+			if (is_touch_device()) $('body').css('cursor', 'pointer')
+		}
+	})
 
 
 	$('body').on('click', '.section-prices__more', function(e) {
@@ -383,7 +406,25 @@ $(() => {
 		let href = $(this).data('anchor'),
 			offset = $('.header').innerHeight();
 
-		$('html, body').stop().animate({ scrollTop: $(href).offset().top - offset }, 1000)
+		if ($(this).hasClass('scroll-btn_price')){
+			$('.prices-today__table').removeClass('_show')
+
+			$(href).addClass('_show')
+
+			$('.list-price__open').removeClass('active')
+			$('.list-price__items').removeClass('_show')
+
+			let name = $(this).text()
+			$(this).closest('.list-price__wrap').find('.list-price__link').removeClass('active')
+			$(this).closest('.list-price__wrap').find('.list-price__open').text(name)
+			$(this).addClass('active')
+
+			if (is_touch_device()) $('body').css('cursor', 'default')
+
+			$('html, body').stop().animate({ scrollTop: $(href).offset().top - offset }, 300)
+		} else {
+			$('html, body').stop().animate({ scrollTop: $(href).offset().top - offset }, 1000)
+		}
 	})
 
 

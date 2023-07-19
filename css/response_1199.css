@@ -198,6 +198,28 @@
     }
 
 
+	.content-flex__content .form-callback__submit-btn{
+		min-width: 160px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.content-flex__content .prices-today__table tr th{
+		width: 180px;
+	}
+
+	.content-flex__content .prices-today__table tr th:first-child{
+		width: auto;
+	}
+
+	.content-flex__content .prices-today__table tr td{
+		width: 180px;
+	}
+
+	.content-flex__content .prices-today__table tr td:first-child{
+		width: auto;
+	}
+
 
     .section-prices__name
     {
