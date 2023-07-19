@@ -2788,6 +2788,12 @@
 		max-width: none;
 	}
 
+	.admission-prices__cols_width .admission-prices__col
+	{
+		width: 100%;
+		margin-left: 0;
+	}
+
 
 	.pass-scrap__coll
 	{
@@ -3441,6 +3447,156 @@
 	.cable-cost__table tr td.cable-cost__table-title
 	{
 		font-size: 20px;
+	}
+
+
+	.sell-get__title
+	{
+		font-size: 20px;
+	}
+
+	.sell-get__item::before
+	{
+		top: 1px;
+	}
+
+	.sell-get__item + .sell-get__item 
+	{
+		margin-top: 20px;
+	}
+
+
+	.just-convenient__wrapp
+	{
+		flex-wrap: wrap;
+		margin-top: 40px;
+	}
+
+	.just-convenient__title
+	{
+		font-size: 20px;
+	}
+
+	.just-convenient__desc
+	{
+		font-weight: 600;
+	}
+
+	.just-convenient__btns
+	{
+		width: 100%;
+		margin: 30px auto 0;
+		max-width: 520px;
+	}
+
+
+	.purchase-appraisal__items
+	{
+		margin: 60px auto 0;
+		max-width: 400px;
+	}
+
+	.purchase-appraisal__item
+	{
+		width: 100%;
+		margin-left: 0;
+		margin-top: 0;
+		max-width: 100%;
+	}
+	
+	.purchase-appraisal__item + .purchase-appraisal__item
+	{
+		margin-top: 80px;
+	}
+
+	.purchase-appraisal__name
+	{
+		font-size: 20px;
+	}
+
+	.purchase-appraisal__desc
+	{
+		margin-top: 15px;
+	}
+
+	.purchase-appraisal__item::after 
+	{
+		width: 42px;
+		top: 100%;
+		left: 0;
+		margin-left: 30px;
+		transform: rotate(90deg);
+		margin-top: 28px;
+	}
+
+	
+	.conditions-purchase__cols
+	{
+		margin-top: 40px;
+	}
+
+	.conditions-purchase__coll
+	{
+		width: 100%;
+	}
+
+	.conditions-purchase__colr
+	{
+		width: 100%;
+		margin-top: 25px;
+	}
+
+	.conditions-purchase__video 
+	{
+		padding-bottom: 50%;
+	}
+
+	.conditions-purchase__video-info
+	{
+		padding: 8px 10px;
+	}
+
+
+	.where-look__items
+	{
+		margin-top: 40px;
+	}
+
+	.where-look__item:nth-child(2n) .where-look__info
+	{
+		order: 1;
+	}
+
+	.where-look__item:nth-child(2n) .where-look__box
+	{
+		order: 2;
+	}
+
+	.where-look__info
+	{
+		width: 100%;
+		padding-top: 0;
+	}
+
+	.where-look__box
+	{
+		margin-top: 25px;
+		width: 100%;
+	}
+
+	.where-look__name
+	{
+		font-size: 20px;
+	}
+
+	.where-look__desc
+	{
+		margin-top: 20px;
+	}
+
+	.where-look__img 
+	{
+		padding-bottom: 50.2%;
 	}
 
 

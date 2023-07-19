@@ -944,6 +944,39 @@
 	}
 
 
+	.number-items__number
+	{
+		margin-right: 15px;
+	}
+
+	.number-items__desc
+	{
+		padding-top: 3px;
+	}
+
+
+	.conditions-purchase__video 
+	{
+		padding-bottom: 79.4%;
+	}
+
+
+	.where-look__desc
+	{
+		margin-top: 15px;
+	}
+
+	.where-look__box
+	{
+		margin-top: 20px;
+	}
+
+	.where-look__img 
+	{
+		padding-bottom: 55.2%;
+	}
+	
+
     .fancybox__slide
     {
         padding-right: 35px;
