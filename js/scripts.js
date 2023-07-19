@@ -595,7 +595,7 @@ $(() => {
 	}
 
 
-	if( $(window).width() > 1024 ){
+	if( $(window).width() > 1024 && $("#stick-box").length){
 		// Прилипающий блок
 		$("#stick-box").stick_in_parent({
 			parent: '.stick-stop',
