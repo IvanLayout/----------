@@ -3308,6 +3308,51 @@
 	}
 
 
+	.cable-cost__tabs-container
+	{
+		margin-top: 40px;
+	}
+
+	.tabs__button_table
+	{
+		font-size: 16px;
+	}
+
+	.cable-cost__table
+    {
+        width: 100%;
+        min-width: 1px;
+    }
+
+    .cable-cost__table tr th
+    {
+        width: auto;
+		font-size: 16px;
+    }
+
+	.cable-cost__table tr th br
+	{
+		display: none;
+	}
+
+    .cable-cost__table tr td
+    {
+        font-size: 16px;
+
+        width: 150;
+    }
+
+    .cable-cost__table tr td:first-child
+    {
+        min-width: 300px;
+    }
+
+	.cable-cost__table tr td.cable-cost__table-title
+	{
+		font-size: 20px;
+	}
+
+
     .dz-remove
     {
         opacity: 1;

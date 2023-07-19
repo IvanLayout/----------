@@ -2293,13 +2293,6 @@
 		margin-top: 15px;
 	}
 
-	.scrap-cost__table
-    {
-        display: block;
-		width: calc(100% + 30px);
-		margin-left: -15px;
-    }
-
     .scrap-cost__table thead
     {
         display: none;
@@ -2447,14 +2440,10 @@
 		margin-bottom: 10px;
 	}
 
-	
-
 	.scrap-cost__btns
 	{
 		display: flex;
 		margin-top: 30px;
-		width: calc(100% + 30px);
-		margin-left: -15px;
 	}
 
 	.scrap-cost__btn
@@ -2490,6 +2479,144 @@
 		display: inline-block;
 		margin-left: 0;
 	}
+
+
+	.cable-cost__tabs
+	{
+		margin-bottom: 10px;
+	}
+
+	.tabs__button_table
+	{
+		width: 50%;
+		padding-left: 5px;
+		padding-right: 5px;
+		height: 40px;
+		font-size: 14px;
+	}
+
+	.cable-cost__table thead
+    {
+        display: none;
+    }
+
+    .cable-cost__table tbody
+    {
+        display: block;
+    }
+
+    .cable-cost__table tr
+    {
+        display: block;
+
+        padding: 20px 15px;
+
+        border: 1px solid #FF8B02;
+		margin-top: 0;
+    }
+
+	.cable-cost__table tr.cable-cost__table-mob-none
+	{
+		display: none;
+	}
+
+    .cable-cost__table tr + tr
+    {
+        margin-top: 20px;
+    }
+
+    .cable-cost__table tr td
+    {
+        display: flex;
+        justify-content: space-between;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        padding: 0;
+
+        border: 0;
+    }
+
+	.cable-cost__table tr td:first-child
+    {
+        width: 100%;
+		text-align: left;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+		margin-top: 0;
+		margin-bottom: 15px;
+    }
+
+    .cable-cost__table tr td::before
+    {
+        content: attr(data-label);
+
+        color: #A4A4A4;
+		font-weight: 400;
+
+        display: block;
+
+        text-align: left;
+        white-space: normal;
+    }
+
+	.cable-cost__table tr td:first-child::before
+	{
+		order: 2;
+		width: 100%;
+	}
+
+	.cable-cost__table tr td span
+    {
+        margin-left: 10px;
+		flex-shrink: 0;
+    }
+
+	.cable-cost__table tr td:first-child span
+	{
+		margin-left: 0;
+		width: 100%;
+		order: 3;
+		margin-top: 5px;
+	}
+
+	.cable-cost__table-title-mob
+	{
+		display: block;
+		order: 1;
+		width: 100%;
+		margin-bottom: 5px;
+		color: #FF8B02;
+		font-weight: 600;
+	}
+
+	.cable-cost__wrap-btn 
+	{
+		display: block;
+		margin-top: 40px;
+		text-align: center;
+	}
+
+	.cable-cost__more 
+	{
+		min-width: 395px;
+	}
+
+
+	.cable-cost__table tr.hide-mob
+    {
+        display: none;
+    }
+
+    .cable-cost__table tr._show
+    {
+        display: block;
+    }
+
 
 
     .modal.small

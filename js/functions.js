@@ -288,6 +288,13 @@ $(() => {
 		$(this).closest('.prices-today').find('.hide-mob').addClass('_show')
 	})
 
+	$('body').on('click', '.cable-cost__more', function(e) {
+		e.preventDefault()
+
+		$(this).closest('.cable-cost__wrap-btn').hide()
+		$(this).closest('.cable-cost__wrap-btn').prev().find('.hide-mob').addClass('_show')
+	})
+
 
 	$('body').on('click', '.important-info__item-open', function(e) {
 		e.preventDefault()
