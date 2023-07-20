@@ -28,7 +28,6 @@
 		<!-- Подключение файлов стилей -->
 		<link rel="stylesheet" href="css/fancybox.css">
 		<link rel="stylesheet" href="css/swiper-bundle.min.css">
-		<link rel="stylesheet" href="css/ion.rangeSlider.css">
 		<link rel="stylesheet" href="css/green-audio-player.css">
 		<link rel="stylesheet" href="css/dropzone.min.css">
 		<link rel="stylesheet" href="css/styles.css">
@@ -3968,6 +3967,9 @@
 					<path d="M17 8.5L12 3.5L7 8.5" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 					<path d="M12 3.5V15.5" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 				</symbol>
+				<symbol id="ic_treatment" viewBox="0 0 25 25">
+					<path d="M17.2561 7.73789C16.0707 6.55664 14.4902 5.90039 12.8219 5.90039C9.35366 5.90039 6.5439 8.70039 6.5439 12.1566C6.5439 13.2504 6.85122 14.3441 7.37805 15.2629L6.5 18.5004L9.83659 17.6254C10.7585 18.1066 11.7683 18.3691 12.8219 18.3691C16.2902 18.3691 19.1 15.5691 19.1 12.1129C19.0561 10.4941 18.4415 8.91914 17.2561 7.73789ZM15.8512 14.3879C15.7195 14.7379 15.1049 15.0879 14.7976 15.1316C14.5341 15.1754 14.1829 15.1754 13.8317 15.0879C13.6122 15.0004 13.3049 14.9129 12.9537 14.7379C11.3732 14.0816 10.3634 12.5066 10.2756 12.3754C10.1878 12.2879 9.61707 11.5441 9.61707 10.7566C9.61707 9.96914 10.0122 9.61914 10.1439 9.44414C10.2756 9.26914 10.4512 9.26914 10.5829 9.26914C10.6707 9.26914 10.8024 9.26914 10.8902 9.26914C10.978 9.26914 11.1098 9.22539 11.2415 9.53164C11.3732 9.83789 11.6805 10.6254 11.7244 10.6691C11.7683 10.7566 11.7683 10.8441 11.7244 10.9316C11.6805 11.0191 11.6366 11.1066 11.5488 11.1941C11.461 11.2816 11.3732 11.4129 11.3293 11.4566C11.2415 11.5441 11.1537 11.6316 11.2415 11.7629C11.3293 11.9379 11.6366 12.4191 12.1195 12.8566C12.7341 13.3816 13.2171 13.5566 13.3927 13.6441C13.5683 13.7316 13.6561 13.6879 13.7439 13.6004C13.8317 13.5129 14.139 13.1629 14.2268 12.9879C14.3146 12.8129 14.4463 12.8566 14.578 12.9004C14.7098 12.9441 15.5 13.3379 15.6317 13.4254C15.8073 13.5129 15.8951 13.5566 15.939 13.6004C15.9829 13.7316 15.9829 14.0379 15.8512 14.3879Z"/>
+				</symbol>
 			</svg>
 		</div>
 		
@@ -4101,8 +4103,79 @@
 		</section>
 
 
-		
+		<section class="modal" id="write-review">
+			<div class="modal__pad">
+				<div class="modal__title">Оставьте свой отзыв о Втор-центре</div>
 
+				<div class="modal__subtitle">Заполните необходимые данные и мы ответим Вам в ближайшее время</div>
+
+				<form action="" class="form modal__form">
+					<div class="form__line form__line_small">
+						<div class="form__label">Имя</div>
+
+						<div class="form__field">
+							<input type="text" name="" value="" placeholder="Иван" class="form__input">
+						</div>
+					</div>
+
+					<div class="form__line form__line_small">
+						<div class="form__label">Номер мобильного телефона</div>
+
+						<div class="form__field">
+							<input type="tel" name="" value="" data-mask="+7(999)999 99 99" placeholder="+7(812)984 49 09" class="form__input">
+						</div>
+					</div>
+
+					<div class="form__line dropzones _flex">
+						<div class="dropzone-video dropzones__dropzone" id="dropzone-video">
+							<div class="dropzone-video__add">
+								<div class="dropzone-video__add-icon">
+									<svg>
+										<use xlink:href="#ic_add"></use>
+									</svg>
+								</div>
+
+								<div class="dropzone-video__desc">
+									<span>Прикрепить Видео-отзыв</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="dropzone-audio dropzones__dropzone" id="dropzone-audio">
+							<div class="dropzone-audio__add">
+								<div class="dropzone-audio__add-icon">
+									<svg>
+										<use xlink:href="#ic_add"></use>
+									</svg>
+								</div>
+
+								<div class="dropzone-audio__desc">
+									<span>Прикрепить Аудио-отзыв</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="form__line">
+						<div class="form__field">
+							<textarea placeholder="Впишите текст отзыва о нашем предприятии в данное поле" class="form__textarea"></textarea>
+						</div>
+					</div>
+
+					<div class="form__submit form__submit_marg">
+						<button type="submit" class="btn-orange form__submit-btn">Отправить запрос</button>
+					</div>
+
+					<div class="form__agree checkbox">
+						<label class="checkbox__label">
+							<input type="checkbox" name="agree" checked>
+
+							<span class="checkbox__text">Нажимая на кнопку, вы соглашаетесь с условиями обработки <a href="/" target="_blank">персональных данных</a></span>
+						</label>
+					</div>
+				</form>
+			</div>
+		</section>
 
 
 		<!-- Подключение javascript файлов -->
@@ -4112,11 +4185,11 @@
 
 		<script src="js/fancybox.js"></script>
 		<script src="js/swiper-bundle.min.js"></script>
-		<script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/sticky-kit.min.js"></script>
 
 		<script src="js/inputmask.min.js"></script>
 		<script src="js/nice-select.js"></script>
-		<script src="js/ion.rangeSlider.min.js"></script>
+
 		<script src="js/green-audio-player.min.js"></script>
 		<script src="js/dropzone.min.js"></script>
 
