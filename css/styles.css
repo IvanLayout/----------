@@ -10941,6 +10941,12 @@ input[type=checkbox]:checked + .radio__text_color::after
 	color: #FF8B02;
 }
 
+.admission-prices__text-block
+{
+	margin-top: 60px;
+	max-width: 710px;
+}
+
 .admission-prices__cols
 {
 	margin-top: 35px;
@@ -11008,6 +11014,15 @@ input[type=checkbox]:checked + .radio__text_color::after
 	display: block;
 	max-width: 100%;
 	max-height: 100%;
+}
+
+.admission-prices__note
+{
+	max-width: 900px;
+	margin-top: 20px;
+	color: #A4A4A4;
+	font-size: 12px;
+	line-height: 1.4;
 }
 
 
@@ -11145,11 +11160,28 @@ input[type=checkbox]:checked + .radio__text_color::after
 .prices-today_inner
 {
 	margin-top: 40px;
+	max-width: 900px;
 }
 
 .prices-today_inner .prices-today__table
 {
 	margin-top: 30px;
+}
+
+.prices-today__title
+{
+	background: #101213;
+	box-shadow: 0px 4px 25px 0px rgba(255, 139, 2, 0.25);
+	height: 60px;
+	padding: 10px 15px;
+	font-weight: 500;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+	margin-top: 40px;
 }
 
 /* quick-calc */
@@ -12567,6 +12599,11 @@ input[type=checkbox]:checked + .radio__text_color::after
 	margin-bottom: 40px;
 }
 
+.cable-cost__tabs_mar-bot
+{
+	margin-bottom: 20px;
+}
+
 .tabs__button_table
 {
 	width: 300px;
@@ -12599,6 +12636,11 @@ input[type=checkbox]:checked + .radio__text_color::after
     width: 830px;
 	max-width: 100%;
     border-collapse: collapse;
+}
+
+.cable-cost__table_width
+{
+	width: 900px;
 }
 
 .cable-cost__table tr th
@@ -12659,6 +12701,12 @@ input[type=checkbox]:checked + .radio__text_color::after
 	height: 80px;
 	width: auto;
 	white-space: normal;
+}
+
+.cable-cost__table tr td.cable-cost__table-title.cable-cost__table-title_small
+{
+	font-size: 18px;
+	font-weight: 400;
 }
 
 .cable-cost__table-title-mob
@@ -13290,15 +13338,17 @@ input[type=checkbox]:checked + .radio__text_color::after
 
 .profitable__item
 {
-	padding: 40px 30px;
+	padding: 30px;
 	background-color: #1E2021;
-	min-height: 250px;
+	min-height: 230px;
 }
 
 .profitable__item_width
 {
 	grid-column: 1 / 3;
 	grid-row: 1;
+	padding: 40px 30px;
+	padding-bottom: 40px;
 }
 
 .profitable__item_long
@@ -13307,17 +13357,100 @@ input[type=checkbox]:checked + .radio__text_color::after
 	grid-row: 2 / 4;
 }
 
+.profitable__item_pads
+{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.profitable__item_sale
+{
+	border: 4px solid #FF8B02;
+	padding: 48px 46px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
 
 .profitable__name
 {
 	color: #FF8B02;
 	font-size: 24px;
 	font-weight: 600;
+	flex-grow: 1;
 }
 
 .profitable__desc
 {
+	margin-top: 15px;	
+}
+
+.profitable__box
+{
+	flex-grow: 1;
+}
+
+.profitable__sub-title
+{
+	font-weight: 500;
 	margin-top: 20px;
+}
+
+.profitable__sub-title span
+{
+	color: #FF8B02;
+}
+
+.profitable__sale-img
+{
+	position: absolute;
+	top: 0;
+	left: -20px;
+
+	width: 104px;
+	height: 52px;
+
+	transform: rotate(-30deg);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+.profitable__sale-img img
+{
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.profitable__discount
+{
+	color: #FF8B02;
+	font-size: 55px;
+	font-weight: 700;
+	line-height: 1.2;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+
+.profitable__discount + .profitable__sub-title
+{
+	margin-top: 5px;
+}
+
+.profitable__form
+{
+	margin-top: 30px;
+}
+
+.profitable__form .form__submit-btn
+{
+	min-width: 1px;
+	width: 100%;
 }
 
 
