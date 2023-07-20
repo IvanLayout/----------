@@ -3795,6 +3795,23 @@
 	}
 
 
+	/* .color-metal__coll
+	{
+		
+	} */
+
+	.color-metal__coll::before,
+	.color-metal__coll::after
+	{
+		display: none;
+	}
+
+	.color-metal__colr
+	{
+		width: 100%;
+	}
+
+
     .dz-remove
     {
         opacity: 1;

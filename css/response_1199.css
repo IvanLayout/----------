@@ -793,4 +793,20 @@
 	{
 		margin-top: 10px;
 	}
+
+
+	.color-metal__coll 
+	{
+		width: calc(60% - 15px);
+	}
+
+	.color-metal__colr 
+	{
+		width: calc(40% - 15px);
+	}
+
+	.color-metal__img
+	{
+		width: 420px;
+	}
 }
