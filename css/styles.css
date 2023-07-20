@@ -13974,232 +13974,6 @@ input[type=checkbox]:checked + .radio__text_color::after
 {
 	margin-top: 15px;
 }
-
-@media (max-width: 1699px)
-{
-
-}
-
-@media (max-width: 1599px)
-{
-	.padmenu__block._pad .head-reception__form .form-callback__flex
-	{
-		flex-wrap: wrap;
-	}
-
-	.padmenu__block._pad .form-callback__submit{
-		margin-left: 20px;
-	}
-
-	.padmenu__block._pad .head-reception__filed
-	{
-		width: calc(50% - 10px);
-	}
-
-	.padmenu__block._pad .head-reception__filed:nth-child(2)
-	{
-		margin-right: 0;
-	}
-
-	.padmenu__block._pad .head-reception__submit
-	{
-		width: calc(50% - 10px);
-		margin-top: 20px;
-	}
-
-	.padmenu__block._pad .head-reception__submit .form-callback__submit-btn
-	{
-		min-width: 1px;
-		width: 100%;
-	}
-
-	.head-reception__img_big
-	{
-		width: 400px;
-	}
-
-
-	.color-metal__coll
-	{
-		width: calc(53.5% - 15px);
-	}
-
-	.color-metal__colr 
-	{
-		width: calc(46.5% - 15px);
-	}
-
-	.color-metal__text-block
-	{
-		width: calc(55.1% - 15px);
-	}
-
-	.color-metal__info 
-	{
-		width: 45.9%;
-	}
-
-
-	.profitable__item_sale
-	{
-		padding-left: 29px;
-		padding-right: 29px;
-	}
-}
-
-@media (max-width: 1499px)
-{
-	.head-reception__filed:first-child, 
-	.head-reception__submit
-	{
-		width: 180px;
-	}
-
-	.head-reception__filed:nth-child(2)
-	{
-		margin: 0 10px;
-	}
-
-
-
-	.color-metal__coll 
-	{
-		width: calc(60% - 15px);
-	}
-
-	.color-metal__colr 
-	{
-		width: calc(40% - 15px);
-	}
-
-	.color-metal__img
-	{
-		width: 420px;
-	}
-
-
-	.profitable__item
-	{
-		padding: 20px;
-	}
-
-	.profitable__item_sale
-	{
-		padding-top: 60px;
-		padding-bottom: 40px;
-	}
-
-	.profitable__name
-	{
-		font-size: 20px;
-	}
-
-
-	.color-metal__text-block 
-	{
-		width: calc(51% - 15px);
-	}
-
-	.color-metal__info 
-	{
-		width: 49%;
-	}
-}
-
-@media (max-width: 1429px)
-{
-
-}
-
-@media (max-width: 1399px)
-{
-	.head-reception__filed:first-child, 
-	.head-reception__submit
-	{
-		width: 190px;
-	}
-
-	.head-reception__filed:nth-child(2)
-	{
-		margin: 0 20px;
-	}
-
-
-	.head-reception__img
-	{
-		margin-left: 0;
-	}
-
-
-	.color-metal__coll 
-	{
-		width: calc(55% - 15px);
-	}
-
-	.color-metal__colr 
-	{
-		width: calc(45% - 15px);
-	}
-
-	.color-metal__img
-	{
-		width: 479px;
-	}
-
-
-	.profitable__item
-	{
-		padding: 30px;
-	}
-
-	.profitable__item_sale
-	{
-		padding-top: 60px;
-		padding-bottom: 40px;
-	}
-
-	.profitable__name
-	{
-		font-size: 24px;
-	}
-
-
-	.pass-export__item
-	{
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-
-	.pass-export__number
-	{
-		margin-right: 30px;
-	}
-
-	.pass-export__item:nth-child(even) .pass-export__number
-	{
-		margin-left: 20px;
-	}
-}
-
-@media (max-width: 1279px)
-{
-	.reception-scheme__desc
-	{
-		font-size: 16px;
-	}
-
-	.scrap-cost__table tr th:first-child,
-	.scrap-cost__table tr td:first-child
-	{
-		width: 70px;
-	}
-
-
-	.purchase-appraisal__name
-	{
-		font-size: 20px;
-	}
-}
 /*------------
     Modal
 ------------*/
@@ -14836,6 +14610,69 @@ input[type=checkbox]:checked + .radio__text_color::after
 	.padmenu__block._pad .text-block .title{
 		font-size: 45px;
 	}
+	.padmenu__block._pad .head-reception__form .form-callback__flex
+	{
+		flex-wrap: wrap;
+	}
+
+	.padmenu__block._pad .form-callback__submit{
+		margin-left: 20px;
+	}
+
+	.padmenu__block._pad .head-reception__filed
+	{
+		width: calc(50% - 10px);
+	}
+
+	.padmenu__block._pad .head-reception__filed:nth-child(2)
+	{
+		margin-right: 0;
+	}
+
+	.padmenu__block._pad .head-reception__submit
+	{
+		width: calc(50% - 10px);
+		margin-top: 20px;
+	}
+
+	.padmenu__block._pad .head-reception__submit .form-callback__submit-btn
+	{
+		min-width: 1px;
+		width: 100%;
+	}
+
+	.head-reception__img_big
+	{
+		width: 400px;
+	}
+
+
+	.color-metal__coll
+	{
+		width: calc(53.5% - 15px);
+	}
+
+	.color-metal__colr 
+	{
+		width: calc(46.5% - 15px);
+	}
+
+	.color-metal__text-block
+	{
+		width: calc(55.1% - 15px);
+	}
+
+	.color-metal__info 
+	{
+		width: 45.9%;
+	}
+
+
+	.profitable__item_sale
+	{
+		padding-left: 29px;
+		padding-right: 29px;
+	}
 }
 
 @media (max-width: 1499px)
@@ -14931,6 +14768,61 @@ input[type=checkbox]:checked + .radio__text_color::after
 	.padmenu__block._pad .content-flex__content .prices-today__table tr td:first-child{
 		width: auto;
 	}
+	.head-reception__filed:first-child, 
+	.head-reception__submit
+	{
+		width: 180px;
+	}
+
+	.head-reception__filed:nth-child(2)
+	{
+		margin: 0 10px;
+	}
+
+
+
+	.color-metal__coll 
+	{
+		width: calc(60% - 15px);
+	}
+
+	.color-metal__colr 
+	{
+		width: calc(40% - 15px);
+	}
+
+	.color-metal__img
+	{
+		width: 420px;
+	}
+
+
+	.profitable__item
+	{
+		padding: 20px;
+	}
+
+	.profitable__item_sale
+	{
+		padding-top: 60px;
+		padding-bottom: 40px;
+	}
+
+	.profitable__name
+	{
+		font-size: 20px;
+	}
+
+
+	.color-metal__text-block 
+	{
+		width: calc(51% - 15px);
+	}
+
+	.color-metal__info 
+	{
+		width: 49%;
+	}
 }
 
 @media (max-width: 1429px)
@@ -14975,6 +14867,73 @@ input[type=checkbox]:checked + .radio__text_color::after
 		box-shadow: none;
 		margin-top: 40px;
 		border: 20px solid #D4D4D4;
+	}
+	
+	.head-reception__filed:first-child, 
+	.head-reception__submit
+	{
+		width: 190px;
+	}
+
+	.head-reception__filed:nth-child(2)
+	{
+		margin: 0 20px;
+	}
+
+
+	.head-reception__img
+	{
+		margin-left: 0;
+	}
+
+
+	.color-metal__coll 
+	{
+		width: calc(55% - 15px);
+	}
+
+	.color-metal__colr 
+	{
+		width: calc(45% - 15px);
+	}
+
+	.color-metal__img
+	{
+		width: 479px;
+	}
+
+
+	.profitable__item
+	{
+		padding: 30px;
+	}
+
+	.profitable__item_sale
+	{
+		padding-top: 60px;
+		padding-bottom: 40px;
+	}
+
+	.profitable__name
+	{
+		font-size: 24px;
+	}
+
+
+	.pass-export__item
+	{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.pass-export__number
+	{
+		margin-right: 30px;
+	}
+
+	.pass-export__item:nth-child(even) .pass-export__number
+	{
+		margin-left: 20px;
 	}
 }
 
@@ -15041,4 +15000,20 @@ input[type=checkbox]:checked + .radio__text_color::after
         width: 680px;
         height: 680px;
     }
+	.reception-scheme__desc
+	{
+		font-size: 16px;
+	}
+
+	.scrap-cost__table tr th:first-child,
+	.scrap-cost__table tr td:first-child
+	{
+		width: 70px;
+	}
+
+
+	.purchase-appraisal__name
+	{
+		font-size: 20px;
+	}
 }
