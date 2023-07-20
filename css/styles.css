@@ -13687,6 +13687,17 @@ input[type=checkbox]:checked + .radio__text_color::after
 	{
 		font-size: 20px;
 	}
+
+
+	.color-metal__text-block 
+	{
+		width: calc(51% - 15px);
+	}
+
+	.color-metal__info 
+	{
+		width: 49%;
+	}
 }
 
 @media (max-width: 1429px)
