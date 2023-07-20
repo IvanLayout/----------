@@ -748,16 +748,15 @@
 	}
 
 
-	.form-callback__flex
-	{
+	.head-reception__form .form-callback__flex{
 		flex-wrap: wrap;
 		margin-top: -20px;
 	}
 
-	.form-callback__flex > div
+	.head-reception__form .form-callback__flex > div
 	{
 		margin-top: 20px;
-	}
+	} 
 
 	.head-reception__filed:nth-child(2)
 	{

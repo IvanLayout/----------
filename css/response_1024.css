@@ -2969,6 +2969,106 @@
 	}
 
 
+	.section-statistics__cols{
+		margin-top: 40px;
+	}
+
+	.section-statistics__coll{
+		width: 100%;
+		max-width: none;
+	}
+
+	.section-statistics__wrap-btn{
+		margin-top: 20px;
+	}
+
+	.statistics-scheme{
+		margin-top: 20px;
+		max-width: 294px;
+	}
+
+	.scheme__number{
+		font-size: 48px;
+	}
+
+	.section-statistics__colr{
+		width: 100%;
+		max-width: none;
+		margin-top: 40px;
+	}
+
+	.info-schemes{
+		margin-top: 0;
+	}
+
+	.info-schemes{
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		align-content: flex-start;
+		flex-wrap: wrap;
+		margin: 10px 0 0 -20px;
+	}
+
+	.info-schemes__item{
+		width: calc(100%/3 - 20px);
+		margin: 20px 0 0 20px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.info-schemes__scheme{
+		margin: 0;
+	}
+
+	.info-schemes__name{
+		width: 100%;
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.section-statistics__items::before{
+		top: 40px;
+	}
+
+	.section-statistics__item-number{
+		width: 80px;
+		height: 80px;
+		font-size: 20px;
+	}
+
+	
+	.requirements__cols{
+		margin-top: 40px;
+	}
+
+	.requirements__coll{
+		margin: 0;
+		width: 100%;
+		max-width: none;
+	}
+
+	.requirements__colr{
+		width: 100%;
+		margin: 40px auto 0;
+		max-width: 600px;
+	}
+
+
+	.articles__slider{
+		margin-top: 40px;
+		overflow: visible;
+	}
+
+	.articles__slider .article{
+		width: 390px;
+	}
+
+	.articles__wrap-btn{
+		text-align: left;
+	}
+
+
 	.admission-prices__cols
 	{
 		margin-left: 0;

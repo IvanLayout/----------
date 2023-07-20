@@ -2013,6 +2013,11 @@
 	}
 
 
+	.articles__slider .article{
+		width: 290px;
+	}
+
+
     .about-export__items
     {
         margin-left: 0;
@@ -2368,6 +2373,28 @@
 	.cables-items__link
 	{
 		margin-top: 20px;
+	}
+
+
+	.info-schemes__item {
+		width: calc(100%/2 - 20px);
+	}
+
+	.section-statistics__items{
+		margin: 10px 0 0 -35px;
+	}
+
+	.section-statistics__items::before{
+		display: none;
+	}
+
+	.section-statistics__item{
+		width: calc(100%/3 - 35px);
+		margin: 20px 0 0 35px;
+	}
+
+	.section-statistics__item-name{
+		font-size: 18px;
 	}
 
 
@@ -2897,7 +2924,15 @@
         width: 440px;
     }
 
-    .dz-preview
+	.dropzones__dropzone{
+		width: 100%;
+	}
+
+	.dropzones__dropzone + .dropzones__dropzone{
+		margin-top: 10px;
+	}
+
+    .dropzone-photo .dz-preview
     {
         width: calc(100%/3 - 10px);
     }

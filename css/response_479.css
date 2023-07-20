@@ -473,6 +473,15 @@
     }
 
 
+	.info-schemes__item {
+		width: calc(100% - 20px);
+	}
+
+	.section-statistics__item {
+		width: calc(100%/2 - 35px);
+	}
+
+
     .conclude-contracts
     {
         border: 1px solid #FF8B02;
@@ -643,6 +652,115 @@
 		padding: 30px 0 0;
 	}
 
+	.export-scheme{
+		width: 290px;
+		height: 290px;
+	}
+
+	.export-scheme__center{
+		width: 110px;
+	}
+
+	.export-scheme__title{
+		font-size: 16px;
+	}
+
+	.export-scheme__desc{
+		font-size: 12px;
+	}
+
+	.export-scheme__item.first {
+		width: 166px;
+		height: 138px;
+		padding: 26px 10px 0 40px;
+	}
+
+	.export-scheme__item.second {
+		width: 138px;
+		height: 166px;
+		padding: 16px 20px 0 26px;
+	}
+
+	.export-scheme__item.third {
+		width: 166px;
+		height: 138px;
+		padding: 18px 28px 0 10px;
+	}
+
+	.export-scheme__item.fourth {
+		width: 138px;
+		height: 166px;
+		padding: 11px 20px 0 29px;
+	}
+
+	.export-scheme__item-number{
+		font-size: 28px;
+	}
+
+	.export-scheme__item-text{
+		font-size: 10px;
+	}
+
+	.export-scheme__item.first .export-scheme__item-text {
+		margin-top: -5px;
+		max-width: 89px;
+	}
+
+	.export-scheme__item.first .export-scheme__item-icon {
+		margin: 1px 0 0 10px;
+	}
+
+	.export-scheme__item.second .export-scheme__item-icon{
+		margin-left: 0;
+	}
+
+	.export-scheme__item.second .export-scheme__item-text{
+		margin-top: 4px;
+		padding-left: 20px;
+	}
+
+	.export-scheme__item.second .export-scheme__item-number {
+		margin-top: 10px;
+		padding-right: 0;
+	}
+
+	.export-scheme__item.third .export-scheme__item-icon {
+		margin-right: 21px;
+	}
+
+	.export-scheme__item.third .export-scheme__item-text {
+		padding-left: 50px;
+	}
+
+	.export-scheme__item.third .export-scheme__item-number{
+		margin-top: -15px;
+	}
+
+	.export-scheme__item.fourth .export-scheme__item-text {
+		padding-left: 16px;
+		margin-top: 0;
+	}
+
+	.export-scheme__item.fourth .export-scheme__item-icon {
+		margin-right: 6px;
+		margin-top: 0;
+	}
+
+
+	.requirements__colr{
+		margin-top: 25px;
+	}
+
+	.requirements__img{
+		height: auto;
+		padding-bottom: 95.2%;
+	}
+
+	.articles__wrap-btn .btn-bord{
+		width: 100%;
+	}
+
+	
 
     .chart-info__title
     {
@@ -1001,7 +1119,7 @@
     }
 
 
-    .dz-preview
+    .dropzone-photo .dz-preview
     {
         width: calc(100%/2 - 10px);
     }

@@ -28,7 +28,6 @@
 		<!-- Подключение файлов стилей -->
 		<link rel="stylesheet" href="css/fancybox.css">
 		<link rel="stylesheet" href="css/swiper-bundle.min.css">
-		<link rel="stylesheet" href="css/ion.rangeSlider.css">
 		<link rel="stylesheet" href="css/green-audio-player.css">
 		<link rel="stylesheet" href="css/dropzone.min.css">
 		<link rel="stylesheet" href="css/styles.css">
@@ -2455,7 +2454,7 @@
 
 								<div class="wrap-btn really-reviews__wrap-btn _flex">
 									<a href="/" class="btn-orange really-reviews__btn-orange">Смотреть больше отзывов</a>
-									<button type="button" class="btn-bord really-reviews__btn-bord">Оставить свой отзыв</button>
+									<button type="button" data-content="#write-review" class="btn-bord modal-btn really-reviews__btn-bord">Оставить свой отзыв</button>
 								</div>
 							</div>
 
@@ -3525,8 +3524,79 @@
 		</section>
 
 
-		
+		<section class="modal" id="write-review">
+			<div class="modal__pad">
+				<div class="modal__title">Оставьте свой отзыв о Втор-центре</div>
 
+				<div class="modal__subtitle">Заполните необходимые данные и мы ответим Вам в ближайшее время</div>
+
+				<form action="" class="form modal__form">
+					<div class="form__line form__line_small">
+						<div class="form__label">Имя</div>
+
+						<div class="form__field">
+							<input type="text" name="" value="" placeholder="Иван" class="form__input">
+						</div>
+					</div>
+
+					<div class="form__line form__line_small">
+						<div class="form__label">Номер мобильного телефона</div>
+
+						<div class="form__field">
+							<input type="tel" name="" value="" data-mask="+7(999)999 99 99" placeholder="+7(812)984 49 09" class="form__input">
+						</div>
+					</div>
+
+					<div class="form__line dropzones _flex">
+						<div class="dropzone-video dropzones__dropzone" id="dropzone-video">
+							<div class="dropzone-video__add">
+								<div class="dropzone-video__add-icon">
+									<svg>
+										<use xlink:href="#ic_add"></use>
+									</svg>
+								</div>
+
+								<div class="dropzone-video__desc">
+									<span>Прикрепить Видео-отзыв</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="dropzone-audio dropzones__dropzone" id="dropzone-audio">
+							<div class="dropzone-audio__add">
+								<div class="dropzone-audio__add-icon">
+									<svg>
+										<use xlink:href="#ic_add"></use>
+									</svg>
+								</div>
+
+								<div class="dropzone-audio__desc">
+									<span>Прикрепить Аудио-отзыв</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="form__line">
+						<div class="form__field">
+							<textarea placeholder="Впишите текст отзыва о нашем предприятии в данное поле" class="form__textarea"></textarea>
+						</div>
+					</div>
+
+					<div class="form__submit form__submit_marg">
+						<button type="submit" class="btn-orange form__submit-btn">Отправить запрос</button>
+					</div>
+
+					<div class="form__agree checkbox">
+						<label class="checkbox__label">
+							<input type="checkbox" name="agree" checked>
+
+							<span class="checkbox__text">Нажимая на кнопку, вы соглашаетесь с условиями обработки <a href="/" target="_blank">персональных данных</a></span>
+						</label>
+					</div>
+				</form>
+			</div>
+		</section>
 
 
 		<!-- Подключение javascript файлов -->
@@ -3536,11 +3606,11 @@
 
 		<script src="js/fancybox.js"></script>
 		<script src="js/swiper-bundle.min.js"></script>
-		<script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/sticky-kit.min.js"></script>
 
 		<script src="js/inputmask.min.js"></script>
 		<script src="js/nice-select.js"></script>
-		<script src="js/ion.rangeSlider.min.js"></script>
+
 		<script src="js/green-audio-player.min.js"></script>
 		<script src="js/dropzone.min.js"></script>
 
