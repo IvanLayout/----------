@@ -13632,6 +13632,13 @@ input[type=checkbox]:checked + .radio__text_color::after
 	{
 		width: 45.9%;
 	}
+
+
+	.profitable__item_sale
+	{
+		padding-left: 29px;
+		padding-right: 29px;
+	}
 }
 
 @media (max-width: 1499px)
@@ -13662,6 +13669,23 @@ input[type=checkbox]:checked + .radio__text_color::after
 	.color-metal__img
 	{
 		width: 420px;
+	}
+
+
+	.profitable__item
+	{
+		padding: 20px;
+	}
+
+	.profitable__item_sale
+	{
+		padding-top: 60px;
+		padding-bottom: 40px;
+	}
+
+	.profitable__name
+	{
+		font-size: 20px;
 	}
 }
 
@@ -13703,6 +13727,40 @@ input[type=checkbox]:checked + .radio__text_color::after
 	.color-metal__img
 	{
 		width: 479px;
+	}
+
+
+	.profitable__item
+	{
+		padding: 30px;
+	}
+
+	.profitable__item_sale
+	{
+		padding-top: 60px;
+		padding-bottom: 40px;
+	}
+
+	.profitable__name
+	{
+		font-size: 24px;
+	}
+
+
+	.pass-export__item
+	{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.pass-export__number
+	{
+		margin-right: 30px;
+	}
+
+	.pass-export__item:nth-child(even) .pass-export__number
+	{
+		margin-left: 20px;
 	}
 }
 

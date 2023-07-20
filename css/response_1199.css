@@ -809,4 +809,26 @@
 	{
 		width: 420px;
 	}
+
+
+	.profitable__grid
+	{
+		margin-top: 40px;
+	}
+
+	.profitable__name 
+	{
+		font-size: 22px;
+	}
+
+
+	.pass-export__name
+	{
+		font-size: 20px;
+	}
+
+	.pass-export__number
+	{
+		font-size: 80px;
+	}
 }

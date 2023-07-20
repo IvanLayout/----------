@@ -3795,10 +3795,14 @@
 	}
 
 
-	/* .color-metal__coll
+	.color-metal__coll
 	{
-		
-	} */
+		width: calc(100% + 40px);
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-top: 60px;
+		padding-bottom: 40px;
+	}
 
 	.color-metal__coll::before,
 	.color-metal__coll::after
@@ -3809,6 +3813,97 @@
 	.color-metal__colr
 	{
 		width: 100%;
+		padding-top: 20px;
+	}
+	
+	.color-metal__img
+	{
+		position: relative;
+		top: 0;
+		left: 0;
+		transform: none;
+		margin: 0 auto;
+		width: 330px;
+	}
+
+	.color-metal__text-block
+	{
+		width: 100%;
+	}
+
+	.color-metal__info
+	{
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.color-metal__title
+	{
+		font-size: 20px;
+	}
+
+
+	.profitable__grid
+	{
+		grid-gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+	}
+
+	/* .profitable__item
+	{
+		
+	}
+
+	.profitable__item_width 
+	{
+		
+	}
+
+	.profitable__item_long 
+	{
+		
+	} */
+
+	.admission-prices__text-block
+	{
+		margin-top: 40px;
+	}
+
+
+	.pass-export__cols
+	{
+		margin-top: 40px;
+	}
+
+	.pass-export__col
+	{
+		width: 100%;
+	}
+
+	.pass-export__col + .pass-export__col
+	{
+		margin-top: 40px;
+	}
+
+	.pass-export__item
+	{
+		padding-left: 27px;
+		padding-right: 27px;
+	}
+
+	.pass-export__name
+	{
+		font-size: 24px;
+	}
+
+	.pass-export__number
+	{
+		font-size: 100px;
+	}
+
+	.pass-export .text-block p
+	{
+		margin-bottom: 12px;
 	}
 
 
