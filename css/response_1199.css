@@ -792,4 +792,42 @@
 	{
 		margin-top: 10px;
 	}
+
+
+	.color-metal__coll 
+	{
+		width: calc(60% - 15px);
+	}
+
+	.color-metal__colr 
+	{
+		width: calc(40% - 15px);
+	}
+
+	.color-metal__img
+	{
+		width: 420px;
+	}
+
+
+	.profitable__grid
+	{
+		margin-top: 40px;
+	}
+
+	.profitable__name 
+	{
+		font-size: 22px;
+	}
+
+
+	.pass-export__name
+	{
+		font-size: 20px;
+	}
+
+	.pass-export__number
+	{
+		font-size: 80px;
+	}
 }

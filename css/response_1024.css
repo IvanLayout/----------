@@ -3895,6 +3895,149 @@
 	}
 
 
+	.color-metal__coll
+	{
+		width: calc(100% + 40px);
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-top: 60px;
+		padding-bottom: 40px;
+	}
+
+	.color-metal__coll::before,
+	.color-metal__coll::after
+	{
+		display: none;
+	}
+
+	.color-metal__colr
+	{
+		width: 100%;
+		padding-top: 20px;
+	}
+	
+	.color-metal__img
+	{
+		position: relative;
+		top: 0;
+		left: 0;
+		transform: none;
+		margin: 0 auto;
+		width: 330px;
+	}
+
+	.color-metal__text-block
+	{
+		width: 100%;
+	}
+
+	.color-metal__info
+	{
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.color-metal__title
+	{
+		font-size: 20px;
+	}
+
+
+	.profitable__grid
+	{
+		display: flex;
+		justify-content: space-between;
+		align-items: stretch;
+		align-content: stretch;
+		flex-wrap: wrap;
+
+		grid-gap: 0;
+		margin-top: 20px;
+	}
+
+	.profitable__item
+	{
+		width: 100%;
+		padding: 40px 30px;
+		min-height: 180px;
+		margin-top: 20px;
+	}
+
+	.profitable__item_last-child
+	{
+		padding: 60px 30px;
+		width: calc(45.42% - 7.5px);
+	}
+
+	.profitable__item_sale
+	{
+		width: calc(54.58% - 7.5px);
+	}
+
+	.profitable__item_sale
+	{
+		padding: 60px 19px 39px;
+	}
+	
+	.profitable__name
+	{
+		font-size: 20px;
+	}
+
+	.profitable__sub-title
+	{
+		margin-top: 15px;
+	}
+
+	.profitable__discount
+	{
+		font-size: 30px;
+	}
+
+
+	.admission-prices__text-block
+	{
+		margin-top: 40px;
+	}
+
+
+	.pass-export__cols
+	{
+		margin-top: 40px;
+	}
+
+	.pass-export__col
+	{
+		width: 100%;
+	}
+
+	.pass-export__col + .pass-export__col
+	{
+		margin-top: 40px;
+	}
+
+	.pass-export__item
+	{
+		padding-left: 27px;
+		padding-right: 27px;
+	}
+
+	.pass-export__name
+	{
+		font-size: 24px;
+	}
+
+	.pass-export__number
+	{
+		font-size: 100px;
+	}
+
+	.pass-export .text-block p
+	{
+		margin-bottom: 12px;
+	}
+
+
     .dz-remove
     {
         opacity: 1;

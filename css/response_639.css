@@ -2852,6 +2852,11 @@
 		margin-top: 25px;
 	}
 
+	.just-convenient__btn
+	{
+		width: 100%;
+	}
+
 
 	.purchase-appraisal__items
 	{
@@ -2909,6 +2914,89 @@
 	.prices-today_inner .prices-today__table tr
 	{
 		padding-top: 19px;
+	}
+
+	
+	.color-metal
+	{
+		margin-bottom: 70px;
+	}
+
+	.color-metal__coll 
+	{
+		width: calc(100% + 70px);
+		margin-left: -35px;
+		margin-right: -35px;
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+
+	.color-metal__items
+	{
+		margin-top: 10px;
+	}
+
+	.color-metal__box
+	{
+		width: 100%;
+		max-width: 100%;
+		margin-top: 0;
+	}
+
+
+	.pass-export__item
+	{
+		padding: 25px 15px;
+		flex-wrap: wrap;
+	}
+
+	.pass-export__item + .pass-export__item
+	{
+		margin-top: 40px;
+	}
+
+	.pass-export__item::after
+	{
+		height: 40px;
+	}
+
+	.pass-export__item:nth-child(even) .pass-export__number
+	{
+		order: 1;
+		margin-left: 0;
+	}
+
+	.pass-export__item:nth-child(even) .pass-export__info
+	{
+		order: 2;
+	}
+
+	.pass-export__number 
+	{
+		font-size: 60px;
+		margin-right: 0;
+	}
+
+	.pass-export__info
+	{
+		margin-top: 10px;
+	}
+
+	.pass-export__name
+	{
+		font-size: 20px;
+	}
+
+
+	.profitable__item_last-child
+	{
+		width: 100%;
+		padding: 40px 30px;
+	}
+
+	.profitable__item_sale
+	{
+		width: 100%;
 	}
 
 

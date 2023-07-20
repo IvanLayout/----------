@@ -308,7 +308,7 @@ $(() => {
 		e.preventDefault()
 
 		$(this).closest('.prices-today__wrap-btn').hide()
-		$(this).closest('.prices-today').find('.hide-mob').addClass('_show')
+		$(this).closest('.prices-today__wrap-btn').prev().find('.hide-mob').addClass('_show')
 	})
 
 	$('body').on('click', '.cable-cost__more', function(e) {

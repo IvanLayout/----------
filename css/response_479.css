@@ -1110,6 +1110,69 @@
 	{
 		margin-top: 40px;
 	}
+
+
+	.color-metal__coll
+	{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.color-metal__wrapp
+	{
+		margin-top: 0;
+	}
+
+	.color-metal__btns
+	{
+		width: 100%;
+		margin: 0;
+	}
+
+	.color-metal__btns a
+	{
+		width: 100%;
+		margin-left: 0;
+		margin-top: 20px;
+	}
+
+	.color-metal__colr 
+	{
+		width: calc(100% + 60px);
+		margin-left: -30px;
+		margin-right: -30px;
+	}
+
+
+	.pass-export__item
+	{
+		padding: 26px 10px 33px;
+	}
+
+	.pass-export__item::after 
+	{
+		clip-path: polygon(45% 0%, 100% 0, 50% 100%, 0% 100%);
+	}
+
+	.pass-export__number
+	{
+		font-size: 40px;
+		line-height: 1;
+	}
+
+
+	.profitable__item
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.profitable__item_sale
+	{
+		width: calc(100% + 30px);
+		margin-left: -15px;
+		margin-right: -15px;
+	}
 	
 
     .fancybox__slide
