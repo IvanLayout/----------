@@ -2961,6 +2961,18 @@
 	}
 
 
+	.profitable__item_last-child
+	{
+		width: 100%;
+		padding: 40px 30px;
+	}
+
+	.profitable__item_sale
+	{
+		width: 100%;
+	}
+
+
     .modal.small
     {
         width: 325px;

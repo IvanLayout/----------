@@ -1041,6 +1041,20 @@
 		font-size: 40px;
 		line-height: 1;
 	}
+
+
+	.profitable__item
+	{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.profitable__item_sale
+	{
+		width: calc(100% + 30px);
+		margin-left: -15px;
+		margin-right: -15px;
+	}
 	
 
     .fancybox__slide
