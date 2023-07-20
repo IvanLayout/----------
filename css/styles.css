@@ -12587,6 +12587,11 @@ input[type=checkbox]:checked + .radio__text_color::after
 
 /* cable-cost */
 
+.cable-cost_marg
+{
+	margin-top: 20px;
+}
+
 .cable-cost__tabs-container
 {
 	margin-top: 60px;
@@ -13453,6 +13458,110 @@ input[type=checkbox]:checked + .radio__text_color::after
 	width: 100%;
 }
 
+
+/* pass-export */
+
+.pass-export__cols
+{
+	justify-content: space-between;
+	margin-top: 60px;
+}
+
+.pass-export__col
+{
+	width: calc(50% - 10px);
+}
+
+.pass-export__item
+{
+	position: relative;
+	padding: 26px 27px;
+	align-items: center;
+	align-content: center;
+	flex-wrap: nowrap;
+	background-color: #676767;
+}
+
+.pass-export__item + .pass-export__item
+{
+	margin-top: 60px;
+}
+
+.pass-export__item::after
+{
+	position: absolute;
+	content: '';
+	top: 100%;
+	left: 0;
+	display: block;
+
+	width: 100%;
+	height: 60px;
+
+	background-color: #101213;
+	clip-path: polygon(35% 0%, 100% 0, 60% 100%, 0% 100%);
+}
+
+.pass-export__item:last-child::after
+{
+	display: none;
+}
+
+.pass-export__item_orange
+{
+	background-color: #FF8B02;
+}
+
+.pass-export__item_gray
+{
+	background-color: #A4A4A4;
+}
+
+.pass-export__item_white
+{
+	background-color: #FBFBFB;
+	color: #101213;
+}
+
+.pass-export__number
+{
+	white-space: nowrap;
+
+	font-size: 100px;
+	font-weight: 700;
+	line-height: 1.2;
+	text-transform: uppercase;
+	margin-right: 40px;
+	flex-shrink: 0;
+}
+
+.pass-export__item:nth-child(even) .pass-export__number
+{
+	order: 2;
+	margin-right: 0;
+	margin-left: 40px;
+}
+
+.pass-export__info
+{
+	width: 100%;
+}
+
+.pass-export__item:nth-child(even) .pass-export__info
+{
+	order: 1;
+}
+
+.pass-export__name
+{
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.pass-export__desc
+{
+	margin-top: 15px;
+}
 
 @media (max-width: 1699px)
 {
